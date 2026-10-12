@@ -1,0 +1,1 @@
+# IOAI-2026-special-topic-Diffusion-on-Physics-informed-Riemannian-Manifold

@@ -1,12 +1,12 @@
 # Propeller Chains Revisited
 
-**A teaching case in chemical geometry for generative models**
+A teaching case in chemical geometry for generative models
 
-This is one small example in an **AI in Life Sciences** course being designed for the **National Olympiad on Artificial Intelligence committee**. Its intended audience is students preparing for **IOAI 2027**. The teaching question is: **what must a generative model respect when it proposes a molecular structure or motion?**
+This is one small example in an **AI in Life Sciences** course being designed for the **National Olympiad on Artificial Intelligence committee**. Its intended audience is students preparing for IOAI 2027. The teaching question is: **what must a generative model respect when it proposes a molecular structure or motion?
 
-The current project supplies classical **MMFF94** calculations, recorded paths, and a validation workflow that a future generative method can be tested against. No generative model has been trained or evaluated in this project. Start with the [course case study and exercises](docs/course_case_study.md).
+The current project supplies classical MMFF94 calculations, recorded paths, and a validation workflow that a future generative method can be tested against. No generative model has been trained or evaluated in this project. Start with the [course case study and exercises](docs/course_case_study.md).
 
-This project revisits compound **6** in Ariel B. Lindner, Flavio Grynszpan, and Silvio E. Biali's 1993 paper, [*Transmission of Internal Rotations: Correlated, Uncorrelated, and Localized Disrotatory Rotations in Propeller Chains*](https://doi.org/10.1021/jo00076a027). It asks how a succession of local ring motions compares with two explicitly defined synchronized motions.
+This project revisits compound 6 in Ariel B. Lindner, Flavio Grynszpan, and Silvio E. Biali's 1993 paper, [*Transmission of Internal Rotations: Correlated, Uncorrelated, and Localized Disrotatory Rotations in Propeller Chains*](https://doi.org/10.1021/jo00076a027). It asks how a succession of local ring motions compares with two explicitly defined synchronized motions.
 
 The example also has a personal connection: revisiting my supervisor Ariel B. Lindner's first paper through an inspectable computational experiment. Credit for the original mechanism belongs to all three paper authors. This project supplies a separate **MMFF94** model, numerical checks, new figures, and code. The paper used **MM2**.
 
@@ -18,7 +18,7 @@ The example also has a personal connection: revisiting my supervisor Ariel B. Li
 
 The localized route connects the enantiomeric endpoint minima through
 
-**A → C → P → Q → D → M → B**.
+A → C → P → Q → D → M → B
 
 It contains **five neighboring-ring disrotations and one methyl/conformational adjustment**. Six independently checked index-one saddles connect the required minima. The highest energy is **7.403995 kcal/mol above A**.
 

@@ -1,0 +1,6 @@
+{
+  "incomplete_file_rejected_before_calculation": true,
+  "changed_runner_rejected_before_import_or_output": true,
+  "embedded_solver_matches_maintained_module": true,
+  "standalone_lines": 312
+}

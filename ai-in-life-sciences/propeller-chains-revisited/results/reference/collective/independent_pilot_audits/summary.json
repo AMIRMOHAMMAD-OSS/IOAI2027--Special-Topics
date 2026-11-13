@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "case": "pilot_II_IV_025",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 213.53510843800242,
+      "constraint": 2.1538326677728037e-14,
+      "gradient": 8.354524562357788e-06,
+      "lowest": 0.04334959618583444,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    },
+    {
+      "case": "pilot_II_IV_050",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 219.94132427878748,
+      "constraint": 2.886579864025407e-15,
+      "gradient": 1.6414833819036665e-10,
+      "lowest": 0.07328439057974853,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    },
+    {
+      "case": "pilot_II_IV_075",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 213.58373813694686,
+      "constraint": 7.771561172376096e-15,
+      "gradient": 1.5762376994201615e-10,
+      "lowest": 0.0337073522615202,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    },
+    {
+      "case": "pilot_I_III_025",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 213.55748847325276,
+      "constraint": 3.774758283725532e-15,
+      "gradient": 4.624986011908953e-06,
+      "lowest": 0.03404475633003838,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    },
+    {
+      "case": "pilot_I_III_050",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 219.95244726505504,
+      "constraint": 6.661338147750939e-16,
+      "gradient": 4.3910411352819225e-10,
+      "lowest": 0.0769616982719524,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    },
+    {
+      "case": "pilot_I_III_075",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "energy": 213.5291626633122,
+      "constraint": 6.439293542825908e-15,
+      "gradient": 6.33315546947108e-06,
+      "lowest": 0.03777744199186384,
+      "checks": {
+        "exact_angles_within_tolerance": true,
+        "kkt_stationarity": true,
+        "tangent_stationarity": true,
+        "expected_dimensions": true,
+        "finite_difference_jacobian_agrees": true,
+        "rigid_invariance": true,
+        "positive_resolved_tangent_curvature_at_both_steps": true,
+        "hessian_symmetry": true,
+        "solver_and_independent_jacobians_agree": true,
+        "energy_only_feasible_curvature_agrees": true
+      }
+    }
+  ]
+}

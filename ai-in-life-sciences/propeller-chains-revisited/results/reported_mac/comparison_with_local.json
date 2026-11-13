@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "USER_REPORTED_MAC_COMPLETION_CONSISTENT_WITH_LOCAL_REFERENCE",
+  "evidence_scope": "Comparison of user-reported terminal stdout transcribed in this repository with the independently audited local reproduction. No raw Mac report, source, coordinates, or trajectory were opened or independently audited.",
+  "raw_mac_files_accessed": false,
+  "raw_mac_trajectory_independently_audited": false,
+  "executed_mac_source_hash_observed": false,
+  "references": {
+    "reported_stdout": {
+      "path": "results/reported_mac/complete_path_summary.json",
+      "sha256": "ca887a670296125d130a6b1a91474f3107780d37529a32af5278a04d12271c0f"
+    },
+    "reported_stdout_provenance": {
+      "path": "results/reported_mac/provenance.json",
+      "sha256": "55bd65cdeb2f19e63358d5df0b0f74a14b1bdcf754d7dab95e7f69129a0b850e"
+    },
+    "local_independent_trajectory_audit": {
+      "path": "results/reference/collective/mac_complete_paths_validation/saved_path_audit.json",
+      "sha256": "f2b6d4838ed42c7fdd3ea18ce661f4e045f48c1ab0b35a474db90a4f4fa1fe1c"
+    },
+    "local_continuation_validation": "results/reference/test_records/mac_complete_paths_regression.json",
+    "provided_continuation": "tools/lindner_complete_paths.py"
+  },
+  "arithmetic": "Decimal differences use the values printed in the referenced JSON records; agreement at roundoff scale is not a claim of physical precision at that scale.",
+  "comparisons": {
+    "I_III": {
+      "user_reported_height_above_A_kcal_mol": "15.565904425506801",
+      "independently_audited_local_height_above_A_kcal_mol": "15.56590442550663",
+      "difference_mac_minus_local_kcal_mol_decimal": "1.71E-13",
+      "excess_above_user_sequential_finite_maximum_kcal_mol_decimal": "8.161909726816333",
+      "user_reported_frames": 1527,
+      "local_frames": 1527,
+      "frame_count_difference": 0,
+      "reported_path_checks": {
+        "all_path_checks_passed": true,
+        "frames": 1527,
+        "maximum_endpoint_proper_rmsd_A": 2.0703458940082593e-13,
+        "maximum_node_constraint_rad": 1.971145469070734e-12,
+        "maximum_chord_probe_constraint_rad": 1.1390866581362238e-06,
+        "maximum_atom_step_A": 0.009991223787650291
+      },
+      "local_audit_metrics": {
+        "frames": 1527,
+        "maximum_node_constraint_rad": 1.970867913314578e-12,
+        "maximum_chord_probe_constraint_rad": 1.139086657664379e-06,
+        "maximum_atomic_gap_A": 0.00999122378764955,
+        "proper_endpoint_rmsd_A": {
+          "A": 1.112302430615012e-15,
+          "B": 2.036203444421852e-13
+        }
+      },
+      "metric_differences_mac_minus_local_decimal": {
+        "maximum_node_constraint_rad": "2.77555756156E-16",
+        "maximum_chord_probe_constraint_rad": "4.718448E-16",
+        "maximum_atom_step_A": "7.41E-16",
+        "maximum_endpoint_proper_rmsd_A": "3.41424495864073E-15"
+      }
+    },
+    "II_IV": {
+      "user_reported_height_above_A_kcal_mol": "15.514201146247729",
+      "independently_audited_local_height_above_A_kcal_mol": "15.514201146247558",
+      "difference_mac_minus_local_kcal_mol_decimal": "1.71E-13",
+      "excess_above_user_sequential_finite_maximum_kcal_mol_decimal": "8.110206447557261",
+      "user_reported_frames": 1586,
+      "local_frames": 1588,
+      "frame_count_difference": -2,
+      "reported_path_checks": {
+        "all_path_checks_passed": true,
+        "frames": 1586,
+        "maximum_endpoint_proper_rmsd_A": 1.3612512670432946e-12,
+        "maximum_node_constraint_rad": 1.8534063173092363e-12,
+        "maximum_chord_probe_constraint_rad": 7.699198242006046e-07,
+        "maximum_atom_step_A": 0.009960064426153992
+      },
+      "local_audit_metrics": {
+        "frames": 1588,
+        "maximum_node_constraint_rad": 1.8534063173092363e-12,
+        "maximum_chord_probe_constraint_rad": 7.699198243116269e-07,
+        "maximum_atomic_gap_A": 0.009960064426148774,
+        "proper_endpoint_rmsd_A": {
+          "A": 1.112302430615012e-15,
+          "B": 1.3632544036092214e-12
+        }
+      },
+      "metric_differences_mac_minus_local_decimal": {
+        "maximum_node_constraint_rad": "0E-28",
+        "maximum_chord_probe_constraint_rad": "-1.110223E-16",
+        "maximum_atom_step_A": "5.218E-15",
+        "maximum_endpoint_proper_rmsd_A": "-2.0031365659268E-15"
+      }
+    }
+  },
+  "user_reported_sequential": {
+    "saved_finite_checked_path_height_above_A_kcal_mol": "7.403994698690468",
+    "current_checked_saddle_height_above_A_kcal_mol": "7.4039946986904965",
+    "finite_minus_saddle_kcal_mol_decimal": "-2.85E-14",
+    "interpretation": "This difference is at numerical roundoff scale and far below the acceptance tolerance; it does not change the reported 7.404 kcal/mol comparison."
+  },
+  "user_reported_completion": {
+    "status": "COMPLETE_COLLECTIVE_CANDIDATE_PATHS_VERIFIED",
+    "verified_constrained_connectors": 4,
+    "constrained_connectors": {
+      "I_III": {
+        "left": "CONSTRAINED_CONNECTOR_VERIFIED",
+        "right": "CONSTRAINED_CONNECTOR_VERIFIED"
+      },
+      "II_IV": {
+        "left": "CONSTRAINED_CONNECTOR_VERIFIED",
+        "right": "CONSTRAINED_CONNECTOR_VERIFIED"
+      }
+    },
+    "all_path_checks_passed": true,
+    "elapsed_seconds": 43.917976166820154,
+    "timing_scope": "Reported complete-path continuation time only; this is not a whole-project timing or a controlled hardware benchmark."
+  },
+  "frame_count_interpretation": {
+    "I_III": "Identical reported frame count.",
+    "II_IV": "The Mac output has two fewer frames, approximately 0.126 percent fewer than the local reproduction.",
+    "algorithmic_context": "Recorded frame count depends on the accepted feasible-descent trace and ceil-based spatial subdivision of segments. It is not a physical observable or a pass/fail equality requirement.",
+    "specific_cause": "Unresolved from terminal stdout. Do not assert that the difference was caused by CPU architecture, SciPy, rounding, or a particular optimization event without comparing the raw records.",
+    "conclusion": "The reported path checks and matching finite maxima support numerical agreement; they do not establish byte-identical trajectories."
+  },
+  "recommended_scientific_wording": "The Mac calculation reports successful numerical checks for two explicit synchronized MMFF94 candidate paths, including their constrained branch connectors and intended endpoints. Their finite checked maxima are 15.566 and 15.514 kcal/mol above A, compared with 7.404 kcal/mol for the validated localized sequential route. The sequential route therefore lies about 8.11–8.16 kcal/mol below these two synchronized candidates in this model.",
+  "necessary_qualifications": [
+    "The comparison concerns the two prescribed synchronized candidates and the selected localized route; it is not a proof that every collective route is higher or that the sequential route is globally optimal.",
+    "Constrained minimum nodes and branch connectors are verified; interpolated connecting frames are feasible numerical constructions and are not all constrained energy minima. Avoid calling every point on the collective path fully relaxed.",
+    "Dense stored frames and quarter/midpoint/three-quarter chord probes supply finite numerical evidence, not a mathematical certificate of the continuous energy supremum.",
+    "Connector seeds were recorded reference structures refined and revalidated; this stage should not be described as discovering them independently from arbitrary starting geometries.",
+    "These are MMFF94 potential energies. They are a separate computational comparison from the paper MM2 calculations, not an exact force-field reproduction, activation free energies, or experimental rate prediction."
+  ]
+}

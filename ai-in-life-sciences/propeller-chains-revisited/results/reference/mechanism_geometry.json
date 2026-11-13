@@ -1,0 +1,219 @@
+{
+  "frame": "One permanent atom order for the entire assembled route",
+  "sign_convention": "Signs of local aryl-plane inclinations reduced modulo180deg into[-90,90); not calibrated printed-paper helicity signs",
+  "states": {
+    "A": {
+      "reduced_six_torsions_deg": [
+        -48.092286403092146,
+        -49.733867308876306,
+        48.70286472495903,
+        49.78800522548099,
+        -48.73399615447266,
+        -50.53666153036503
+      ],
+      "pair_signs": [
+        -1,
+        1,
+        -1
+      ]
+    },
+    "C": {
+      "reduced_six_torsions_deg": [
+        47.32746715668958,
+        52.63985049934169,
+        48.406540480834565,
+        46.67040224985084,
+        -48.75199891051764,
+        -50.559008608973116
+      ],
+      "pair_signs": [
+        1,
+        1,
+        -1
+      ]
+    },
+    "N002": {
+      "reduced_six_torsions_deg": [
+        51.767402498550496,
+        52.70855421953638,
+        -51.30384358664783,
+        -47.131925920973075,
+        -49.42377116687871,
+        -47.02300291826481
+      ],
+      "pair_signs": [
+        1,
+        -1,
+        -1
+      ]
+    },
+    "N015": {
+      "reduced_six_torsions_deg": [
+        -48.136118222399205,
+        -49.82608259512138,
+        -46.75398343601148,
+        -52.262116196348614,
+        -48.88049049171477,
+        -47.30695234090446
+      ],
+      "pair_signs": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "D": {
+      "reduced_six_torsions_deg": [
+        -48.140436286605706,
+        -49.882938314982745,
+        -49.944435002339254,
+        -49.839536647705096,
+        48.72606575827635,
+        48.09011406208995
+      ],
+      "pair_signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    "M": {
+      "reduced_six_torsions_deg": [
+        -43.576377690886375,
+        -54.753631117399856,
+        -54.13248626532711,
+        -45.27173973699095,
+        48.7406894621779,
+        48.14044567691195
+      ],
+      "pair_signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    "B": {
+      "reduced_six_torsions_deg": [
+        48.0922864030922,
+        48.73399615447272,
+        -49.78800522548097,
+        -49.78800522548092,
+        48.73399615447272,
+        48.092286403092174
+      ],
+      "pair_signs": [
+        1,
+        -1,
+        1
+      ]
+    }
+  },
+  "events": [
+    {
+      "saddle": "TS_AC",
+      "from": "A",
+      "to": "C",
+      "reversed_pair_signs": [
+        1
+      ],
+      "dominant_pair": 1,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.9799233959253253,
+        0.01925062407389275,
+        0.0008259800007817695
+      ],
+      "six_torsion_derivative_norm": 35.16794628343786,
+      "maximum_methyl_torsion_derivative_abs": 17.681916180455914,
+      "classification": "localized adjacent-ring disrotation"
+    },
+    {
+      "saddle": "C_pair2_plus_image10",
+      "from": "C",
+      "to": "N002",
+      "reversed_pair_signs": [
+        2
+      ],
+      "dominant_pair": 2,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.00016432871619087146,
+        0.9914688668166145,
+        0.008366804467194624
+      ],
+      "six_torsion_derivative_norm": 24.49719413539333,
+      "maximum_methyl_torsion_derivative_abs": 12.268242174337729,
+      "classification": "localized adjacent-ring disrotation"
+    },
+    {
+      "saddle": "rescue_N002_pair1_plus_image6",
+      "from": "N002",
+      "to": "N015",
+      "reversed_pair_signs": [
+        1
+      ],
+      "dominant_pair": 1,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.9892201564678528,
+        0.008128533495041494,
+        0.0026513100371056753
+      ],
+      "six_torsion_derivative_norm": 24.470448833901862,
+      "maximum_methyl_torsion_derivative_abs": 31.86030298178082,
+      "classification": "localized adjacent-ring disrotation"
+    },
+    {
+      "saddle": "R_N011_pair3_minus_image14",
+      "from": "N015",
+      "to": "D",
+      "reversed_pair_signs": [
+        3
+      ],
+      "dominant_pair": 3,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.0003970706247187252,
+        0.007878078197703394,
+        0.9917248511775779
+      ],
+      "six_torsion_derivative_norm": 24.06392671920345,
+      "maximum_methyl_torsion_derivative_abs": 7.840113004542815,
+      "classification": "localized adjacent-ring disrotation"
+    },
+    {
+      "saddle": "TS2",
+      "from": "D",
+      "to": "M",
+      "reversed_pair_signs": [],
+      "dominant_pair": 1,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.6303235477202274,
+        0.3504733205902767,
+        0.019203131689495907
+      ],
+      "six_torsion_derivative_norm": 5.733323622391526,
+      "maximum_methyl_torsion_derivative_abs": 39.089136307232764,
+      "classification": "methyl/conformational adjustment"
+    },
+    {
+      "saddle": "TS_MB",
+      "from": "M",
+      "to": "B",
+      "reversed_pair_signs": [
+        1
+      ],
+      "dominant_pair": 1,
+      "dominant_pair_derivatives_have_opposite_signs": true,
+      "pair_squared_torsion_derivative_fractions": [
+        0.9533704467269124,
+        0.04576901765042634,
+        0.0008605356226612823
+      ],
+      "six_torsion_derivative_norm": 26.06322027342542,
+      "maximum_methyl_torsion_derivative_abs": 27.57686210163257,
+      "classification": "localized adjacent-ring disrotation"
+    }
+  ]
+}

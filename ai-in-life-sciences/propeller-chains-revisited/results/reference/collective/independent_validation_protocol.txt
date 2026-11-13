@@ -1,0 +1,123 @@
+INDEPENDENT VALIDATION OF EXACTLY CONSTRAINED COLLECTIVE CANDIDATES
+
+Scope
+-----
+The molecular model is the existing explicit-atom, 99-atom MMFF94 system.
+The old six torsion definitions and the two fixed winding patterns are retained.
+No sequential calculation is repeated by this audit. Each constrained branch
+is a local conditional candidate, not a global collective lower bound.
+
+Equality problem and units
+--------------------------
+At a fixed progress t, minimize the bare MMFF94 E(x), subject to
+
+    c_i(x,t) = wrap(phi_i(x) - a_i - t*delta_i) = 0, i = 1,...,6.
+
+Coordinates are angstrom, angles radians, energy kcal/mol. The local wrapped
+residual is smooth near zero. Singular bond axes/reference planes are rejected.
+Multipliers are defined by L = E + lambda^T c; they have units kcal/mol/radian.
+No torsion-penalty energy enters either the objective or the reported energy.
+
+First-order checks
+------------------
+For Q spanning the 291-dimensional complement of the six rigid motions, set
+J = dc/dx and A = JQ. Verify rank(A)=6. Obtain lambda independently by solving
+A^T lambda = -Q^T grad(E) in least squares. Both the full Cartesian Lagrangian
+gradient grad(E)+J^T lambda and the true constraint-tangent gradient must be
+small. A nonzero bare molecular gradient is generally required to balance the
+normal forces enforcing the constraints; it does not imply failed constrained
+optimization.
+
+The audit computes torsions and their analytical Jacobian using a separate
+vector-calculus expression, compares against wrapped central differences in
+every Cartesian coordinate, and compares against the solver Jacobian. It also
+checks rotational/translational invariance. Solver status and its tolerance
+parameter do not replace these measured residuals.
+
+Second-order checks
+-------------------
+Let Z = Q*null(JQ). For this molecule Z has 285 orthonormal columns. Classify
+
+    Z^T [ Hess(E) + sum_i lambda_i Hess(c_i) ] Z.
+
+This is the Hessian of the Lagrangian restricted to the feasible tangent, not
+the bare energy Hessian and not the matrix left after arbitrarily deleting
+twelve eigenvalues. A resolved positive lowest eigenvalue supports a strict
+local constrained minimum under the stated constraint qualification. A negative
+tangent eigenvalue or unresolved near-zero mode cannot be labeled a verified
+local constrained minimum.
+
+The independent audit varies BOTH the energy-gradient and constraint-Jacobian
+finite-difference steps, using 1e-4 and 5e-5 angstrom. It checks numerical symmetry
+before symmetrization. As a separate check, it displaces along tangent directions,
+locally retracts to the six exact equalities, and evaluates the energy-only
+second difference. This validates the multiplier sign and the constraint
+curvature contribution without reusing an energy-gradient derivative.
+
+Continuation and profile maxima
+-------------------------------
+Keep forward, reverse, and independent starting branches separate. At a common
+t, different local constrained minima may coexist. Taking the lowest energy
+from whichever branch happens to be available constructs an envelope, not an
+automatically realizable molecular trajectory. A branch switch needs an actual
+fixed-identity connector and its complete energy/synchronization audit.
+
+For one smooth, converged branch, the envelope theorem gives
+
+    dE_min/dt = -lambda^T delta.
+
+This can be compared with same-branch finite differences and used to refine
+candidate profile maxima. At such a maximum, lambda^T delta may vanish while
+lambda itself remains nonzero. The peak then is not an unconstrained stationary
+point, and it must not be called an elementary transition state.
+
+SLSQP accepted iterates generally need not satisfy the equalities and can have
+large coordinate jumps. Retaining them is useful for diagnosis; they cannot
+be used directly as an exactly synchronized physical path.
+
+Physical path checks
+--------------------
+Use one fixed atom identity throughout each supplied path. Do not align,
+permute, reflect, or switch branches independently at each frame. The proper
+graph-equivalent B representation is determined once for endpoint identification;
+any final connector to exact B is recorded and checked. Opposite enantiomers
+are not merged by proper rotations/chemical permutations.
+
+Measure every original coordinate gap. A finely subdivided large Cartesian
+chord is still that same physical chord; subdivision alone does not repair its
+geometry, enforce constraints, or remove an energy overshoot. Record maximum
+atomic displacement and examine energies and actual torsion progress throughout
+any connector. For the explicit piecewise-Cartesian path, the independent audit
+checks all stored frames and each quarter/midpoint/three-quarter gap probe.
+
+Exact constraints at optimized grid points do not imply exact constraints
+between them. The audit reports stored-frame and bridge-probe angular errors
+separately (default limits 1e-8 and 1e-4 radians respectively), along with all
+six progress fractions and a 0.02-angstrom maximum atomic gap. If a stricter
+feasible path is required, construct and record small projected continuation
+segments; do not silently call an approximate chord exactly feasible.
+
+These finite checks are numerical evidence, not a mathematical continuous
+supremum certificate. Report peak stability under a finer same-branch progress
+mesh and stricter solver tolerance. Report unresolved folds, branch gaps,
+failed starts, and distinct basins rather than silently dropping them.
+
+Evidence interpretation
+-----------------------
+Fully checked branches establish explicit locally relaxed conditional paths
+for the specified six-coordinate schedules. They improve on the previous
+iteration-limited penalty trajectories. They do not prove that all collective
+motions have been searched, that every collective route has a larger barrier,
+or that the sequential route is globally optimal. A globally minimized energy
+at each independent t would itself be only a slice envelope until continuity
+between its minimizing basins was established. No free energies, rates, or
+kinetic branching probabilities are inferred from these optimization paths.
+
+Implementation references
+-------------------------
+The independent calculus and numerical audits above are included in
+exact_constraint_audit.py; all accepted/rejected checks retain measured values.
+SciPy's SLSQP documentation describes ftol in terms of multiple stopping checks:
+https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html
+SciPy's nonlinear-constraint Hessian API specifies the Hessian of dot(fun,v):
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.NonlinearConstraint.html

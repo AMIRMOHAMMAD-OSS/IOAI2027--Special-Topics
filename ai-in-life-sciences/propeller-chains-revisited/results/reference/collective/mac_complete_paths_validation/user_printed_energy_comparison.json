@@ -1,0 +1,162 @@
+{
+  "scope": "Comparison of the22energies explicitly pasted by the user against local reference records. No Mac filesystem or unpasted values were accessed.",
+  "compared_nodes": 22,
+  "all_match_six_decimal_precision": true,
+  "maximum_absolute_difference_kcal_mol": 4.779583235858809e-07,
+  "rows": [
+    {
+      "printed_node_ordinal": 20,
+      "user_printed_E_minus_A_kcal_mol": 15.480449,
+      "local_reference_E_minus_A_kcal_mol": 15.480449363123,
+      "absolute_difference": 3.63123000113319e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 21,
+      "user_printed_E_minus_A_kcal_mol": 15.43011,
+      "local_reference_E_minus_A_kcal_mol": 15.430110174477363,
+      "absolute_difference": 1.744773623357787e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 22,
+      "user_printed_E_minus_A_kcal_mol": 15.371203,
+      "local_reference_E_minus_A_kcal_mol": 15.371202553580076,
+      "absolute_difference": 4.464199232501187e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 23,
+      "user_printed_E_minus_A_kcal_mol": 15.072607,
+      "local_reference_E_minus_A_kcal_mol": 15.072606870200644,
+      "absolute_difference": 1.2979935526402642e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 24,
+      "user_printed_E_minus_A_kcal_mol": 14.4491,
+      "local_reference_E_minus_A_kcal_mol": 14.449099966997181,
+      "absolute_difference": 3.300281825602269e-08,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 25,
+      "user_printed_E_minus_A_kcal_mol": 13.79417,
+      "local_reference_E_minus_A_kcal_mol": 13.79416962850371,
+      "absolute_difference": 3.7149628973054405e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 26,
+      "user_printed_E_minus_A_kcal_mol": 13.133145,
+      "local_reference_E_minus_A_kcal_mol": 13.133144911387035,
+      "absolute_difference": 8.86129658539403e-08,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 27,
+      "user_printed_E_minus_A_kcal_mol": 12.479666,
+      "local_reference_E_minus_A_kcal_mol": 12.479666117702834,
+      "absolute_difference": 1.1770283414591631e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 28,
+      "user_printed_E_minus_A_kcal_mol": 11.830467,
+      "local_reference_E_minus_A_kcal_mol": 11.830466687779705,
+      "absolute_difference": 3.122202958394382e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 29,
+      "user_printed_E_minus_A_kcal_mol": 11.047867,
+      "local_reference_E_minus_A_kcal_mol": 11.047866861172281,
+      "absolute_difference": 1.3882771909834446e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 30,
+      "user_printed_E_minus_A_kcal_mol": 10.184442,
+      "local_reference_E_minus_A_kcal_mol": 10.184442029456818,
+      "absolute_difference": 2.9456817429718285e-08,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 31,
+      "user_printed_E_minus_A_kcal_mol": 9.023894,
+      "local_reference_E_minus_A_kcal_mol": 9.023894333688759,
+      "absolute_difference": 3.3368875840267265e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 32,
+      "user_printed_E_minus_A_kcal_mol": 7.705416,
+      "local_reference_E_minus_A_kcal_mol": 7.705415522041676,
+      "absolute_difference": 4.779583235858809e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 33,
+      "user_printed_E_minus_A_kcal_mol": 6.379109,
+      "local_reference_E_minus_A_kcal_mol": 6.379109165231512,
+      "absolute_difference": 1.6523151202818553e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 34,
+      "user_printed_E_minus_A_kcal_mol": 5.099478,
+      "local_reference_E_minus_A_kcal_mol": 5.099478369280405,
+      "absolute_difference": 3.692804044774789e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 35,
+      "user_printed_E_minus_A_kcal_mol": 3.89799,
+      "local_reference_E_minus_A_kcal_mol": 3.8979900230644375,
+      "absolute_difference": 2.3064437471020938e-08,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 36,
+      "user_printed_E_minus_A_kcal_mol": 2.804775,
+      "local_reference_E_minus_A_kcal_mol": 2.804775287912719,
+      "absolute_difference": 2.879127189991948e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 37,
+      "user_printed_E_minus_A_kcal_mol": 1.851659,
+      "local_reference_E_minus_A_kcal_mol": 1.8516586404286102,
+      "absolute_difference": 3.5957138977416037e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 38,
+      "user_printed_E_minus_A_kcal_mol": 1.069522,
+      "local_reference_E_minus_A_kcal_mol": 1.0695224725763808,
+      "absolute_difference": 4.725763806945338e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 39,
+      "user_printed_E_minus_A_kcal_mol": 0.485894,
+      "local_reference_E_minus_A_kcal_mol": 0.48589387305156606,
+      "absolute_difference": 1.2694843393168398e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 40,
+      "user_printed_E_minus_A_kcal_mol": 0.123613,
+      "local_reference_E_minus_A_kcal_mol": 0.12361262486433588,
+      "absolute_difference": 3.751356641157333e-07,
+      "same_at_display_precision": true
+    },
+    {
+      "printed_node_ordinal": 41,
+      "user_printed_E_minus_A_kcal_mol": -0.0,
+      "local_reference_E_minus_A_kcal_mol": -2.8421709430404007e-13,
+      "absolute_difference": 2.8421709430404007e-13,
+      "same_at_display_precision": true
+    }
+  ]
+}

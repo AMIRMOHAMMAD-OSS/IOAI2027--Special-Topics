@@ -1,0 +1,186 @@
+{
+  "cache_roundtrip": {
+    "energy_error": 0.0,
+    "gradient_error": 0.0
+  },
+  "directional_gradient_errors": [
+    4.286782151474711e-09,
+    3.441014473359871e-08
+  ],
+  "proper_A_B_rmsd_A": 1.9164570317659806,
+  "reflected_A_B_rmsd_A": 4.6481724333028e-15,
+  "reflection_only_used_for_identity_diagnostic": true,
+  "automorphism_count": 32,
+  "stationary_points": {
+    "A": {
+      "energy_kcal_mol": 204.51121410431,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 8.725361022002662e-13,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.08356982954391588,
+        0.0897246733402185,
+        0.1766359099426662,
+        0.5286405400468347,
+        0.5705658934399173
+      ]
+    },
+    "TS_AC": {
+      "energy_kcal_mol": 210.76606582841976,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 3.3383354190470613e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -0.11260043526516263,
+        0.08724506667578974,
+        0.11723845648285079,
+        0.2159270613582568,
+        0.44669894799788085
+      ]
+    },
+    "C": {
+      "energy_kcal_mol": 205.68447642810577,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 7.387663063179707e-06,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.08215001632789923,
+        0.11591153833225379,
+        0.16089280318820615,
+        0.45443895743329354,
+        0.49434818966268096
+      ]
+    },
+    "TS_CP": {
+      "energy_kcal_mol": 210.34739345849715,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 9.1672239358863e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -0.03688742183622242,
+        0.08186527585994516,
+        0.17685150937577124,
+        0.3405954599328838,
+        0.3834491308688825
+      ]
+    },
+    "P": {
+      "energy_kcal_mol": 208.27878376616093,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 1.9081357594381776e-12,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.08228660972126514,
+        0.08355218308769956,
+        0.2131877106094243,
+        0.2805524110859202,
+        0.3986235174996684
+      ]
+    },
+    "TS_PQ": {
+      "energy_kcal_mol": 211.91520880300038,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 1.4800447482835852e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -0.1370045395974677,
+        0.05883850119467313,
+        0.10834183594995142,
+        0.18651026452365582,
+        0.39058573060567886
+      ]
+    },
+    "Q": {
+      "energy_kcal_mol": 205.8341867245016,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 1.8874480105266383e-12,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.09583923515861394,
+        0.11514850873254186,
+        0.143170911876642,
+        0.44230925576904745,
+        0.5041479743229955
+      ]
+    },
+    "TS_QD": {
+      "energy_kcal_mol": 211.16421825143863,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 2.4162943053321533e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -0.029882643474473735,
+        0.09501420361064508,
+        0.14037283212264573,
+        0.21373578480710828,
+        0.49973604442074776
+      ]
+    },
+    "D": {
+      "energy_kcal_mol": 204.6924182253041,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 4.0150101358698766e-12,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.08137937062856299,
+        0.10464483721164283,
+        0.173096341471666,
+        0.46851921084514564,
+        0.555587841477821
+      ]
+    },
+    "TS_DM": {
+      "energy_kcal_mol": 207.04591550141757,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 7.73116873281415e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -1.032261259447285,
+        0.06946892102812141,
+        0.09954330704465246,
+        0.19971219710703997,
+        0.4396084154744532
+      ]
+    },
+    "M": {
+      "energy_kcal_mol": 206.79716101396554,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 6.730459491076579e-06,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.06876062440537654,
+        0.09747430428935683,
+        0.18039685361724192,
+        0.37701342278525246,
+        0.5080746897331623
+      ]
+    },
+    "TS_MB": {
+      "energy_kcal_mol": 210.92132384401438,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 2.481021227130948e-12,
+      "negative_internal_modes": 1,
+      "lowest_five_curvatures": [
+        -0.38761481737860604,
+        0.02718402164429316,
+        0.0804261942999191,
+        0.13889938206331703,
+        0.40199850630860384
+      ]
+    },
+    "B": {
+      "energy_kcal_mol": 204.51121410430977,
+      "reference_energy_error": 0.0,
+      "max_gradient_kcal_mol_A": 2.710434483309708e-12,
+      "negative_internal_modes": 0,
+      "lowest_five_curvatures": [
+        0.08356983643255446,
+        0.08972467946294564,
+        0.17663588233301114,
+        0.5286405901596629,
+        0.57056593456955
+      ]
+    }
+  },
+  "status": "MODEL_AND_REFERENCE_CHECKS_PASSED"
+}

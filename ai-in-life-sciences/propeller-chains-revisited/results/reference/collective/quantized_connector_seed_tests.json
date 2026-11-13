@@ -1,0 +1,46 @@
+[
+  {
+    "pattern": "I_III",
+    "side": "left",
+    "status": "KKT_CONVERGED",
+    "energy_kcal_mol": 219.8896771146512,
+    "kkt_gradient": 1.375023461676796e-12,
+    "constraint_rad": 2.220446049250313e-16,
+    "tangent_index": 1,
+    "minimum_absolute_tangent_eigenvalue": 0.06780769457507893,
+    "maximum_atom_correction_A": 7.754364157398784e-06
+  },
+  {
+    "pattern": "I_III",
+    "side": "right",
+    "status": "KKT_CONVERGED",
+    "energy_kcal_mol": 220.0771185298168,
+    "kkt_gradient": 1.380581202955604e-12,
+    "constraint_rad": 2.4492935982947064e-16,
+    "tangent_index": 1,
+    "minimum_absolute_tangent_eigenvalue": 0.06956480261258496,
+    "maximum_atom_correction_A": 7.431119632372461e-06
+  },
+  {
+    "pattern": "II_IV",
+    "side": "left",
+    "status": "KKT_CONVERGED",
+    "energy_kcal_mol": 219.81853181316836,
+    "kkt_gradient": 1.484333334281376e-12,
+    "constraint_rad": 2.220446049250313e-16,
+    "tangent_index": 1,
+    "minimum_absolute_tangent_eigenvalue": 0.04133739345992781,
+    "maximum_atom_correction_A": 7.692195720028214e-06
+  },
+  {
+    "pattern": "II_IV",
+    "side": "right",
+    "status": "KKT_CONVERGED",
+    "energy_kcal_mol": 220.02541525055767,
+    "kkt_gradient": 1.4097260811202747e-12,
+    "constraint_rad": 6.432490598706546e-16,
+    "tangent_index": 1,
+    "minimum_absolute_tangent_eigenvalue": 0.06853208495737051,
+    "maximum_atom_correction_A": 8.805046695755016e-06
+  }
+]

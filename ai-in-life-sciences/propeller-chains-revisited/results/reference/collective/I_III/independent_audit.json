@@ -1,0 +1,194 @@
+{
+  "status": "INDEPENDENT_COMPLETE_CANDIDATE_PATH_CHECKS_PASSED",
+  "pattern": "I_III",
+  "checks": {
+    "all_blocks_exactly_reconstructed": true,
+    "all_source_progress_preserved": true,
+    "all_transforms_proper_and_rigid": true,
+    "all_joins_small": true,
+    "dense_path_checks": true,
+    "saved_energies_reproduced": true,
+    "reported_peak_reproduced": true,
+    "stationary_proper_endpoints": true
+  },
+  "path": {
+    "status": "FIXED_IDENTITY_CANDIDATE_PATH_CHECKS_PASSED",
+    "checks": {
+      "finite_inputs": true,
+      "complete_progress": true,
+      "nondecreasing_progress": true,
+      "frame_constraints": true,
+      "gap_probe_constraints": true,
+      "coordinate_gap": true,
+      "finite_energies": true
+    },
+    "frames": 1525,
+    "maximum_atom_gap_A": 0.00999122378764955,
+    "maximum_frame_constraint_rad": 1.9709581189353287e-12,
+    "maximum_gap_constraint_rad": 1.1390866577754013e-06,
+    "maximum_six_progress_spread": 4.47779731710396e-07,
+    "maximum_sampled_energy_kcal_mol": 220.07711852981737,
+    "peak_location": {
+      "kind": "frame",
+      "index": 1002
+    },
+    "probe_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "tolerances": {
+      "stored_frame_constraint_rad": 3e-12,
+      "gap_probe_constraint_rad": 1e-05,
+      "maximum_atom_gap_A": 0.011
+    },
+    "scope": "Finite samples of one supplied fixed-identity piecewise-Cartesian path, not a continuous supremum certificate, global collective lower bound, or automatically minimized curve."
+  },
+  "max_saved_energy_error_kcal_mol": 0.0,
+  "energy_reference_A_kcal_mol": 204.51121410431,
+  "finite_checked_height_above_A_kcal_mol": 15.56590442550737,
+  "endpoints": {
+    "A": {
+      "proper_symmetry_rmsd_to_intended_endpoint_A": 1.112302430615012e-15,
+      "energy_kcal_mol": 204.51121410431,
+      "gradient_max_atomic_norm": 8.725361022002662e-13,
+      "internal_index": 0,
+      "lowest_internal_curvature": 0.08356982954391588
+    },
+    "B": {
+      "proper_symmetry_rmsd_to_intended_endpoint_A": 2.0369154167261462e-13,
+      "energy_kcal_mol": 204.51121410430977,
+      "gradient_max_atomic_norm": 1.849913320598207e-11,
+      "internal_index": 0,
+      "lowest_internal_curvature": 0.08356984423390261
+    }
+  },
+  "block_reconstruction": {
+    "checks": {
+      "all_blocks_exactly_reconstructed": true,
+      "all_source_progress_preserved": true,
+      "all_transforms_proper_and_rigid": true,
+      "all_joins_small": true
+    },
+    "blocks": [
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/nodes.npz",
+        "source_sha256": "1d4a3a5fe139d1cd2f5367e39b2a84a14c059db7b1696175c8a2390c8ab97379",
+        "nodes": 19,
+        "source_order_reversed": false,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0,
+        "rotation_orthogonality_error": 0.0,
+        "join_max_atom_gap_A": 0.0,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_left/nodes.npz",
+        "source_sha256": "eed68a2f8948d747a4f93155dfb954a85c6b5deef08aa5b5479fc206fe73c1f1",
+        "nodes": 8,
+        "source_order_reversed": false,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0000000000000018,
+        "rotation_orthogonality_error": 2.6172513614813595e-15,
+        "join_max_atom_gap_A": 4.100316822212988e-15,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed04675_bridge/verified_connector_v2/connector.npz",
+        "source_sha256": "865720c60d5b8158f346d6e9727f208a0065b6c6ed64ce15b2068b35956e8efb",
+        "nodes": 249,
+        "source_order_reversed": false,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 0.9999999999999996,
+        "rotation_orthogonality_error": 6.261129521208848e-16,
+        "join_max_atom_gap_A": 4.418399799329972e-10,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_left/nodes.npz",
+        "source_sha256": "1dfc9ac7d293bcb603455bb933219c834e82ffe86f88ced96d5f756ab6707f26",
+        "nodes": 14,
+        "source_order_reversed": true,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0000000000000013,
+        "rotation_orthogonality_error": 1.760081422181394e-15,
+        "join_max_atom_gap_A": 5.657563120444661e-07,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_right/nodes.npz",
+        "source_sha256": "d2c79cebd309f2725bde74da5affb37461ce3e28b7f0c6198765c1ba844e2db7",
+        "nodes": 11,
+        "source_order_reversed": false,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0000000000000018,
+        "rotation_orthogonality_error": 2.1743650758361054e-15,
+        "join_max_atom_gap_A": 7.549516567451064e-15,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed0525_bridge/verified_connector_v2/connector.npz",
+        "source_sha256": "84306a75ba7119de18e049f6d18b4b941a7a4def293d8941df087152633126b8",
+        "nodes": 261,
+        "source_order_reversed": true,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0000000000000018,
+        "rotation_orthogonality_error": 3.0309204128419904e-15,
+        "join_max_atom_gap_A": 3.954451104629133e-07,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_right/nodes.npz",
+        "source_sha256": "7fce3f9b7d9c157d07b55e4b91f9cf9d9211da703e5c9d9345e8b8b1eacf9779",
+        "nodes": 11,
+        "source_order_reversed": true,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 1.0000000000000013,
+        "rotation_orthogonality_error": 1.5626599142730363e-15,
+        "join_max_atom_gap_A": 5.855473916121241e-07,
+        "atom_permutation": "identity"
+      },
+      {
+        "source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/nodes.npz",
+        "source_sha256": "1d4a3a5fe139d1cd2f5367e39b2a84a14c059db7b1696175c8a2390c8ab97379",
+        "nodes": 19,
+        "source_order_reversed": false,
+        "fixed_transform_max_coordinate_error_A": 0.0,
+        "source_progress_max_error": 0.0,
+        "rotation_determinant": 0.9999999999999979,
+        "rotation_orthogonality_error": 2.901080695836349e-15,
+        "join_max_atom_gap_A": 8.021313332746002e-15,
+        "atom_permutation": "identity"
+      }
+    ],
+    "assembly_source_sha256": "08ede9712f5ec3da2941579231474b16ac5ddb4281fe6a051a002c3e13ba3bba"
+  },
+  "input_provenance": {
+    "source_path": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/revalidate.py",
+    "source_sha256": "f89d8f862bcba85024fcabe889d15903fa2b67a69cdcc2d88d68700663996b4b",
+    "reference_path": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/refs.json",
+    "reference_sha256": "3e3cef9fa3007e91af21687c60bd8d1c0b5bc9857f4c7d262d31c167f7b74587",
+    "graph_sha256": "7c80e4ae6cf67f890963527828c93c745cf8e1ee3a3580a31c1f0c8c4620e6ae",
+    "terminal_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/terminal_results_1794501111549909551/validation.json",
+    "terminal_validation_sha256": "ea84b9967de0e0fb59f0f7a8da07d72d824de50b08c9da60fce605b3ef354af8",
+    "paired_central_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/results_local/validation.json",
+    "paired_central_validation_sha256": "3d019bce28658ce192c568d7be23cecf422e523dfa6437ae1b34f8e8966c1f50",
+    "latest_central_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/results_local/validation.json",
+    "latest_central_validation_sha256": "3d019bce28658ce192c568d7be23cecf422e523dfa6437ae1b34f8e8966c1f50"
+  },
+  "trajectory_source": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/trajectory.npz",
+  "trajectory_sha256": "fda0afa3113fce6dd1bc0bc5930d31940538eb2d10942ac308cd281de264758d",
+  "summary_sha256": "999a4c1793b29e9676016a464f54baefda2f4d4deccc7e1ccc6f6aa2d9b35239",
+  "target_definition_source": "/workspace/scratch/e38f80eb67c5/completion_20261112/collective/continuation_I_III_v2/summary.json",
+  "target_definition_sha256": "fe50aa3e0d599233f6020bdd94366558d7eca0d2d7c05780cd1a93cfca553310",
+  "audit_source_sha256": "bd5cd790ec541bb9b18fc76b81f7af114a67773e124aa7e4a3b8c679cef049b3",
+  "audit_module_sha256": "c81b7c1a2105193213643cd6a7ff8e889d432ba88421b5d9a96843f9dc629113",
+  "semantics": "Every saved node satisfies six exact angular equalities numerically. The explicit dense Cartesian polyline has the separately measured small residual at all quarter probes; it is not asserted to obey exact equalities at every real-valued interior point. Fixed-progress constrained saddle connectors and non-minimized interpolations are included; this is one candidate path, not a global collective barrier or a fully minimized continuous branch."
+}

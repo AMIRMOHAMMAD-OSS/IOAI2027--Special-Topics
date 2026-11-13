@@ -1,0 +1,24 @@
+What should a generative model know about a molecule before it proposes how that molecule moves?
+
+I’m exploring this question in an AI in Life Sciences course I’m designing for the National Olympiad on Artificial Intelligence committee, for students preparing for IOAI 2027.
+
+For one small case study, I returned to my supervisor Dr. Ariel B. Lindner’s first paper: his 1993 work with Flavio Grynszpan and Silvio E. Biali on rotations in molecular propeller chains.
+
+The teaching problem is concrete: how can a four-ring chain change handedness while respecting molecular geometry, atom identity and energy?
+
+I first built a classical MMFF94 reference. A complete localized candidate reaches 7.404 kcal/mol above the starting minimum; two synchronized candidates reach 15.566 and 15.514 kcal/mol on the same energy reference. The complete-path checks now also pass on my Mac Studio.
+
+The most useful lesson appeared between the optimized structures. A sequence of converged configurations can still jump between different conformational branches. A smooth energy plot alone can hide a missing molecular connection.
+
+We therefore need to test the connecting motion itself. Here, that meant following the branches, verifying four constrained saddle connections, preserving atom identities, and checking energies between saved structures.
+
+For the course, this gives us a concrete question to ask of a future generative model: can its proposed motion satisfy the same geometric and energetic checks?
+
+These results are classical force-field calculations; the generative-model comparison is future work. The original paper used MM2, and this MMFF94 study compares selected candidates without establishing global optimality or experimental rates.
+
+Code, data, animations and validation records are assembled as Propeller Chains Revisited, with AI-assisted coding documented.
+
+Repository: https://github.com/AMIRMOHAMMAD-OSS/IOAI2027--Special-Topics
+Original paper: https://doi.org/10.1021/jo00076a027
+
+#AIinEducation #GeometricDeepLearning #ComputationalChemistry

@@ -1,0 +1,419 @@
+{
+  "status": "BOUNDED_CONVERGENCE_AND_MULTISTART_STUDY_COMPLETED",
+  "same_seed_tolerance_sensitivity": [
+    {
+      "pattern": "I_III",
+      "progress": 0.25,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 213.55748847325276,
+      "energy_tight_kcal_mol": 213.5574884732523,
+      "energy_change_kcal_mol": -4.547473508864641e-13,
+      "kkt_gradient_loose": 4.624986011908953e-06,
+      "kkt_gradient_tight": 2.490921910033747e-11,
+      "maximum_atom_change_A": 4.0252491741813874e-07,
+      "tight_constraint_rad": 6.661338147750939e-16,
+      "tight_lowest_tangent_curvature": 0.03404442443230381,
+      "tight_status": "KKT_CONVERGED"
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.5,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 219.95244726505504,
+      "energy_tight_kcal_mol": 219.95244726505504,
+      "energy_change_kcal_mol": 0.0,
+      "kkt_gradient_loose": 4.3910411352819225e-10,
+      "kkt_gradient_tight": 4.3910411352819225e-10,
+      "maximum_atom_change_A": 0.0,
+      "tight_constraint_rad": 6.661338147750939e-16,
+      "tight_lowest_tangent_curvature": 0.07696169827204594,
+      "tight_status": "KKT_CONVERGED"
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.75,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 213.5291626633122,
+      "energy_tight_kcal_mol": 213.52916266331164,
+      "energy_change_kcal_mol": -5.684341886080801e-13,
+      "kkt_gradient_loose": 6.33315546947108e-06,
+      "kkt_gradient_tight": 7.758860445297466e-12,
+      "maximum_atom_change_A": 2.1460281709857812e-07,
+      "tight_constraint_rad": 6.432490598706546e-16,
+      "tight_lowest_tangent_curvature": 0.037777465163422355,
+      "tight_status": "KKT_CONVERGED"
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.25,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 213.53510843800242,
+      "energy_tight_kcal_mol": 213.53510843799882,
+      "energy_change_kcal_mol": -3.609557097661309e-12,
+      "kkt_gradient_loose": 8.354524562357788e-06,
+      "kkt_gradient_tight": 1.4588145463507152e-10,
+      "maximum_atom_change_A": 1.5010720691417632e-06,
+      "tight_constraint_rad": 9.769962616701378e-15,
+      "tight_lowest_tangent_curvature": 0.04335023303027105,
+      "tight_status": "KKT_CONVERGED"
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.5,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 219.94132427878748,
+      "energy_tight_kcal_mol": 219.94132427878748,
+      "energy_change_kcal_mol": 0.0,
+      "kkt_gradient_loose": 1.6414833819036665e-10,
+      "kkt_gradient_tight": 1.6414833819036665e-10,
+      "maximum_atom_change_A": 0.0,
+      "tight_constraint_rad": 2.886579864025407e-15,
+      "tight_lowest_tangent_curvature": 0.0732843905797165,
+      "tight_status": "KKT_CONVERGED"
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.75,
+      "same_start_comparison": true,
+      "loose_angular_tolerance_rad": 1e-09,
+      "loose_kkt_gradient_tolerance": 1e-05,
+      "tight_angular_tolerance_rad": 1e-10,
+      "tight_kkt_gradient_tolerance": 1e-07,
+      "energy_loose_kcal_mol": 213.58373813694686,
+      "energy_tight_kcal_mol": 213.58373813694686,
+      "energy_change_kcal_mol": 0.0,
+      "kkt_gradient_loose": 1.5762376994201615e-10,
+      "kkt_gradient_tight": 1.5762376994201615e-10,
+      "maximum_atom_change_A": 0.0,
+      "tight_constraint_rad": 7.771561172376096e-15,
+      "tight_lowest_tangent_curvature": 0.03370735226156784,
+      "tight_status": "KKT_CONVERGED"
+    }
+  ],
+  "multistart_comparisons": [
+    {
+      "pattern": "I_III",
+      "progress": 0.25,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 213.5574884732523,
+          "max_constraint_rad": 6.661338147750939e-16,
+          "kkt_gradient_max_atomic_norm": 2.490921910033747e-11,
+          "lowest_tangent_curvature": 0.03404442443230381
+        },
+        "forward": {
+          "energy_kcal_mol": 213.55748847325208,
+          "max_constraint_rad": 1.1102230246251565e-14,
+          "kkt_gradient_max_atomic_norm": 6.162562274097144e-11,
+          "lowest_tangent_curvature": 0.03404439368346921
+        },
+        "reverse": {
+          "energy_kcal_mol": 213.55748847325208,
+          "max_constraint_rad": 1.1102230246251565e-15,
+          "kkt_gradient_max_atomic_norm": 2.923432181687051e-11,
+          "lowest_tangent_curvature": 0.03404457259739392
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": -2.2737367544323206e-13,
+          "same_identity_proper_fit_rmsd_A": 4.059804458176732e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 4.060877595630896e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -2.2737367544323206e-13,
+          "same_identity_proper_fit_rmsd_A": 1.5342760828338963e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 1.5356736090499649e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 0.0,
+          "same_identity_proper_fit_rmsd_A": 3.5581259429847422e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 3.5594818587816e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.5,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 219.95244726505504,
+          "max_constraint_rad": 6.661338147750939e-16,
+          "kkt_gradient_max_atomic_norm": 4.3910411352819225e-10,
+          "lowest_tangent_curvature": 0.07696169827204594
+        },
+        "forward": {
+          "energy_kcal_mol": 219.95244726505527,
+          "max_constraint_rad": 4.2612095876433906e-15,
+          "kkt_gradient_max_atomic_norm": 2.2429118309298976e-10,
+          "lowest_tangent_curvature": 0.07696174388159079
+        },
+        "reverse": {
+          "energy_kcal_mol": 219.95244726505535,
+          "max_constraint_rad": 4.6629367034256575e-15,
+          "kkt_gradient_max_atomic_norm": 6.39694257497108e-11,
+          "lowest_tangent_curvature": 0.0769616207053377
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": 2.2737367544323206e-13,
+          "same_identity_proper_fit_rmsd_A": 6.987460686819577e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 6.990730369066509e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 3.126388037344441e-13,
+          "same_identity_proper_fit_rmsd_A": 2.8651049454335183e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 2.865679909620725e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 8.526512829121202e-14,
+          "same_identity_proper_fit_rmsd_A": 8.318001470021036e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 8.320844227513875e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.75,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 213.52916266331164,
+          "max_constraint_rad": 6.432490598706546e-16,
+          "kkt_gradient_max_atomic_norm": 7.758860445297466e-12,
+          "lowest_tangent_curvature": 0.037777465163422355
+        },
+        "forward": {
+          "energy_kcal_mol": 213.52916266331158,
+          "max_constraint_rad": 1.3322676295501878e-15,
+          "kkt_gradient_max_atomic_norm": 1.747597697383544e-10,
+          "lowest_tangent_curvature": 0.03777717927042858
+        },
+        "reverse": {
+          "energy_kcal_mol": 213.52916266331215,
+          "max_constraint_rad": 4.440892098500626e-16,
+          "kkt_gradient_max_atomic_norm": 1.5787447590951482e-11,
+          "lowest_tangent_curvature": 0.03777750608018695
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": -5.684341886080802e-14,
+          "same_identity_proper_fit_rmsd_A": 6.843643605226184e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 6.8499076639554636e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 5.115907697472721e-13,
+          "same_identity_proper_fit_rmsd_A": 2.450923994765056e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 2.452505187754172e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 5.684341886080801e-13,
+          "same_identity_proper_fit_rmsd_A": 4.576411355383372e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 4.58217938723408e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.25,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 213.53510843799882,
+          "max_constraint_rad": 9.769962616701378e-15,
+          "kkt_gradient_max_atomic_norm": 1.4588145463507152e-10,
+          "lowest_tangent_curvature": 0.04335023303027105
+        },
+        "forward": {
+          "energy_kcal_mol": 213.53510843799876,
+          "max_constraint_rad": 4.218847493575595e-15,
+          "kkt_gradient_max_atomic_norm": 5.3586440561610463e-11,
+          "lowest_tangent_curvature": 0.043350105302621664
+        },
+        "reverse": {
+          "energy_kcal_mol": 213.53510843799876,
+          "max_constraint_rad": 1.7763568394002505e-15,
+          "kkt_gradient_max_atomic_norm": 6.919729765235457e-11,
+          "lowest_tangent_curvature": 0.04335044660874219
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": -5.684341886080802e-14,
+          "same_identity_proper_fit_rmsd_A": 1.0971086157202758e-11,
+          "graph_symmetry_proper_fit_rmsd_A": 1.0987800302700978e-11,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -5.684341886080802e-14,
+          "same_identity_proper_fit_rmsd_A": 1.3735150561947158e-11,
+          "graph_symmetry_proper_fit_rmsd_A": 1.3756453134325573e-11,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": 0.0,
+          "same_identity_proper_fit_rmsd_A": 2.8389251554298203e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 2.843798774876131e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.5,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 219.94132427878748,
+          "max_constraint_rad": 2.886579864025407e-15,
+          "kkt_gradient_max_atomic_norm": 1.6414833819036665e-10,
+          "lowest_tangent_curvature": 0.0732843905797165
+        },
+        "forward": {
+          "energy_kcal_mol": 219.94132427878745,
+          "max_constraint_rad": 5.329070518200751e-15,
+          "kkt_gradient_max_atomic_norm": 1.1962336999258439e-11,
+          "lowest_tangent_curvature": 0.07328443263000582
+        },
+        "reverse": {
+          "energy_kcal_mol": 219.94132427878736,
+          "max_constraint_rad": 6.217248937900877e-15,
+          "kkt_gradient_max_atomic_norm": 6.418514213802438e-11,
+          "lowest_tangent_curvature": 0.07328429647452639
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": -2.842170943040401e-14,
+          "same_identity_proper_fit_rmsd_A": 2.8503708629050832e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 2.850750994178956e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -1.1368683772161603e-13,
+          "same_identity_proper_fit_rmsd_A": 3.4694341076899714e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 3.4694063215030998e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -8.526512829121202e-14,
+          "same_identity_proper_fit_rmsd_A": 1.10178721621578e-12,
+          "graph_symmetry_proper_fit_rmsd_A": 1.1026051486907158e-12,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.75,
+      "converged_local_minima": {
+        "old_v2_seed_minimum": {
+          "energy_kcal_mol": 213.58373813694686,
+          "max_constraint_rad": 7.771561172376096e-15,
+          "kkt_gradient_max_atomic_norm": 1.5762376994201615e-10,
+          "lowest_tangent_curvature": 0.03370735226156784
+        },
+        "forward": {
+          "energy_kcal_mol": 213.5837381369466,
+          "max_constraint_rad": 2.4492935982947064e-16,
+          "kkt_gradient_max_atomic_norm": 9.521899099765731e-12,
+          "lowest_tangent_curvature": 0.03370730412056461
+        },
+        "reverse": {
+          "energy_kcal_mol": 213.58373813694652,
+          "max_constraint_rad": 3.1086244689504383e-15,
+          "kkt_gradient_max_atomic_norm": 3.403959926932606e-10,
+          "lowest_tangent_curvature": 0.03370748952640524
+        }
+      },
+      "pair_comparisons": [
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "forward",
+          "energy_difference_second_minus_first_kcal_mol": -2.5579538487363607e-13,
+          "same_identity_proper_fit_rmsd_A": 1.3922120742408429e-11,
+          "graph_symmetry_proper_fit_rmsd_A": 1.3928824543590632e-11,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "old_v2_seed_minimum",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -3.410605131648481e-13,
+          "same_identity_proper_fit_rmsd_A": 1.354500732978844e-11,
+          "graph_symmetry_proper_fit_rmsd_A": 1.3552668875982876e-11,
+          "same_physical_minimum_within_1e-5_A": true
+        },
+        {
+          "first": "forward",
+          "second": "reverse",
+          "energy_difference_second_minus_first_kcal_mol": -8.526512829121202e-14,
+          "same_identity_proper_fit_rmsd_A": 8.488723745145756e-13,
+          "graph_symmetry_proper_fit_rmsd_A": 8.493400082459364e-13,
+          "same_physical_minimum_within_1e-5_A": true
+        }
+      ]
+    }
+  ],
+  "maximum_absolute_same_seed_energy_change_kcal_mol": 3.609557097661309e-12,
+  "maximum_same_seed_coordinate_change_A": 1.5010720691417632e-06,
+  "independent_curvature_audit": "../audit/pilot_summary.json",
+  "scope": "Three starts at each of six fixed-progress cases are a bounded multistart test, not an exhaustive global minimization. Coexisting minima and branch jumps require physical connectors; pointwise lowest energies do not define a path."
+}

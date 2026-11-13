@@ -1,0 +1,504 @@
+{
+  "I_III": [
+    {
+      "node": 0,
+      "energy_kcal_mol": 204.51121410431,
+      "max_constraint_rad": 1.1102230246251565e-16,
+      "kkt_gradient": 8.725361022002662e-13
+    },
+    {
+      "node": 1,
+      "energy_kcal_mol": 204.63740978073517,
+      "max_constraint_rad": 4.614364446098307e-15,
+      "kkt_gradient": 2.4553598365570996e-11
+    },
+    {
+      "node": 2,
+      "energy_kcal_mol": 205.00595979880484,
+      "max_constraint_rad": 3.677613769070831e-15,
+      "kkt_gradient": 8.129389102051972e-11
+    },
+    {
+      "node": 3,
+      "energy_kcal_mol": 205.59739387871286,
+      "max_constraint_rad": 4.163336342344337e-16,
+      "kkt_gradient": 5.034841002217435e-12
+    },
+    {
+      "node": 4,
+      "energy_kcal_mol": 206.38718378062697,
+      "max_constraint_rad": 1.6014967130217883e-14,
+      "kkt_gradient": 3.8910078153551086e-11
+    },
+    {
+      "node": 5,
+      "energy_kcal_mol": 207.3469483031243,
+      "max_constraint_rad": 7.993605777301127e-15,
+      "kkt_gradient": 8.458836167929207e-11
+    },
+    {
+      "node": 6,
+      "energy_kcal_mol": 208.44573509850056,
+      "max_constraint_rad": 6.661338147750939e-16,
+      "kkt_gradient": 1.9505583684510212e-11
+    },
+    {
+      "node": 7,
+      "energy_kcal_mol": 209.65125529201094,
+      "max_constraint_rad": 2.7200464103316335e-15,
+      "kkt_gradient": 9.462150171914917e-12
+    },
+    {
+      "node": 8,
+      "energy_kcal_mol": 210.93103994366928,
+      "max_constraint_rad": 9.270362255620057e-15,
+      "kkt_gradient": 5.762423212569123e-11
+    },
+    {
+      "node": 9,
+      "energy_kcal_mol": 212.25102059351877,
+      "max_constraint_rad": 3.885780586188048e-16,
+      "kkt_gradient": 2.286778101480007e-11
+    },
+    {
+      "node": 10,
+      "energy_kcal_mol": 213.55748847325208,
+      "max_constraint_rad": 1.1046719095020308e-14,
+      "kkt_gradient": 6.162562274097144e-11
+    },
+    {
+      "node": 11,
+      "energy_kcal_mol": 214.64427373526036,
+      "max_constraint_rad": 2.886579864025407e-15,
+      "kkt_gradient": 8.983846370569333e-11
+    },
+    {
+      "node": 12,
+      "energy_kcal_mol": 215.44541994279268,
+      "max_constraint_rad": 1.2212453270876722e-15,
+      "kkt_gradient": 4.351943371835355e-11
+    },
+    {
+      "node": 13,
+      "energy_kcal_mol": 216.22269733365113,
+      "max_constraint_rad": 3.83026943495679e-15,
+      "kkt_gradient": 2.3620669942263505e-10
+    },
+    {
+      "node": 14,
+      "energy_kcal_mol": 216.9195776992335,
+      "max_constraint_rad": 9.992007221626409e-16,
+      "kkt_gradient": 7.799504513251797e-11
+    },
+    {
+      "node": 15,
+      "energy_kcal_mol": 217.5588611218111,
+      "max_constraint_rad": 3.3306690738754696e-16,
+      "kkt_gradient": 2.3780852130461083e-11
+    },
+    {
+      "node": 16,
+      "energy_kcal_mol": 218.20559132703895,
+      "max_constraint_rad": 6.661338147750939e-16,
+      "kkt_gradient": 1.7663846086134712e-11
+    },
+    {
+      "node": 17,
+      "energy_kcal_mol": 218.8493818689627,
+      "max_constraint_rad": 6.106226635438361e-15,
+      "kkt_gradient": 7.549357570066872e-11
+    },
+    {
+      "node": 18,
+      "energy_kcal_mol": 219.470263539246,
+      "max_constraint_rad": 2.1094237467877974e-15,
+      "kkt_gradient": 1.458323556494554e-11,
+      "fresh_curvature": 0.06961332099567745
+    },
+    {
+      "node": 19,
+      "energy_kcal_mol": 219.90581149872168,
+      "max_constraint_rad": 1.887379141862766e-15,
+      "kkt_gradient": 1.0385464859161825e-10
+    },
+    {
+      "node": 20,
+      "energy_kcal_mol": 219.95244726505527,
+      "max_constraint_rad": 4.218847493575595e-15,
+      "kkt_gradient": 2.2429118309298976e-10,
+      "fresh_curvature": 0.07696174388159079
+    },
+    {
+      "node": 21,
+      "energy_kcal_mol": 219.88613966824997,
+      "max_constraint_rad": 1.7763568394002505e-15,
+      "kkt_gradient": 1.274369575377388e-10
+    },
+    {
+      "node": 22,
+      "energy_kcal_mol": 219.4937748542807,
+      "max_constraint_rad": 7.771561172376096e-16,
+      "kkt_gradient": 2.7176451160631897e-10,
+      "fresh_curvature": 0.06996318834997642
+    },
+    {
+      "node": 23,
+      "energy_kcal_mol": 218.86118910088783,
+      "max_constraint_rad": 1.6653345369377348e-15,
+      "kkt_gradient": 3.0908377027578014e-11
+    },
+    {
+      "node": 24,
+      "energy_kcal_mol": 218.2097917426396,
+      "max_constraint_rad": 8.881784197001252e-16,
+      "kkt_gradient": 3.7672133387339504e-11
+    },
+    {
+      "node": 25,
+      "energy_kcal_mol": 217.5579817891017,
+      "max_constraint_rad": 2.4424906541753444e-15,
+      "kkt_gradient": 1.4574019841184762e-10
+    },
+    {
+      "node": 26,
+      "energy_kcal_mol": 216.9159735293683,
+      "max_constraint_rad": 1.5543122344752192e-15,
+      "kkt_gradient": 1.7010985212807055e-11
+    },
+    {
+      "node": 27,
+      "energy_kcal_mol": 216.27170523035966,
+      "max_constraint_rad": 5.995204332975845e-15,
+      "kkt_gradient": 3.4625041670319646e-11
+    },
+    {
+      "node": 28,
+      "energy_kcal_mol": 215.48462681508465,
+      "max_constraint_rad": 6.661338147750939e-16,
+      "kkt_gradient": 2.4984045716999537e-11
+    },
+    {
+      "node": 29,
+      "energy_kcal_mol": 214.65683676702113,
+      "max_constraint_rad": 3.9968028886505635e-15,
+      "kkt_gradient": 2.5345154145018505e-10
+    },
+    {
+      "node": 30,
+      "energy_kcal_mol": 213.52916266331158,
+      "max_constraint_rad": 1.3322676295501878e-15,
+      "kkt_gradient": 1.747597697383544e-10
+    },
+    {
+      "node": 31,
+      "energy_kcal_mol": 212.22496093959415,
+      "max_constraint_rad": 1.133107779529596e-15,
+      "kkt_gradient": 7.516752896255937e-11
+    },
+    {
+      "node": 32,
+      "energy_kcal_mol": 210.9037749768042,
+      "max_constraint_rad": 6.439293542825908e-15,
+      "kkt_gradient": 5.010622206298054e-11
+    },
+    {
+      "node": 33,
+      "energy_kcal_mol": 209.62606134101722,
+      "max_constraint_rad": 6.439293542825908e-15,
+      "kkt_gradient": 3.263272693769412e-11
+    },
+    {
+      "node": 34,
+      "energy_kcal_mol": 208.42455846895788,
+      "max_constraint_rad": 3.552713678800501e-15,
+      "kkt_gradient": 5.6940158595948366e-11
+    },
+    {
+      "node": 35,
+      "energy_kcal_mol": 207.33015072631886,
+      "max_constraint_rad": 3.1086244689504383e-15,
+      "kkt_gradient": 1.1893958261799094e-11
+    },
+    {
+      "node": 36,
+      "energy_kcal_mol": 206.37482594714004,
+      "max_constraint_rad": 2.4424906541753444e-15,
+      "kkt_gradient": 1.8905616320923348e-11
+    },
+    {
+      "node": 37,
+      "energy_kcal_mol": 205.58947880205167,
+      "max_constraint_rad": 5.10702591327572e-15,
+      "kkt_gradient": 1.7171026926623573e-11
+    },
+    {
+      "node": 38,
+      "energy_kcal_mol": 205.00204557509713,
+      "max_constraint_rad": 2.4492935982947064e-16,
+      "kkt_gradient": 1.184779726104763e-11
+    },
+    {
+      "node": 39,
+      "energy_kcal_mol": 204.636353422398,
+      "max_constraint_rad": 1.0880185641326534e-14,
+      "kkt_gradient": 3.100094812227658e-11
+    },
+    {
+      "node": 40,
+      "energy_kcal_mol": 204.51121410430997,
+      "max_constraint_rad": 4.440892098500626e-16,
+      "kkt_gradient": 1.7259814760532935e-11
+    }
+  ],
+  "II_IV": [
+    {
+      "node": 0,
+      "energy_kcal_mol": 204.51121410431,
+      "max_constraint_rad": 1.1102230246251565e-16,
+      "kkt_gradient": 8.725361022002662e-13
+    },
+    {
+      "node": 1,
+      "energy_kcal_mol": 204.63482672917416,
+      "max_constraint_rad": 1.5057399771478686e-15,
+      "kkt_gradient": 2.1661120788805855e-11
+    },
+    {
+      "node": 2,
+      "energy_kcal_mol": 204.99710797736145,
+      "max_constraint_rad": 9.228728892196614e-15,
+      "kkt_gradient": 3.3323088819187715e-11
+    },
+    {
+      "node": 3,
+      "energy_kcal_mol": 205.58073657688618,
+      "max_constraint_rad": 1.942890293094024e-15,
+      "kkt_gradient": 1.0998244231734923e-11
+    },
+    {
+      "node": 4,
+      "energy_kcal_mol": 206.36287274473858,
+      "max_constraint_rad": 1.2240208846492351e-14,
+      "kkt_gradient": 6.006025614761694e-11
+    },
+    {
+      "node": 5,
+      "energy_kcal_mol": 207.31598939222252,
+      "max_constraint_rad": 4.08006961549745e-15,
+      "kkt_gradient": 1.4780129326144452e-11
+    },
+    {
+      "node": 6,
+      "energy_kcal_mol": 208.40920412737415,
+      "max_constraint_rad": 1.2212453270876722e-15,
+      "kkt_gradient": 1.7152893103687936e-11
+    },
+    {
+      "node": 7,
+      "energy_kcal_mol": 209.61069247359052,
+      "max_constraint_rad": 1.0408340855860843e-14,
+      "kkt_gradient": 2.787369876505317e-10
+    },
+    {
+      "node": 8,
+      "energy_kcal_mol": 210.8903232695414,
+      "max_constraint_rad": 1.609823385706477e-15,
+      "kkt_gradient": 7.549514322366256e-12
+    },
+    {
+      "node": 9,
+      "energy_kcal_mol": 212.21662962635168,
+      "max_constraint_rad": 4.107825191113079e-15,
+      "kkt_gradient": 1.7971827650911332e-10
+    },
+    {
+      "node": 10,
+      "energy_kcal_mol": 213.53510843799876,
+      "max_constraint_rad": 4.163336342344337e-15,
+      "kkt_gradient": 5.3586440561610463e-11
+    },
+    {
+      "node": 11,
+      "energy_kcal_mol": 214.69565613376648,
+      "max_constraint_rad": 1.609823385706477e-15,
+      "kkt_gradient": 6.27700929957062e-11
+    },
+    {
+      "node": 12,
+      "energy_kcal_mol": 215.5590809654824,
+      "max_constraint_rad": 5.440092820663267e-15,
+      "kkt_gradient": 1.992712644419216e-10
+    },
+    {
+      "node": 13,
+      "energy_kcal_mol": 216.34168079208968,
+      "max_constraint_rad": 1.2212453270876722e-15,
+      "kkt_gradient": 1.046303772948223e-11
+    },
+    {
+      "node": 14,
+      "energy_kcal_mol": 216.99088022201266,
+      "max_constraint_rad": 2.7200464103316335e-15,
+      "kkt_gradient": 1.5667927383515836e-10
+    },
+    {
+      "node": 15,
+      "energy_kcal_mol": 217.64435901569678,
+      "max_constraint_rad": 1.1102230246251565e-16,
+      "kkt_gradient": 2.2781567996640088e-11
+    },
+    {
+      "node": 16,
+      "energy_kcal_mol": 218.30538373281365,
+      "max_constraint_rad": 8.881784197001252e-16,
+      "kkt_gradient": 6.317941429210442e-11
+    },
+    {
+      "node": 17,
+      "energy_kcal_mol": 218.96031407130693,
+      "max_constraint_rad": 9.992007221626409e-16,
+      "kkt_gradient": 2.799856834644618e-11
+    },
+    {
+      "node": 18,
+      "energy_kcal_mol": 219.583820974511,
+      "max_constraint_rad": 3.9968028886505635e-15,
+      "kkt_gradient": 1.6132902225391226e-10,
+      "fresh_curvature": 0.055046561243720565
+    },
+    {
+      "node": 19,
+      "energy_kcal_mol": 219.8824166578903,
+      "max_constraint_rad": 1.2212453270876722e-15,
+      "kkt_gradient": 1.99498383414036e-10
+    },
+    {
+      "node": 20,
+      "energy_kcal_mol": 219.94132427878745,
+      "max_constraint_rad": 5.329070518200751e-15,
+      "kkt_gradient": 1.1962336999258439e-11,
+      "fresh_curvature": 0.07328443263000582
+    },
+    {
+      "node": 21,
+      "energy_kcal_mol": 219.90031295512813,
+      "max_constraint_rad": 6.432490598706546e-16,
+      "kkt_gradient": 6.833057588898409e-12
+    },
+    {
+      "node": 22,
+      "energy_kcal_mol": 219.43218354379547,
+      "max_constraint_rad": 2.220446049250313e-15,
+      "kkt_gradient": 4.8718810282505203e-11,
+      "fresh_curvature": 0.07020758950721043
+    },
+    {
+      "node": 23,
+      "energy_kcal_mol": 218.82074066301743,
+      "max_constraint_rad": 2.4424906541753444e-15,
+      "kkt_gradient": 3.4646487013880684e-11
+    },
+    {
+      "node": 24,
+      "energy_kcal_mol": 218.18698867421318,
+      "max_constraint_rad": 6.432490598706546e-16,
+      "kkt_gradient": 8.97900776305607e-11
+    },
+    {
+      "node": 25,
+      "energy_kcal_mol": 217.54901010137334,
+      "max_constraint_rad": 3.3306690738754696e-16,
+      "kkt_gradient": 8.241060218013226e-12
+    },
+    {
+      "node": 26,
+      "energy_kcal_mol": 216.91809068393263,
+      "max_constraint_rad": 1.5314274795707798e-15,
+      "kkt_gradient": 2.6586706092136408e-11
+    },
+    {
+      "node": 27,
+      "energy_kcal_mol": 216.26807481360729,
+      "max_constraint_rad": 4.551914400963142e-15,
+      "kkt_gradient": 5.455815009012611e-10
+    },
+    {
+      "node": 28,
+      "energy_kcal_mol": 215.4920620560535,
+      "max_constraint_rad": 6.432490598706546e-16,
+      "kkt_gradient": 2.3889751194677477e-11
+    },
+    {
+      "node": 29,
+      "energy_kcal_mol": 214.68617300569434,
+      "max_constraint_rad": 3.1086244689504383e-15,
+      "kkt_gradient": 4.2864083270911417e-10
+    },
+    {
+      "node": 30,
+      "energy_kcal_mol": 213.5837381369466,
+      "max_constraint_rad": 6.432490598706546e-16,
+      "kkt_gradient": 9.521899099765731e-12
+    },
+    {
+      "node": 31,
+      "energy_kcal_mol": 212.26635657684,
+      "max_constraint_rad": 2.4492935982947064e-16,
+      "kkt_gradient": 6.536680030373756e-11
+    },
+    {
+      "node": 32,
+      "energy_kcal_mol": 210.9395481749964,
+      "max_constraint_rad": 6.432490598706546e-16,
+      "kkt_gradient": 3.9184829354525484e-11
+    },
+    {
+      "node": 33,
+      "energy_kcal_mol": 209.65528187554185,
+      "max_constraint_rad": 2.021286199229721e-15,
+      "kkt_gradient": 2.7595921530552412e-11
+    },
+    {
+      "node": 34,
+      "energy_kcal_mol": 208.4466579658934,
+      "max_constraint_rad": 2.6645352591003757e-15,
+      "kkt_gradient": 8.835108640094144e-11
+    },
+    {
+      "node": 35,
+      "energy_kcal_mol": 207.34568609124506,
+      "max_constraint_rad": 2.9094646189298464e-15,
+      "kkt_gradient": 4.443125813024612e-11
+    },
+    {
+      "node": 36,
+      "energy_kcal_mol": 206.38469713808024,
+      "max_constraint_rad": 1.133107779529596e-15,
+      "kkt_gradient": 1.6432812880052834e-11
+    },
+    {
+      "node": 37,
+      "energy_kcal_mol": 205.59473468484777,
+      "max_constraint_rad": 3.552713678800501e-15,
+      "kkt_gradient": 6.340653265601593e-11
+    },
+    {
+      "node": 38,
+      "energy_kcal_mol": 205.00405799376438,
+      "max_constraint_rad": 3.3077843189710302e-15,
+      "kkt_gradient": 1.3034248178485656e-10
+    },
+    {
+      "node": 39,
+      "energy_kcal_mol": 204.63671223768705,
+      "max_constraint_rad": 4.440892098500626e-16,
+      "kkt_gradient": 4.225635099322043e-12
+    },
+    {
+      "node": 40,
+      "energy_kcal_mol": 204.51121410431008,
+      "max_constraint_rad": 4.440892098500626e-16,
+      "kkt_gradient": 1.7794069231464983e-10
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "energy_kcal_mol": 213.58373813694686,
+  "constraint_residual_rad": [
+    -3.3077843189710302e-15,
+    7.771561172376096e-15,
+    1.3322676295501878e-15,
+    7.771561172376096e-16,
+    2.4492935982947064e-16,
+    3.774758283725532e-15
+  ],
+  "max_constraint_rad": 7.771561172376096e-15,
+  "constraint_rank": 6,
+  "internal_dimension": 291,
+  "tangent_dimension": 285,
+  "constraint_singular_values": [
+    3.0766113483730284,
+    1.944648322865292,
+    1.9431331559426395,
+    1.5663740904893366,
+    1.5548744311518425,
+    1.3607114999413934
+  ],
+  "rigid_jacobian_leakage": 5.691967768954202e-17,
+  "multipliers_kcal_mol_per_rad": [
+    3.929184804490556,
+    -6.95205342414166,
+    8.343069536727906,
+    -3.411922734341842,
+    3.784394016664885,
+    -7.196305256619406
+  ],
+  "bare_gradient_max_atomic_norm": 16.055315527114246,
+  "kkt_gradient_max_atomic_norm": 1.5762376994201615e-10,
+  "tangent_gradient_max_atomic_norm": 1.5762369162257936e-10,
+  "tangent_gradient_l2_norm": 4.324416626713056e-10,
+  "independent_jacobian_finite_difference_max_error": 2.830482515037147e-10,
+  "jacobian_finite_difference_step_A": 1e-06,
+  "independent_vs_solver_jacobian_max_error": 3.3306690738754696e-16,
+  "curvature_step_checks": [
+    {
+      "both_hessian_difference_steps_A": 0.0001,
+      "lowest_tangent_curvatures": [
+        0.0337073522615202,
+        0.09309563392167428,
+        0.2631880436873685,
+        0.427427603882201,
+        0.5808800865148904,
+        0.7335778325741504,
+        0.8961349897604113,
+        1.2852580928192237,
+        1.3491216917557949,
+        1.5444236901298591,
+        1.7357336032506088,
+        1.8757408765046957
+      ],
+      "negative_tangent_modes": 0,
+      "smallest_abs_tangent_curvature": 0.0337073522615202,
+      "constraint_hessian_frobenius_norm": 96.81531706558017,
+      "bare_hessian_relative_asymmetry": 2.4312422156296897e-08,
+      "constraint_hessian_relative_asymmetry": 2.109010084473056e-08
+    },
+    {
+      "both_hessian_difference_steps_A": 5e-05,
+      "lowest_tangent_curvatures": [
+        0.03370787557864384,
+        0.0930958269604306,
+        0.2631890084206881,
+        0.4274286468092185,
+        0.580881491745848,
+        0.7335791560701661,
+        0.8961365306525703,
+        1.2852597187484132,
+        1.3491230992363255,
+        1.5444242898777005,
+        1.7357346421986963,
+        1.8757416625606376
+      ],
+      "negative_tangent_modes": 0,
+      "smallest_abs_tangent_curvature": 0.03370787557864384,
+      "constraint_hessian_frobenius_norm": 96.81531704744093,
+      "bare_hessian_relative_asymmetry": 6.077954735512696e-09,
+      "constraint_hessian_relative_asymmetry": 5.2717980146395576e-09
+    }
+  ],
+  "lowest_tangent_curvature_step_change": 5.233171236421197e-07,
+  "energy_only_feasible_curvature_checks": [
+    {
+      "direction": "lowest_lagrangian_mode",
+      "lagrangian_curvature": 0.033707875578773874,
+      "bare_energy_curvature": 0.038164209742010825,
+      "constraint_curvature_contribution": -0.004456334163236951,
+      "energy_only_feasible_second_differences": [
+        {
+          "step_A_in_unit_norm_direction": 0.002,
+          "curvature": 0.03370921319856279,
+          "error_from_lagrangian_curvature": 1.3376197889186647e-06,
+          "max_constraint_rad": 1.0547118733938987e-15
+        },
+        {
+          "step_A_in_unit_norm_direction": 0.001,
+          "curvature": 0.033707578950270545,
+          "error_from_lagrangian_curvature": -2.966285033295657e-07,
+          "max_constraint_rad": 7.771561172376096e-16
+        }
+      ]
+    },
+    {
+      "direction": "largest_absolute_constraint_curvature",
+      "lagrangian_curvature": 1049.2094597752136,
+      "bare_energy_curvature": 1027.083411341434,
+      "constraint_curvature_contribution": 22.126048433779715,
+      "energy_only_feasible_second_differences": [
+        {
+          "step_A_in_unit_norm_direction": 0.002,
+          "curvature": 1049.2136841975253,
+          "error_from_lagrangian_curvature": 0.004224422311608578,
+          "max_constraint_rad": 4.996003610813204e-16
+        },
+        {
+          "step_A_in_unit_norm_direction": 0.001,
+          "curvature": 1049.210514565857,
+          "error_from_lagrangian_curvature": 0.0010547906433657772,
+          "max_constraint_rad": 6.661338147750939e-16
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "exact_angles_within_tolerance": true,
+    "kkt_stationarity": true,
+    "tangent_stationarity": true,
+    "expected_dimensions": true,
+    "finite_difference_jacobian_agrees": true,
+    "rigid_invariance": true,
+    "positive_resolved_tangent_curvature_at_both_steps": true,
+    "hessian_symmetry": true,
+    "solver_and_independent_jacobians_agree": true,
+    "energy_only_feasible_curvature_agrees": true
+  },
+  "tolerances": {
+    "constraint_rad": 1e-08,
+    "gradient_max_atomic_norm": 0.0001,
+    "tangent_curvature": 0.0001
+  },
+  "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+  "input_result": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_II_IV_075/result.json",
+  "input_sha256": "36be18344c7ec7b21125ffb086a4481769a833d906341e4e47b3b593bb17abf2",
+  "audit_source_sha256": "d2d224ba4ebfd623f771f698824e2bf3b511a56ca47cc079062152de81a3ebbe",
+  "elapsed_seconds": 0.9816211759971338,
+  "provenance": {
+    "source_path": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/revalidate.py",
+    "source_sha256": "f89d8f862bcba85024fcabe889d15903fa2b67a69cdcc2d88d68700663996b4b",
+    "reference_path": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/refs.json",
+    "reference_sha256": "3e3cef9fa3007e91af21687c60bd8d1c0b5bc9857f4c7d262d31c167f7b74587",
+    "graph_sha256": "7c80e4ae6cf67f890963527828c93c745cf8e1ee3a3580a31c1f0c8c4620e6ae",
+    "terminal_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/terminal_results_1794501111549909551/validation.json",
+    "terminal_validation_sha256": "ea84b9967de0e0fb59f0f7a8da07d72d824de50b08c9da60fce605b3ef354af8",
+    "paired_central_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/results_local/validation.json",
+    "paired_central_validation_sha256": "3d019bce28658ce192c568d7be23cecf422e523dfa6437ae1b34f8e8966c1f50",
+    "latest_central_validation": "/workspace/scratch/e38f80eb67c5/copy_test/riemannian_propellers/lindner_revalidate.aXgRZFrH/results_local/validation.json",
+    "latest_central_validation_sha256": "3d019bce28658ce192c568d7be23cecf422e523dfa6437ae1b34f8e8966c1f50"
+  }
+}

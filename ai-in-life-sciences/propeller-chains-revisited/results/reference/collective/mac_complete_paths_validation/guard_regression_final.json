@@ -1,0 +1,249 @@
+{
+  "status": "ALL_GUARD_CHECKS_PASSED",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06",
+  "checks": [
+    {
+      "name": "baseline_cached_nodes_and_sequential_schema",
+      "passed": true,
+      "evidence": {
+        "checked_forward_nodes": 41,
+        "saved_sequential_height_kcal_mol": 7.40399469869044,
+        "invalid_saved_runner_ignored": true,
+        "fresh_curvature_nodes": [
+          18,
+          20,
+          22
+        ]
+      },
+      "elapsed_seconds": 2.749523290003708
+    },
+    {
+      "name": "python311_AST_shape_compatibility",
+      "passed": true,
+      "evidence": {
+        "empty_type_params_removed": 21,
+        "scope": "Simulated Python3.11 AST field absence; executed runtime is recorded above."
+      },
+      "elapsed_seconds": 0.03944288499769755
+    },
+    {
+      "name": "cosmetic_source_with_matching_recorded_digest_accepted",
+      "passed": true,
+      "evidence": {
+        "known_semantic_version_accepted": true,
+        "source_sha256": "8e26ce7b49cc54ffbb1605d30bac2d0d9ecdf7f9d77648eabeedd89c0b208cab"
+      },
+      "elapsed_seconds": 0.30755803200008813
+    },
+    {
+      "name": "stale_recorded_source_digest_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "The node-run source differs from its recorded hash.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.048277509995386936
+    },
+    {
+      "name": "executable_change_even_with_refreshed_digest_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This node solver is a different executable version; no calculation was started.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.08858560299995588
+    },
+    {
+      "name": "incomplete_saved_study_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This continuation needs the completed 41-node study.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.05126864700287115
+    },
+    {
+      "name": "coarse_smoke_grid_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This continuation needs the completed 41-node study.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.055943802995898295
+    },
+    {
+      "name": "mismatched_original_input_provenance_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Original input provenance changed: reference_sha256",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.17727208400174277
+    },
+    {
+      "name": "branch_vs_parent_summary_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node-branch report is incomplete or changed: I_III_forward",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.1797279510064982
+    },
+    {
+      "name": "coordinate_record_vs_NPZ_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node records disagree: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.4896820100038894
+    },
+    {
+      "name": "consistent_changed_coordinates_fail_current_force_checks",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Current node force or constraint check failed: I_III 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.6807692820002558
+    },
+    {
+      "name": "changed_target_input_hash_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Collective target inputs changed: I_III",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.7875458909984445
+    },
+    {
+      "name": "changed_target_winding_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved branch winding changed.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2084831809988827
+    },
+    {
+      "name": "negative_saved_node_curvature_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved constrained-minimum checks failed: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2040012959987507
+    },
+    {
+      "name": "consistent_parent_and_branch_row_vs_node_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Branch row and node record disagree: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.3611712700003409
+    },
+    {
+      "name": "changed_reverse_branch_progress_grid_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved branch progress grid differs: I_III_reverse",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.28471994099527365
+    },
+    {
+      "name": "changed_node_target_torsions_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node torsion target differs: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2953867120013456
+    },
+    {
+      "name": "final_numerical_core_matches_complete_run_source",
+      "passed": true,
+      "evidence": {
+        "unchanged_function_count": 11,
+        "functions": [
+          "follow_branch",
+          "retract",
+          "proper_same_identity_fit",
+          "probe_curve",
+          "feasible_descent",
+          "connect_from_constrained_saddle",
+          "dense_feasible_polyline",
+          "read_block",
+          "assemble_blocks",
+          "same_identity_rmsd",
+          "construct_path"
+        ],
+        "four_quantized_connector_seeds_unchanged": true,
+        "full_numerical_run_source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+        "final_source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06"
+      },
+      "elapsed_seconds": 0.10770620800030883
+    },
+    {
+      "name": "final_compact_formatter_uses_actual_connectors_and_finite_baseline",
+      "passed": true,
+      "evidence": {
+        "connector_count": 4,
+        "path_counts": {
+          "I_III": 1527,
+          "II_IV": 1588
+        },
+        "finite_sequential_path_reference": 7.40399469869044,
+        "compact_output_saved": true
+      },
+      "elapsed_seconds": 0.30529033199854894
+    },
+    {
+      "name": "inconsistent_saved_sequential_finite_maximum_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved sequential finite-path maximum is inconsistent.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.2912789980036905
+    },
+    {
+      "name": "missing_final_paste_marker_rejected",
+      "passed": true,
+      "evidence": {
+        "returncode": 1,
+        "message": "Stopped: The file was not completely copied.\nExisting node results were preserved."
+      },
+      "elapsed_seconds": 0.5108514780004043
+    },
+    {
+      "name": "existing_output_directory_rejected_without_changes",
+      "passed": true,
+      "evidence": {
+        "returncode": 1,
+        "existing_output_preserved": true,
+        "new_files": 0
+      },
+      "elapsed_seconds": 3.2988883610014454
+    }
+  ],
+  "scope": "Local isolated schema fixtures; no Mac execution or access.",
+  "elapsed_seconds": 18.539662096001848
+}

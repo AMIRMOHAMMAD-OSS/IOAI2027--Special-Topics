@@ -1,0 +1,25 @@
+{
+  "primary_references": {
+    "I_III": "results/reference/collective/I_III",
+    "II_IV": "results/reference/collective/II_IV"
+  },
+  "source_block_locations": {
+    "I_III_forward_40": "results/reference/collective/node_studies/I_III_forward_40",
+    "I_III_reverse_40": "results/reference/collective/node_studies/I_III_reverse_40",
+    "II_IV_forward_40": "results/reference/collective/node_studies/II_IV_forward_40",
+    "II_IV_reverse_40": "results/reference/collective/node_studies/II_IV_reverse_40",
+    "I_III_outer_left": "results/reference/collective/path_components/I_III_outer_left",
+    "I_III_fixed04675_bridge/verified_connector_v2": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2",
+    "I_III_middle_left": "results/reference/collective/path_components/I_III_middle_left",
+    "I_III_middle_right": "results/reference/collective/path_components/I_III_middle_right",
+    "I_III_fixed0525_bridge/verified_connector_v2": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2",
+    "I_III_outer_right": "results/reference/collective/path_components/I_III_outer_right",
+    "II_IV_outer_left_to046": "results/reference/collective/path_components/II_IV_outer_left_to046",
+    "II_IV_fixed046_bridge/connector_0": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0",
+    "II_IV_middle_left": "results/reference/collective/path_components/II_IV_middle_left",
+    "II_IV_middle_right_to0525": "results/reference/collective/path_components/II_IV_middle_right_to0525",
+    "II_IV_fixed0525_bridge/verified_connector_v2": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2",
+    "II_IV_outer_right_to0525": "results/reference/collective/path_components/II_IV_outer_right_to0525"
+  },
+  "original_paths_in_raw_reports": "Retained verbatim as provenance. Use this index and source_manifest.json for the corresponding repository files."
+}

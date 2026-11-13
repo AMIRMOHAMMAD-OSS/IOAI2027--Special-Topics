@@ -1,0 +1,1926 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-12T22:10:41.980461+00:00",
+  "files": [
+    {
+      "repository_path": "results/reference/standalone_sequential_summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/sequential_summary.json",
+      "sha256": "ebdabd00bb7c40697280f37ef3cbee860ec73cb20d343cf1f2d6631d2fa251cd",
+      "size_bytes": 489947,
+      "role": "Fresh selected-route standalone reproduction, paired with its complete trajectory"
+    },
+    {
+      "repository_path": "results/reference/standalone_sequential_integration.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/integration_check.json",
+      "sha256": "90f22e8c18fb0fa4c6781d5a58e158b8aa7f312ba6c54ef7c2e69479b45683ca",
+      "size_bytes": 3955,
+      "role": "Thirteen stationary landmarks, six saddles, fixed-identity joins and dense path integration checks"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_AC.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_AC.json",
+      "sha256": "441205f31207e77ad5fa1ad47be0a9df4c6b0431927ffb501eeae970ab44afe4",
+      "size_bytes": 45174,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_CP.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_CP.json",
+      "sha256": "b828b4f1b3c2655b8040846c0c9d5a14e104753d993a836ff49b466807710af2",
+      "size_bytes": 45251,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_PQ.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_PQ.json",
+      "sha256": "cf34ab2ce5942a5917824cb4f67fb4dc5fbda0c22c1db5a84b53afdedbb73e0b",
+      "size_bytes": 45198,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_QD.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_QD.json",
+      "sha256": "5b352f3b0207c750e554f60adbe7aef2f598a1a57268b863b79f51173ff9c489",
+      "size_bytes": 45198,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_DM.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_DM.json",
+      "sha256": "f4f83c88809ac0bf1163d0c43fb96c1772aaa3b8f4265aaf397d10cfa4220b85",
+      "size_bytes": 45125,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/sequential_edges/TS_MB.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/TS_MB.json",
+      "sha256": "84f15b1119dbf2ff599ca1280ade9324fb6325528c3e68bcb068be0ce13a1b46",
+      "size_bytes": 45199,
+      "role": "Selected sequential saddle and both descending endpoint records"
+    },
+    {
+      "repository_path": "results/reference/network_full.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/completion_20261112/root_audit/reflection_final/checked_network.json",
+      "sha256": "48a6b694b49713229bf9af0ce71bdd43c6f767abcd293ea73c6beec9b91c01dd",
+      "size_bytes": 3353315,
+      "role": "Full historical bounded graph, including stationary coordinates; public reproduction repeats selected paths, not this search"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/branch.json",
+      "sha256": "1db18a1c0006e3efbc396e6144c0d1c76d81a265194d374e2bfed3cfabf78c37",
+      "size_bytes": 24888,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/nodes.npz",
+      "sha256": "1d4a3a5fe139d1cd2f5367e39b2a84a14c059db7b1696175c8a2390c8ab97379",
+      "size_bytes": 95677,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_000.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_000/result.json",
+      "sha256": "f8674aa45f05b1b5fc8c0c15a538ece861bcf73d622c81c3717cc673040420d4",
+      "size_bytes": 26834,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_001.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_001/result.json",
+      "sha256": "1457c46dbc24acffc246c5be7c1c432f1e2b6de3de55c565055ecb7925703fe2",
+      "size_bytes": 27231,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_002.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_002/result.json",
+      "sha256": "5aa0796c375dbb6a7528b89429861791eddfed9c112d4a3874fec80c92821753",
+      "size_bytes": 27167,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_003.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_003/result.json",
+      "sha256": "fd10ea30f0fac21f9619cf5084eb7cf1d18a954b03b6a0033c8b44d48a976e20",
+      "size_bytes": 27121,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_004.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_004/result.json",
+      "sha256": "bf5ef22c49884a1c68e6f179fc2d855ee36dbe82c6df6846b729669853494654",
+      "size_bytes": 27216,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_005.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_005/result.json",
+      "sha256": "0507b5c283a95fa3925016f41647078bd23584a08488ea175503a31598167a97",
+      "size_bytes": 27207,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_006.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_006/result.json",
+      "sha256": "02f6cb3d11bb662e7db88f79f39684fe9f25e864d9397cf4af73bcb71683dd96",
+      "size_bytes": 27164,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_007.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_007/result.json",
+      "sha256": "dc97bfc7e667f4206f646538ebf2ca79a2290a08153481e466d30fb2ef462480",
+      "size_bytes": 27223,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_008.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_008/result.json",
+      "sha256": "77d2fa779b8ce4fad7b52dc0eb3b7001cce68bc42ec3b9c6b03556b2ba7516d3",
+      "size_bytes": 27217,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_009.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_009/result.json",
+      "sha256": "e4fd78ab83b5e9f5c68542f992cf946f04686980753a0b518d87f9843b5963dd",
+      "size_bytes": 27115,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_010.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_010/result.json",
+      "sha256": "0d36e02263641af0c07642a4ca1fd9811d9174da8c39bf65a7df4c660f47f89e",
+      "size_bytes": 27222,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_011.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_011/result.json",
+      "sha256": "b2571c871a8b01239db55ff17cb1658259399f52eda6590274673a73985c8f11",
+      "size_bytes": 27208,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_012.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_012/result.json",
+      "sha256": "f989fa5ea863f1d822b80f34be8de811c30e8c23f91aecc4b9afd8c43ff68936",
+      "size_bytes": 27204,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_013.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_013/result.json",
+      "sha256": "8760ac500e736427b126bbbc2b2af1f8e9337e5559aafcf49f517fe93ec0857a",
+      "size_bytes": 27193,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_014.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_014/result.json",
+      "sha256": "4ce62ba1a1646e6d00d9bb51d924b1aba5cc48b8f9e340f84c4833bc47f13677",
+      "size_bytes": 27212,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_015.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_015/result.json",
+      "sha256": "fcec3ad362dec6d9dd64c61cd021dd89b43990842c6bfa65ba3971d6380bd0e4",
+      "size_bytes": 27172,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_016.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_016/result.json",
+      "sha256": "95baebe160b5458783961444c62cd34ae042fef589bcd6ea66938d9df026e89c",
+      "size_bytes": 27220,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_017.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_017/result.json",
+      "sha256": "becf5b44fba032a7e9c9a6f9c4d5baec0c2ae04649bd249d008b2fa1ea9f2b53",
+      "size_bytes": 27236,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_018.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_018/result.json",
+      "sha256": "f28fcadaed464aa25ba0f13bcac2a4de7afa58ad04085fd50efc55d427e3ca63",
+      "size_bytes": 27249,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_019.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_019/result.json",
+      "sha256": "7fecd7de1ce073007d7c997cb32b7d7e553cd2fb47c33fa4843e78a6f1da20f5",
+      "size_bytes": 27248,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_020.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_020/result.json",
+      "sha256": "66a12b088828d6f6aa21d17be002e8bff6e61b93cf85eb39da6de8b37ff74236",
+      "size_bytes": 27260,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_021.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_021/result.json",
+      "sha256": "40ef5c4fc99f1c12b1c6f25b0be78cc8da4361818f484fd5c5d75acb034ebbf1",
+      "size_bytes": 27213,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_022.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_022/result.json",
+      "sha256": "32bc3c60fe7e85cc673c93b664568428f05d4bb9947066508fad337af7fb1ef7",
+      "size_bytes": 27227,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_023.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_023/result.json",
+      "sha256": "ab022e2b018416e71674545060ef1eafdd47ad80f9ba84bc221026729d2390bb",
+      "size_bytes": 27216,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_024.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_024/result.json",
+      "sha256": "1a8994738375bc0784aa2fe7c2fd5a26a47cba8d5b0579e563e5b32c906282f0",
+      "size_bytes": 27191,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_025/result.json",
+      "sha256": "8d1834a8abd775f85338d391e0fa03aa168599f52810d246170762badc121d8d",
+      "size_bytes": 27219,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_026.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_026/result.json",
+      "sha256": "a57f9a2c3a980e17f429faecad1c0f2b136ffadd829442138423915af2bca25d",
+      "size_bytes": 27189,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_027.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_027/result.json",
+      "sha256": "1281f9c5deae639c086287c788e2cacad9a7f37fe24369df4fd55eee6992b951",
+      "size_bytes": 27266,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_028.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_028/result.json",
+      "sha256": "0cc7e40ae46cb6c80ec48069155b45edcbb4ce5d59e3ddcae28c238de42c42d9",
+      "size_bytes": 27189,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_029.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_029/result.json",
+      "sha256": "0c42b0e49ae1b9c7c3c9b452799267ec723d345a84833d82c5cfdf04f5e1127e",
+      "size_bytes": 27248,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_030.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_030/result.json",
+      "sha256": "98ec763a99898aa600804d6a1cfd9d292cc8fc9057fbf464c63d3ddeb2a352bb",
+      "size_bytes": 27210,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_031.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_031/result.json",
+      "sha256": "1ce84fdaac1452c5dfb843dd3ed0cd92749beed92342ea22b2dbcc8c24283229",
+      "size_bytes": 27243,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_032.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_032/result.json",
+      "sha256": "23615171b5d04b662afe0c5c48a3c5fc132ab6b836e2ca841dd4862ed45ffd53",
+      "size_bytes": 27259,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_033.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_033/result.json",
+      "sha256": "083ba12be715388cef94f2f09b1f98fbd946e5b53903f09b9df88591db822408",
+      "size_bytes": 27218,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_034.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_034/result.json",
+      "sha256": "51cae7cc6680199731c950ea921b9f8b6e75c7a90052adf1b97e850329b2403a",
+      "size_bytes": 27227,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_035.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_035/result.json",
+      "sha256": "7d15cd46e1ec011fd4717ee087490381ac93e6797723a6612f8d5b552c0a8ce6",
+      "size_bytes": 27229,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_036.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_036/result.json",
+      "sha256": "d89058cb307b3f9a4c8d3c11db726a5f9bd45bfcbb935fdc97f46a97fb0e612a",
+      "size_bytes": 27210,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_037.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_037/result.json",
+      "sha256": "352fda2848862639e994809f4ffef10517bcdc18e5f31e9ea198010bcef8f826",
+      "size_bytes": 27202,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_038.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_038/result.json",
+      "sha256": "04f06879fb396ba27845ec3c501bf5439b91774274f113d92b442726309f7cf4",
+      "size_bytes": 27117,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_039.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_039/result.json",
+      "sha256": "5fe1091dfc070481b11130551bf0bd4885b41956da6428e6f4692f2d04937236",
+      "size_bytes": 27218,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_forward_40/node_040.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_forward_40/node_040/result.json",
+      "sha256": "9a88d3270e77f38e3b6a4c2894b3f18cd8e95f9f2203c75c646d4e459173053a",
+      "size_bytes": 27271,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/branch.json",
+      "sha256": "bdeee3f2faf7bbea1afec8fcb8fcf4c3c9e55d460ec84735898298f970795ebe",
+      "size_bytes": 24884,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/nodes.npz",
+      "sha256": "3bec0011060735ab4c08c94adbf005e3203dbf18ab019438ed457660041c2dd1",
+      "size_bytes": 95134,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_000.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_000/result.json",
+      "sha256": "5a2cc3ca8ac1dd053546efee0f64f26736cb36a34e15ea8dbef45b3030a8edcb",
+      "size_bytes": 27051,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_001.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_001/result.json",
+      "sha256": "fb9b84d36ea6cda0b4af0d4b4ece709f491197b83abc06c1cad698622b1fe254",
+      "size_bytes": 27247,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_002.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_002/result.json",
+      "sha256": "c37c094a54907e557798def03a693e547a4b90ec7bfcf3731c72f1969c4a94a9",
+      "size_bytes": 27264,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_003.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_003/result.json",
+      "sha256": "e6bc2f3e72f8d3994bd2c392c8f075735ff80c770499f5676d23173bad6e7b25",
+      "size_bytes": 27226,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_004.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_004/result.json",
+      "sha256": "ff6c5f304c2c8065a467fe9a826fd67f3ade2ff96172794a43d434ad02d70daa",
+      "size_bytes": 27231,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_005.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_005/result.json",
+      "sha256": "420973017d92c64cd8f96bb13c1a13205e521bb3a10e28d7f5f8e6fa75316c53",
+      "size_bytes": 27209,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_006.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_006/result.json",
+      "sha256": "e2a41ed5508eccccfbfe499796cf52c24a2ce3cffc938af06fc7a6a692222434",
+      "size_bytes": 27232,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_007.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_007/result.json",
+      "sha256": "0aea81692b07b001b8ba7df0759499d07e13f41ece93255bfa78763a842db2b1",
+      "size_bytes": 27218,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_008.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_008/result.json",
+      "sha256": "3745805c0a82270dd3d2fb4a18a0296d9de05dd628a3bd43872554c38f04c872",
+      "size_bytes": 27190,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_009.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_009/result.json",
+      "sha256": "f9396a1a40346b64e3a7a8fad8b3e13d8385369108622188e5a4e2b900794fe0",
+      "size_bytes": 27197,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_010.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_010/result.json",
+      "sha256": "862c585a555355f1d2edc7514fd33fba79f6b9445cd62e6c53f12ebb93bc9ba1",
+      "size_bytes": 27220,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_011.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_011/result.json",
+      "sha256": "a563f5ddd09854c8ff470651dc903abb08622aed83f5bd55094f847f392fc06c",
+      "size_bytes": 27225,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_012.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_012/result.json",
+      "sha256": "687b51264cee0a6a9b43969b77bae4d15a4eb2ae029a5bcf54aaec8276fd9e92",
+      "size_bytes": 27209,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_013.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_013/result.json",
+      "sha256": "73bd72c2f18863e83c685433d85430f6a9804476de110e547e25823ff0b5ed1c",
+      "size_bytes": 27235,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_014.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_014/result.json",
+      "sha256": "548d6327c3a27ca460bcddc9db25bdaa6af186d845e4c54f9d710613e568484e",
+      "size_bytes": 27197,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_015.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_015/result.json",
+      "sha256": "cabb8e5bb1c763e477e86afbad9684917fac3fa8dbd4cd0b7979ed4bbf435d16",
+      "size_bytes": 27191,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_016.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_016/result.json",
+      "sha256": "cfcc380788eb8af84c13acaa5144f19eab46fcc8b02da54c88ffd9d5bcbc6643",
+      "size_bytes": 27180,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_017.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_017/result.json",
+      "sha256": "827b43807df45e45df1e935e8fd315cb732e8bdc259cf93f81431f9462976420",
+      "size_bytes": 27188,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_018.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_018/result.json",
+      "sha256": "1da68091e5b1c6e83ae713367d86a9b56b4a5270c3951164c935eb186be01adc",
+      "size_bytes": 27205,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_019.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_019/result.json",
+      "sha256": "601ebe15ff292914040850f579a4beef52403fed050ca12a087f3bfab89e515a",
+      "size_bytes": 27235,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_020.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_020/result.json",
+      "sha256": "e07b24d0d8d49d7937d168f34dfe767ce82a115ae5f17ac09d8003b553e59d38",
+      "size_bytes": 27247,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_021.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_021/result.json",
+      "sha256": "06dfcecdf6a4df64e3b78396dfcd8d2303652d534d464940016c4b79e1e04f69",
+      "size_bytes": 27254,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_022.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_022/result.json",
+      "sha256": "35cd3f19e4d671a8aa9063d570f425aa3829911f6ac5710295808855ea12b261",
+      "size_bytes": 27201,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_023.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_023/result.json",
+      "sha256": "e818b945944634fc1d5ff9eb656982cb7471535f37b564d7d8c9c5c1add4e0a8",
+      "size_bytes": 27217,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_024.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_024/result.json",
+      "sha256": "1c7fe63336afea2c57b55f69ccc9e8e2da5e90d37add1d135dc7dab6e56b967d",
+      "size_bytes": 27200,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_025/result.json",
+      "sha256": "37f925b306fdddf0c9a92e9aa1fdf0f35d5f00bd1eb70e7a120875f71ce6cbbb",
+      "size_bytes": 27204,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_026.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_026/result.json",
+      "sha256": "a453bc4f519928193aa21444a24d745a070921d7e010c3f1400772e04d394658",
+      "size_bytes": 27230,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_027.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_027/result.json",
+      "sha256": "c3542fc9002aa53810b81c425a9e9995604ac8089bb086aa98f84accc048780d",
+      "size_bytes": 27195,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_028.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_028/result.json",
+      "sha256": "33f9bb390efc6d2e672d2541fff66478cf8302d2e320c2d135d279399a1e9846",
+      "size_bytes": 27214,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_029.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_029/result.json",
+      "sha256": "d388082b878162653e8eb611936005d024f71be47d609bb2d49e4ef85c3bc3fb",
+      "size_bytes": 27254,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_030.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_030/result.json",
+      "sha256": "9105b6f8619ca94e75029890bf0afb5fe763e695422ec7cebead9a04d698014e",
+      "size_bytes": 27219,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_031.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_031/result.json",
+      "sha256": "c9664be5bff3184efb8a496d09e03efbd875001de2fcc21e2bae2477149289a7",
+      "size_bytes": 27154,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_032.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_032/result.json",
+      "sha256": "ba0e44d0b4c1b282b47f057adf111e3ad0eb792c33ce0adf15aa8dbe989ed037",
+      "size_bytes": 27209,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_033.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_033/result.json",
+      "sha256": "b0fb2dd7da849b9f6e148d85307fcf2b035ee073bf02f45c925a5c1ab526ee7f",
+      "size_bytes": 27160,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_034.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_034/result.json",
+      "sha256": "0f12df41238fa22121f7ce9617f11d66ce4d9ebafce200700eeb6710a6cfabc9",
+      "size_bytes": 27155,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_035.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_035/result.json",
+      "sha256": "7a25796bc48895f26917b190017c2f9338439de4ed72ac479ae277b1712f5f52",
+      "size_bytes": 27219,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_036.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_036/result.json",
+      "sha256": "c5204e5289738a72b36ec5836d8dac2c7534888f455c5ee10df908947ef474ee",
+      "size_bytes": 27167,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_037.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_037/result.json",
+      "sha256": "0bd4705298332beed7bba7999ff431f53d28645e20ba2367e342d3b6da246be0",
+      "size_bytes": 27268,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_038.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_038/result.json",
+      "sha256": "c6d892d29fc9016e9ca24ec6cdad1e5726a3418cf113bbad801a15380dcad5eb",
+      "size_bytes": 27117,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_039.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_039/result.json",
+      "sha256": "4e968dcf2db7112fac9d85fe33537856f3356da8d2d9b9085585a9a70be2eb8c",
+      "size_bytes": 27208,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/I_III_reverse_40/node_040.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_reverse_40/node_040/result.json",
+      "sha256": "0e836706c6212f907d61439615f11cc16d212a7daa09db98e1b4c409f69d9490",
+      "size_bytes": 27277,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/branch.json",
+      "sha256": "58e62a9d7a54a3e5d12f1e79cf7433be6247517c418b013b4d7f90588f2dae4b",
+      "size_bytes": 36882,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/nodes.npz",
+      "sha256": "11cd30f9b82292fbbe09431a5701382472c84fce97198e6aa72d3505b08a7e1f",
+      "size_bytes": 95680,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_000.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_000/result.json",
+      "sha256": "0ac9dfd2b93128dc5ec761910cbe9fede17f57e129b3faf5b84e5bace60ac8fb",
+      "size_bytes": 26834,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_001.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_001/result.json",
+      "sha256": "724599f5f88eb66c753bf16384f515494e16ef4e06aa0831666146c4399ae4a9",
+      "size_bytes": 27168,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_002.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_002/result.json",
+      "sha256": "1f4981fda576bba6eb90acd8b96bb24ec97e42a9cf3d68263a5e348b40b50b04",
+      "size_bytes": 27200,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_003.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_003/result.json",
+      "sha256": "e0a3fcfbbda8a75c26af5d22f800d6f6b8d4934f45af61fb2fdb3001f2a12ed4",
+      "size_bytes": 27173,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_004.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_004/result.json",
+      "sha256": "43f2c30071b993eb6af0623f035a088a42aeddc65cc6233995ea3fdcaead2d7b",
+      "size_bytes": 27204,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_005.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_005/result.json",
+      "sha256": "90a1a0846c0bbe9eb80bed5c1aaa1d70ac6a3dc4a2570df4bcdfafa2c0972daa",
+      "size_bytes": 27164,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_006.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_006/result.json",
+      "sha256": "a270a95a733f2a5f4eaaf3f1454838d36679e5a2739f7adaf5a27534afd8bd67",
+      "size_bytes": 27195,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_007.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_007/result.json",
+      "sha256": "e180b22e065ea2749254bc65ffba04957ba591c0b520a685bee4807ec71977a0",
+      "size_bytes": 27230,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_008.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_008/result.json",
+      "sha256": "d697c74849741153d205fa870c9cfb63d3aa9a0490ce510ef0cf6a7a2f592ecd",
+      "size_bytes": 27178,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_009.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_009/result.json",
+      "sha256": "89a72fc56c3208495ed0fe9fc479e4fa2d5cc7e2ae7af0cda2bf2e3b3a69fa7f",
+      "size_bytes": 27243,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_010.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_010/result.json",
+      "sha256": "162a1f13e2342ce2203e0ad3fe287f634a9e50894d054d0ec13695ef3cc55bd8",
+      "size_bytes": 27241,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_011.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_011/result.json",
+      "sha256": "4efc51f3384f984d2b802ca9c42a6cca5c948f387906648e8a79fdded7383da3",
+      "size_bytes": 27214,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_012.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_012/result.json",
+      "sha256": "2016abb6d6a98f64bd8ba90fd02e1953599aab6968c268007a9286711ab4292a",
+      "size_bytes": 27227,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_013.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_013/result.json",
+      "sha256": "7ce983e4c8207220be549b97dee5764ccedbfb946221c60ef95f99d3f9762f40",
+      "size_bytes": 27186,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_014.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_014/result.json",
+      "sha256": "aace956a144b4f3f58de26687dfea0b70ddf395c3803121b4fe59a80220e3089",
+      "size_bytes": 27210,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_015.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_015/result.json",
+      "sha256": "7185aa672398e4c498a99b4c5c24c45c40eb84b6d6c69f8c9587139bdb132eb6",
+      "size_bytes": 27121,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_016.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_016/result.json",
+      "sha256": "9d0baf2e4fdc5abf6ce74737a7129fc87d1a17450fafe48e03adb66f3c5fc351",
+      "size_bytes": 27211,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_017.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_017/result.json",
+      "sha256": "f3936ae9cb245e31d048572a4b7ab154e4766c3aea4f489e53e139cfaf9503a0",
+      "size_bytes": 27209,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_018.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_018/result.json",
+      "sha256": "ae5add26a675afd9311217da2017b3a56871a1142a2c83c9c976dbe4a10c37a8",
+      "size_bytes": 27193,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_019.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_019/result.json",
+      "sha256": "3a2f9d219c5c9ba74ead429a4345f799688b66b33853909c0439f6deada092fb",
+      "size_bytes": 27251,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_020.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_020/result.json",
+      "sha256": "84bf34796091004f6b089d5b2fa6dfd5990827a2d3f4765486b0ea82699ea7b9",
+      "size_bytes": 27266,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_021.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_021/result.json",
+      "sha256": "4be25b3701986f2d3884aee14a55b81027a7167f40ce8b3f41523c5ed77fdb06",
+      "size_bytes": 27304,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_022.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_022/result.json",
+      "sha256": "53120e1ddf908c4ab0ea1a54a2663d9e4e635b0b5fcaed4db7106372f62b61e9",
+      "size_bytes": 27290,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_023.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_023/result.json",
+      "sha256": "6f6d2bfa3167740026eb66715caed45620f82d90a9fa33eb40a470642c6dd942",
+      "size_bytes": 27269,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_024.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_024/result.json",
+      "sha256": "417836797d680d681ec1f33e39bcf36ccd778c254949572703fef576edfa040f",
+      "size_bytes": 27241,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_025/result.json",
+      "sha256": "a1477aba9a2199071579fdb6a57f76417455e3254a73ade17d22ef1fd7eae2cc",
+      "size_bytes": 27207,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_026.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_026/result.json",
+      "sha256": "5f55ec99d66691d4ae9be48050fcdaf1b7ab228c5a887898405d8b675fb868ff",
+      "size_bytes": 27199,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_027.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_027/result.json",
+      "sha256": "bbff260b657843d5163fea5afd09453a0693d9d4cced75174aaf32b16ac57e24",
+      "size_bytes": 27224,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_028.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_028/result.json",
+      "sha256": "36fe03196de627749eb85f329e6294b70506c450789824f45a19fa5541be6a11",
+      "size_bytes": 27166,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_029.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_029/result.json",
+      "sha256": "a2215258d2a10d41548a75eaeea8ab7b425a69708be521b18d69c6518cc35e95",
+      "size_bytes": 27237,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_030.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_030/result.json",
+      "sha256": "0eb3aec67bee5d4cd3ea15f21004c733086c6585f64d47d261fb6f5808d6675c",
+      "size_bytes": 27188,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_031.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_031/result.json",
+      "sha256": "3bdfabdcc1b014c0d5cc7997d2378b2dbc97fdd2a872317579d924b460efa81d",
+      "size_bytes": 27162,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_032.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_032/result.json",
+      "sha256": "f437a055293c886fc135b85e155357fedd4d513fd8a43d12670b032f28f190ab",
+      "size_bytes": 27094,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_033.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_033/result.json",
+      "sha256": "8d8157f577ebf116e26b676847d1dcceaea5fc93991d8df1148a7f6b28daaca1",
+      "size_bytes": 27185,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_034.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_034/result.json",
+      "sha256": "c8fe7a43bcc808e8ccb4c38a786793338a0d6e1320c685ad795942f8050c0f8b",
+      "size_bytes": 27191,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_035.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_035/result.json",
+      "sha256": "74d8f80f4ce7a37d51e797260070c03ea39f90a1efb6fc7e28efd21d7a5ff17c",
+      "size_bytes": 27181,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_036.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_036/result.json",
+      "sha256": "7f9c6492e4efbea92fb3d70e708e76547cd8d0537bd74d9ca5918d64fd84c8fe",
+      "size_bytes": 27198,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_037.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_037/result.json",
+      "sha256": "de88029cb249851f2682e50a378a19a1324b5db9fd83aa02ed5c29db60bd9faa",
+      "size_bytes": 27230,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_038.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_038/result.json",
+      "sha256": "60281e6b9b623d4c8b1310a802fb52a2742975626a4d731e9e7e08d25bd448f2",
+      "size_bytes": 27215,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_039.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_039/result.json",
+      "sha256": "84516f2e90cc8b8c5df7936efb70596bc104776d948c1a2cef83b4dd018de87a",
+      "size_bytes": 27177,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_forward_40/node_040.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_forward_40/node_040/result.json",
+      "sha256": "a401376f5764ec5a37912bce6731a6198fbe03eeaa0485a74ca8a0658e570153",
+      "size_bytes": 27239,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/branch.json",
+      "sha256": "604537410bbf291ede7e57a1698411ecf8249d1bd9f4cc6c9a60520a99514a64",
+      "size_bytes": 36847,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/nodes.npz",
+      "sha256": "eee397c4b1536ab292e096a018c661a51ea1a4004be46ec7b7a5e82dcd42f5e3",
+      "size_bytes": 95598,
+      "role": "Forty-one converged local constrained nodes; not a continuous path"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_000.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_000/result.json",
+      "sha256": "95e1a4008f72953b56fc12281b421705e78e123dfee8a5b7bfdedc177fd8f7cf",
+      "size_bytes": 26887,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_001.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_001/result.json",
+      "sha256": "3d928542e572681cf79c09d7ae504a2dfccc7c8a7c80abff3fd28d6cbf9f282a",
+      "size_bytes": 27210,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_002.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_002/result.json",
+      "sha256": "4653d3dc7037320140c2f16905e51efa35e78d3d9c4819226fa6a52192a9d6f7",
+      "size_bytes": 27098,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_003.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_003/result.json",
+      "sha256": "04bf018a1f1cacc76e3dab9938a1ba034b34cb88283eaa328d3ebc5dc046dc7c",
+      "size_bytes": 27141,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_004.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_004/result.json",
+      "sha256": "eac61cd355671131aaffe66f93b58e2baaecfb7d34b275bb99b52fbd5fbe95e8",
+      "size_bytes": 27148,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_005.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_005/result.json",
+      "sha256": "2f2829cef2ca67d851fb27327db6cbf90289b2cd65d68e778df5ac2b9538aa0d",
+      "size_bytes": 27105,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_006.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_006/result.json",
+      "sha256": "a1470a36d748a5fa3533ebece8beb2d9f241e4d17ec346bf96f54644837f666d",
+      "size_bytes": 27139,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_007.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_007/result.json",
+      "sha256": "fc335a0ae6f995f44d1d4f45a4d46fd7fb80fb1f0279ad2140cb1b1b2b4acc9e",
+      "size_bytes": 27155,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_008.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_008/result.json",
+      "sha256": "3f528f6b6de62c97feca75eca5c90f5c7cd17d1fd117f837f8c59d0df4c74150",
+      "size_bytes": 27114,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_009.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_009/result.json",
+      "sha256": "ea4b1304d550d0ece525d181e6d45742a525388f19dee22faabb888663b26a32",
+      "size_bytes": 27150,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_010.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_010/result.json",
+      "sha256": "15239fb4cfeaf650576a709f31311447ac9eab5c5384c5ec7aad357da052e12d",
+      "size_bytes": 27153,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_011.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_011/result.json",
+      "sha256": "c70b8ae69e5d09b356a4484fedd4dd728c9d7f411fc9e6e9af2fef927ce0d378",
+      "size_bytes": 27200,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_012.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_012/result.json",
+      "sha256": "72ce8bc4cd08ec89d032482d48d5c1a66993df8d68a1251070b74ccdfbed04db",
+      "size_bytes": 27159,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_013.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_013/result.json",
+      "sha256": "c527bb500f1d65feceb0b8c30486690085a17d11e81776080baf4f3cc474791c",
+      "size_bytes": 27154,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_014.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_014/result.json",
+      "sha256": "709a9824d541e05c51e5ca1d6500a7b4b248fc3afd2781340abe89672761c806",
+      "size_bytes": 27180,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_015.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_015/result.json",
+      "sha256": "df045a928dbeaf9e957af5a18885bd41c38e50d6822f159145ba1aadc1d0375d",
+      "size_bytes": 27149,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_016.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_016/result.json",
+      "sha256": "7da47f138912b08859fddc9e8159f7aef6eb4b24cd12581b81fd72883f3567c0",
+      "size_bytes": 27163,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_017.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_017/result.json",
+      "sha256": "57b0e64f48a81483c6bfac5b42707889c4d52fc8f68763e6a69a3f8f397b83df",
+      "size_bytes": 27218,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_018.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_018/result.json",
+      "sha256": "7c26df2324f3a62665df6334363e78bc3e3bf1c160c2bc9df7187e1c375210fe",
+      "size_bytes": 27140,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_019.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_019/result.json",
+      "sha256": "b7f4c570bd1d58abc63b3f55574d38e2e0ad74680837c05231a2e35c761b5b62",
+      "size_bytes": 27143,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_020.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_020/result.json",
+      "sha256": "184f6bb441169ebdb6a2542dd4e1a571edbdc46e18d0c250eab5879761f825f7",
+      "size_bytes": 27103,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_021.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_021/result.json",
+      "sha256": "dcf2e9531951f2387f180d76846730e88c6f77d05e7ea8bd7544f6b4c21745ac",
+      "size_bytes": 27166,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_022.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_022/result.json",
+      "sha256": "50cca7f75b09f539d056f38f822b1fd76aca4cfb51bc946ab3d5dbb70e0a50ae",
+      "size_bytes": 27120,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_023.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_023/result.json",
+      "sha256": "1fdd6d2c67ddaa52e02ecfcb68e0b364d422e58347366ab2d2cf80ca07321e33",
+      "size_bytes": 27147,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_024.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_024/result.json",
+      "sha256": "0fe9893c43b61254375e8b5f6641f5caa6892b8cc1918a38292bd448bd76a1c7",
+      "size_bytes": 27153,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_025/result.json",
+      "sha256": "583df05f0d03d379a2e5d7d9d6f91f9649186a574a312c902e5d15b60c37a7c6",
+      "size_bytes": 27122,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_026.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_026/result.json",
+      "sha256": "2865e61cca6059992b64ab7a57ad071a7379f9b57427a151004bf8b66ddaede4",
+      "size_bytes": 27100,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_027.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_027/result.json",
+      "sha256": "98ef7590c372c8e2a921b883aa703aeb0909b82fc992a7bbbfd01d91863348b8",
+      "size_bytes": 27152,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_028.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_028/result.json",
+      "sha256": "81d9124929155e746945a4d14a6f33832f9e4c8a68c5916246e92da5da659d8b",
+      "size_bytes": 27183,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_029.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_029/result.json",
+      "sha256": "8d9ec34bc10d7145781df944d45b06942f91c5ec960641bb342baba6f1b082f9",
+      "size_bytes": 27160,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_030.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_030/result.json",
+      "sha256": "a419e278845de6580f80ea50cbceaded8bd214e633bc2abc67909d8963239dbd",
+      "size_bytes": 27148,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_031.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_031/result.json",
+      "sha256": "e7311bc4b674a2aa90f22570aaa97e89594de2330e905061d09286746542360e",
+      "size_bytes": 27129,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_032.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_032/result.json",
+      "sha256": "d7ca79d2710638e47b57e9a88559a7a1fd002b803fe20902f482eb6d93871214",
+      "size_bytes": 27146,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_033.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_033/result.json",
+      "sha256": "698943569d50c176863c82da23a6c0f00909583af52001527f24fd2e4f46094a",
+      "size_bytes": 27167,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_034.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_034/result.json",
+      "sha256": "b4e4601acac8f1182d1009f746d18aa13a8e087ed210b1e770786ebcd6404d58",
+      "size_bytes": 27198,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_035.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_035/result.json",
+      "sha256": "7a09c48864ee679e80454a83f84b393e2f4938e9299038570edf1f10f316a062",
+      "size_bytes": 27208,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_036.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_036/result.json",
+      "sha256": "113ffb3ec5f03fd61d260b6efe9325e10712a903f28c30ce272252c0786eb877",
+      "size_bytes": 27135,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_037.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_037/result.json",
+      "sha256": "26df5f4d901e8719081f1c476ba31ea61a8345479167bb283730ac3987593b4d",
+      "size_bytes": 27186,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_038.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_038/result.json",
+      "sha256": "6772022c9018b0efff0c55a38706ce383b5212c01e0d00043fa1e1b0fd1252f6",
+      "size_bytes": 27112,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_039.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_039/result.json",
+      "sha256": "5f8c164afd6a51a7e8408ca421b2355cde904d5fcfe809d1512f03954de95680",
+      "size_bytes": 27158,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/node_studies/II_IV_reverse_40/node_040.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_reverse_40/node_040/result.json",
+      "sha256": "63a8fe0f64e32f471f1092a16005fc445f1b0f11e1323e70129ff697c6b758d9",
+      "size_bytes": 27245,
+      "role": "Full per-node KKT, multiplier, tangent-Hessian and convergence record"
+    },
+    {
+      "repository_path": "results/reference/collective/I_III/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/trajectory.npz",
+      "sha256": "fda0afa3113fce6dd1bc0bc5930d31940538eb2d10942ac308cd281de264758d",
+      "size_bytes": 3444570,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/I_III/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/assembly_nodes.npz",
+      "sha256": "08ede9712f5ec3da2941579231474b16ac5ddb4281fe6a051a002c3e13ba3bba",
+      "size_bytes": 1304686,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/I_III/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/summary.json",
+      "sha256": "999a4c1793b29e9676016a464f54baefda2f4d4deccc7e1ccc6f6aa2d9b35239",
+      "size_bytes": 121257,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/I_III/independent_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/I_III.json",
+      "sha256": "f2257306ec359be368fec1dd15a1cdf96526418947fd659e0a585e36bf0b49f3",
+      "size_bytes": 9880,
+      "role": "Independent all-frame and quarter-gap energies, fixed whole-block identities and endpoint classifications"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_outer_left/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_left/branch.json",
+      "sha256": "bc8703ce9c028fa60f02e09abe6050ec940a378ba6428927f0f98a9e61bb6b1f",
+      "size_bytes": 268220,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_outer_left/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_left/nodes.npz",
+      "sha256": "eed68a2f8948d747a4f93155dfb954a85c6b5deef08aa5b5479fc206fe73c1f1",
+      "size_bytes": 33019,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed04675_bridge/verified_connector_v2/summary.json",
+      "sha256": "d88c985ae5ced602950a5376736fbe9aa17acecb0eb82a69fc4210a68f8df6ed",
+      "size_bytes": 127648,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2/connector.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed04675_bridge/verified_connector_v2/connector.npz",
+      "sha256": "865720c60d5b8158f346d6e9727f208a0065b6c6ed64ce15b2068b35956e8efb",
+      "size_bytes": 545439,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2/release_-1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed04675_bridge/verified_connector_v2/release_-1.json",
+      "sha256": "e070a75f023f23866dd5ebb8ecbb01c986f53a4423a8acfb30efc597e2cb409b",
+      "size_bytes": 46646,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2/release_+1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed04675_bridge/verified_connector_v2/release_+1.json",
+      "sha256": "5d7e98991e16f68d8a3118a1abc3641bd900014bbe788057066b5e4d2f8533ba",
+      "size_bytes": 48130,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_middle_left/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_left/branch.json",
+      "sha256": "9138c751bbf75f2257b1c27530f5ce85c3614af4485183e657102ab3202fa2a4",
+      "size_bytes": 399254,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_middle_left/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_left/nodes.npz",
+      "sha256": "1dfc9ac7d293bcb603455bb933219c834e82ffe86f88ced96d5f756ab6707f26",
+      "size_bytes": 49153,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_middle_right/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_right/branch.json",
+      "sha256": "b6cc8b17fbab2bed15ccb30f1a372a084c4c671187e83c434a1dd7d338dacda3",
+      "size_bytes": 435437,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_middle_right/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_middle_right/nodes.npz",
+      "sha256": "d2c79cebd309f2725bde74da5affb37461ce3e28b7f0c6198765c1ba844e2db7",
+      "size_bytes": 53868,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed0525_bridge/verified_connector_v2/summary.json",
+      "sha256": "69230ead1c4581769269970a9eae2668ea9e7c5e387a2368b34abe7ac4c5c099",
+      "size_bytes": 129681,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2/connector.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed0525_bridge/verified_connector_v2/connector.npz",
+      "sha256": "84306a75ba7119de18e049f6d18b4b941a7a4def293d8941df087152633126b8",
+      "size_bytes": 579808,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2/release_-1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed0525_bridge/verified_connector_v2/release_-1.json",
+      "sha256": "9a6142198565773b019f7316584cb71999c6b491d14354ec1a66825016bd5f03",
+      "size_bytes": 41504,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2/release_+1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_fixed0525_bridge/verified_connector_v2/release_+1.json",
+      "sha256": "34c7a28fad84855a98704ecce5ee99393046b741c5b80928d77bfafae6676098",
+      "size_bytes": 54985,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_outer_right/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_right/branch.json",
+      "sha256": "f7c4eaf9f8edac0d8fc6ebc2e96df5cee224cbbe393cd162aca71399a57b3d82",
+      "size_bytes": 286935,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/I_III_outer_right/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_outer_right/nodes.npz",
+      "sha256": "7fce3f9b7d9c157d07b55e4b91f9cf9d9211da703e5c9d9345e8b8b1eacf9779",
+      "size_bytes": 35367,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/I_III/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_portable_reproduction/complete_path/summary.json",
+      "sha256": "f26a107b19d170ae2d470e1084ae2484b5fb2f20f1cd1d553bb2ffe179381c82",
+      "size_bytes": 121156,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/I_III/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_portable_reproduction/complete_path/trajectory.npz",
+      "sha256": "66a660f7fc77f4a145152f4fa4aef8e3a81a917e2b75261e3649e8675f088531",
+      "size_bytes": 3443868,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/I_III/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_portable_reproduction/complete_path/assembly_nodes.npz",
+      "sha256": "1094c9a50ada90c3857f67b48bdd25d4efc3e05cdc43328b8436f10d460c35ca",
+      "size_bytes": 1303924,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/I_III/left_seed_refinement.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_portable_reproduction/left_seed_refinement.json",
+      "sha256": "3e66508e8be9f0e491ea176b5927a0c3fe560847f5a5733543cb8f0f03fb3f5a",
+      "size_bytes": 24805,
+      "role": "Fresh quantized constrained-saddle seed refinement"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/I_III/right_seed_refinement.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_portable_reproduction/right_seed_refinement.json",
+      "sha256": "85e07950441dacabfc1e2a80fb47bfde63582d5f8b27d3b5fd69ff9f89cd0b6e",
+      "size_bytes": 24816,
+      "role": "Fresh quantized constrained-saddle seed refinement"
+    },
+    {
+      "repository_path": "results/reference/collective/projected_baselines/I_III/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/exact_feasible_baseline/I_III_projected/summary.json",
+      "sha256": "0dc89d3fd3e006b8b1b8816611a98b21d00146ac213987964d2ed6327acbe223",
+      "size_bytes": 5992,
+      "role": "Supplementary projection-only baseline; no energy minimization"
+    },
+    {
+      "repository_path": "results/reference/collective/projected_baselines/I_III/independent_polyline_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/exact_feasible_baseline/I_III_projected/independent_polyline_audit.json",
+      "sha256": "f8b7fc272d9aa7b8ce5310719288c3115d982c39da8bb79fcc930282a2bbd8c4",
+      "size_bytes": 1035,
+      "role": "Supplementary projection-only baseline; no energy minimization"
+    },
+    {
+      "repository_path": "results/reference/collective/II_IV/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/trajectory.npz",
+      "sha256": "9bdd10c105ee893fc7fe342cf0314442a9db42dedd1ac7dd9c77babb5d71a6f5",
+      "size_bytes": 3540814,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/II_IV/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/assembly_nodes.npz",
+      "sha256": "3dcf73d28ca25cf191d853cbc86986fcad2db4f1b721a83bdf353541311baeff",
+      "size_bytes": 1309987,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/II_IV/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/summary.json",
+      "sha256": "8f77ea88e8559ffe6de1c51c2df494b66ba4f5feb2bec8bab7dab1dab968e4ac",
+      "size_bytes": 123146,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    {
+      "repository_path": "results/reference/collective/II_IV/independent_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/II_IV.json",
+      "sha256": "b668d2c102c6b3e9d371233bc7e9b84db718f9000c94ca3103631573a585fd15",
+      "size_bytes": 10476,
+      "role": "Independent all-frame and quarter-gap energies, fixed whole-block identities and endpoint classifications"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_outer_left_to046/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_outer_left_to046/branch.json",
+      "sha256": "9d81ea6df6161d3fd84636d6d5e0a4553087a4acde8e3b94ed1d6d348d5e70d5",
+      "size_bytes": 112296,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_outer_left_to046/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_outer_left_to046/nodes.npz",
+      "sha256": "b104aed655b4aee0ea82d119d48aa109bacf538bb86a8636770abe5a4c33c484",
+      "size_bytes": 14501,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed046_bridge/connector_0/summary.json",
+      "sha256": "2c7297cce8241a0236f617f99e50db0cd3820fcd97400bced39d1e0273764b9e",
+      "size_bytes": 132680,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0/connector.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed046_bridge/connector_0/connector.npz",
+      "sha256": "574081be046fbff38817567e39754ad7df3c38e5a470cea4d1f0e428206d366d",
+      "size_bytes": 591999,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0/release_-1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed046_bridge/connector_0/release_-1.json",
+      "sha256": "1401a90ef1c690d8d50771af2d06c2405763fb48c6e0ab0dd19d26442adf5521",
+      "size_bytes": 52339,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0/release_+1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed046_bridge/connector_0/release_+1.json",
+      "sha256": "a4a51c0451b99859ea95ac635a6d24247f0759658abb3482aa1403bdc4e3b6cc",
+      "size_bytes": 46841,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_middle_left/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_middle_left/branch.json",
+      "sha256": "6c35d7abe30662eb774b7ac6cd01b942c3772fedbd9532f6574fcb24394d3a1e",
+      "size_bytes": 247858,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_middle_left/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_middle_left/nodes.npz",
+      "sha256": "d51151ae0c9504b5fd34dc20ed24e62729f57d5fd8d8f722ca0087c05802eaee",
+      "size_bytes": 30706,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_middle_right_to0525/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_middle_right_to0525/branch.json",
+      "sha256": "07ec9a8762eebfb44dcbbd78b4b19838fb6d99276a7f136b46f1787cf9dcdca2",
+      "size_bytes": 207295,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_middle_right_to0525/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_middle_right_to0525/nodes.npz",
+      "sha256": "2ebb90e607a40264f5082135d8059d28874fcd32ffe0b8dd08ed1bf30f2b9d45",
+      "size_bytes": 26114,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed0525_bridge/verified_connector_v2/summary.json",
+      "sha256": "53d25177a368f3ae7fb29b5f22062d631e09e95d2a68296463a57cde8f23869f",
+      "size_bytes": 129266,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2/connector.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed0525_bridge/verified_connector_v2/connector.npz",
+      "sha256": "3210ffab34101889c1deb9378ad6d7f74132ccb47c2ee00ee50c3912da86f221",
+      "size_bytes": 557672,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2/release_-1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed0525_bridge/verified_connector_v2/release_-1.json",
+      "sha256": "7075232fa0740cc2df211e5cce4c374028a904f309f176d6e158edf5b103f58c",
+      "size_bytes": 43586,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2/release_+1.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_fixed0525_bridge/verified_connector_v2/release_+1.json",
+      "sha256": "8895e42b0a078a3f1a4095116aa27c43a60e8a0d13351b55137bbd0628a489cd",
+      "size_bytes": 52508,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_outer_right_to0525/branch.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_outer_right_to0525/branch.json",
+      "sha256": "9aba3dbf968b5d304b7167effcfdd9560746d7ac1e7af3a4f3b028720858c2e2",
+      "size_bytes": 207227,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/path_components/II_IV_outer_right_to0525/nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_outer_right_to0525/nodes.npz",
+      "sha256": "e3ae54da70fcb1f6b681c378eb58090134c4c654f5164bd7116ba0b786304d05",
+      "size_bytes": 26136,
+      "role": "Physical source component of an explicitly joined complete candidate"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/II_IV/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_portable_reproduction/complete_path/summary.json",
+      "sha256": "e783dcb40a9a87105768002ac55d980ef9583165df58ed5813f31f97d5c68db5",
+      "size_bytes": 125327,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/II_IV/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_portable_reproduction/complete_path/trajectory.npz",
+      "sha256": "4d7b4bd73ca1a88407b2799435b62e06721acf4a87c4e9681d1e373a94786936",
+      "size_bytes": 3565012,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/II_IV/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_portable_reproduction/complete_path/assembly_nodes.npz",
+      "sha256": "490fbfe645af466bd5444698e4422d734588e1bbc2a52d54637a2a0f4db018e2",
+      "size_bytes": 1345662,
+      "role": "Separate fresh model-and-compact-seed reproduction, not substituted for the primary audited trajectory"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/II_IV/left_seed_refinement.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_portable_reproduction/left_seed_refinement.json",
+      "sha256": "fd3313425e704f032dc09dd50e8a80542a713b9ce03039d3dffda970b61ccbea",
+      "size_bytes": 24741,
+      "role": "Fresh quantized constrained-saddle seed refinement"
+    },
+    {
+      "repository_path": "results/reference/collective/standalone_reproductions/II_IV/right_seed_refinement.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_portable_reproduction/right_seed_refinement.json",
+      "sha256": "df29e0fe851519af8986520201094f5ecf6b6742f52b18aca16f2d47122a77b2",
+      "size_bytes": 24891,
+      "role": "Fresh quantized constrained-saddle seed refinement"
+    },
+    {
+      "repository_path": "results/reference/collective/projected_baselines/II_IV/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/exact_feasible_baseline/II_IV_projected/summary.json",
+      "sha256": "7d27f48334b0b4d8a576899eaa0190a64e315da6ff796fcc703aedf8ec0d2866",
+      "size_bytes": 5995,
+      "role": "Supplementary projection-only baseline; no energy minimization"
+    },
+    {
+      "repository_path": "results/reference/collective/projected_baselines/II_IV/independent_polyline_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/exact_feasible_baseline/II_IV_projected/independent_polyline_audit.json",
+      "sha256": "d73f32942f1ba1332f772828b64980191cb8046a047b245062d5aa9a88bf3467",
+      "size_bytes": 1033,
+      "role": "Supplementary projection-only baseline; no energy minimization"
+    },
+    {
+      "repository_path": "results/reference/collective/study_summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/study_summary.json",
+      "sha256": "34b701c440e7527a795b579aed326dab3b8aa3270f86c3bbda0603332dfa78e4",
+      "size_bytes": 27985,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/study_details.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/study_details.json",
+      "sha256": "97f49b92bae5e30fdd1220bf9cc639ab1dec65942f933dfa089bb5533378f672",
+      "size_bytes": 48427,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/sensitivity_summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/sensitivity_summary.json",
+      "sha256": "e2933278199f123c80b245a2bf701013a8ec878b6ed9f16fc6fec48c3287b377",
+      "size_bytes": 17070,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/sampling_sensitivity.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/sampling_sensitivity.json",
+      "sha256": "8e916a943d1649c32027c36176fbd7320139294f2d46794771f02a6e9eea132b",
+      "size_bytes": 804,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/quantized_connector_seed_tests.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/quantized_connector_seed_tests.json",
+      "sha256": "317e8225e950c05366afc2b20ac254479a0deecd99111d98439d3dfd2803e98f",
+      "size_bytes": 1437,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/jacobian_check.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/jacobian_check.json",
+      "sha256": "d5f9367b745ac96d5e19047003b30cc3993a19eefd35d9eed01e5c68c931438c",
+      "size_bytes": 198,
+      "role": "Detailed exact-constraint study, numerical sensitivity or portable-seed evidence"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_II_IV_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_II_IV_025/result.json",
+      "sha256": "465f82058bf30b306dd799c857f0dd91ef3945dbfc2809e503d1a4623ef78048",
+      "size_bytes": 26969,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_II_IV_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_II_IV_050/result.json",
+      "sha256": "fab13039801df0e6b79204f2135a519f3865ab628a515105f5fc769d2dc26317",
+      "size_bytes": 27058,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_II_IV_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_II_IV_075/result.json",
+      "sha256": "36be18344c7ec7b21125ffb086a4481769a833d906341e4e47b3b593bb17abf2",
+      "size_bytes": 27115,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_I_III_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_I_III_025/result.json",
+      "sha256": "b7af165b3c479fa3be3e013bfcff0e0dc841f4d14cc6dbb403d00f15de6bb049",
+      "size_bytes": 27013,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_I_III_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_I_III_050/result.json",
+      "sha256": "76bdf6ceaaefe3d4735ccaa20d526d2cb28c1bfbbcc1d6c1778d24f1e7a828ec",
+      "size_bytes": 27195,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/pilot_checks/pilot_I_III_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/pilot_I_III_075/result.json",
+      "sha256": "7979b50766f887833c2bcd1bc817f6a4078c6390f0b1d7c3ea466d9dde628d6c",
+      "size_bytes": 26999,
+      "role": "Original constrained pilot minimum"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_II_IV_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_II_IV_025.json",
+      "sha256": "e02a6294e4bcdf41e859990bff1165879f6e811b71457952e8efffa57babf0fd",
+      "size_bytes": 6663,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_II_IV_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_II_IV_050.json",
+      "sha256": "537087b519d9b73b97af03b41d899451b364b59b9f17fd1738b14ef42f0f1717",
+      "size_bytes": 6635,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_II_IV_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_II_IV_075.json",
+      "sha256": "6ddf21f3bd0d5e6c91386845f3f385a5ac5316a1dc3c335a965d97c8583d8ee2",
+      "size_bytes": 6655,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_I_III_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_I_III_025.json",
+      "sha256": "de2361ef76eca5efa97fd473a721623728f1c57f5e23e093adeaaafe0e8c0b5f",
+      "size_bytes": 6640,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_I_III_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_I_III_050.json",
+      "sha256": "66e8c346021f87975ab41cd69f9f136962780fa9a9108e15384566b0dddceb5a",
+      "size_bytes": 6647,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/pilot_I_III_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilots/pilot_I_III_075.json",
+      "sha256": "951ce802e917a5f8770c073a3e7d9a77d31a1458a178f6e7bd7e6c956f4d9057",
+      "size_bytes": 6648,
+      "role": "Independent Jacobian, Lagrangian-Hessian step and feasible energy-curvature audit"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_pilot_audits/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/pilot_summary.json",
+      "sha256": "0eea91888692f7d108c11de1138db43b9000dd29b6db5be09a82e57ffd55dd8d",
+      "size_bytes": 4496,
+      "role": "Six independent constrained-minimum checks"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_II_IV_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_II_IV_025.json",
+      "sha256": "93cac62b43c93bd0a53c8c3ef38a0afcf99beb472f375e2904b65aef32d55155",
+      "size_bytes": 24659,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_II_IV_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_II_IV_050.json",
+      "sha256": "0a12929635a28e81bf1046f327da1ea427d1419eb3a49d02f9750ae85faf373b",
+      "size_bytes": 24607,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_II_IV_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_II_IV_075.json",
+      "sha256": "bbb3b542282a7081b31aca7b5dd7993e6fd7a9eb901f7c226a39ea0aa6853793",
+      "size_bytes": 24638,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_I_III_025.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_I_III_025.json",
+      "sha256": "3ea4f91c78ece7da9dd45dfafab8a9a8f4979beecee03e3e1e37a71757fa750c",
+      "size_bytes": 24712,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_I_III_050.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_I_III_050.json",
+      "sha256": "60f5344cf22646c554d2edf2ede7d27a187bc3973a463123ee874031e4ac9f71",
+      "size_bytes": 24708,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/tolerance_checks/pilot_I_III_075.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/tolerance_sensitivity/pilot_I_III_075.json",
+      "sha256": "6caed8f806ac714f546860512549949effd84acc28a51f070347e5b7dfca46c5",
+      "size_bytes": 24698,
+      "role": "Same-start tighter KKT/feasibility tolerance check"
+    },
+    {
+      "repository_path": "results/reference/collective/sampling_checks/I_III.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_sampling_refined/summary.json",
+      "sha256": "5cf8a54c9a1e4f9b8138bec33f2020c6549ab6bf6bc786aca374cc188653fcf7",
+      "size_bytes": 113563,
+      "role": "Half-step dense interpolation sample check; no new branch search"
+    },
+    {
+      "repository_path": "results/reference/collective/sampling_checks/II_IV.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_sampling_refined/summary.json",
+      "sha256": "83b8413c9bfa4be7b8e4aa7dcc76ba93dc210bdd5c7607dc82716a295aa24130",
+      "size_bytes": 114511,
+      "role": "Half-step dense interpolation sample check; no new branch search"
+    },
+    {
+      "repository_path": "results/reference/collective/rejected_coarse_chord_diagnostics/II_IV_forward_40.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/gaps/II_IV_forward_40.json",
+      "sha256": "9383cd503104cf480aaed05c46ffdbf0e0903274fa3505d40f49465112c382f2",
+      "size_bytes": 53896,
+      "role": "Raw node-to-node chords can overshoot; diagnostic evidence is not an accepted route"
+    },
+    {
+      "repository_path": "results/reference/collective/rejected_coarse_chord_diagnostics/II_IV_reverse_40.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/gaps/II_IV_reverse_40.json",
+      "sha256": "34e38b0f9f37941ba971072196aefdaf06f6532256843e22846e99ba43baa686",
+      "size_bytes": 53874,
+      "role": "Raw node-to-node chords can overshoot; diagnostic evidence is not an accepted route"
+    },
+    {
+      "repository_path": "results/reference/collective/rejected_coarse_chord_diagnostics/I_III_forward_40.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/gaps/I_III_forward_40.json",
+      "sha256": "c1937dfb4b7b7b8a477f5c79de14eaab7d75e03ae8f85007d3c0dd30574577fb",
+      "size_bytes": 41722,
+      "role": "Raw node-to-node chords can overshoot; diagnostic evidence is not an accepted route"
+    },
+    {
+      "repository_path": "results/reference/collective/rejected_coarse_chord_diagnostics/I_III_reverse_40.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/gaps/I_III_reverse_40.json",
+      "sha256": "f9629f90779e4111c5c2fda981e01b055b202ae99a045b64103b0be0ab0b3562",
+      "size_bytes": 41767,
+      "role": "Raw node-to-node chords can overshoot; diagnostic evidence is not an accepted route"
+    },
+    {
+      "repository_path": "results/reference/collective/independent_validation_protocol.txt",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/VALIDATION_PROTOCOL.txt",
+      "sha256": "4c8003698fd6bf1b2420c8bb259ea330fb28c9f679723cdb0c1a91f6c998d15f",
+      "size_bytes": 6688,
+      "role": "Definitions and scope of independent numerical validation"
+    },
+    {
+      "repository_path": "results/reference/test_records/model_checks.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/cli_verify/model_checks.json",
+      "sha256": "adaebd4686040a0a9d4096765c75389245890bfa7a3d5da799dd46e8f43277f5",
+      "size_bytes": 5343,
+      "role": "Actually executed local implementation or integration check"
+    },
+    {
+      "repository_path": "results/reference/test_records/mac_node_runner_smoke.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/mac_exact_smoke/integration_check.json",
+      "sha256": "cc1ee0b2be40b306a36de18c2cf3e6c1b5c62ab9d45434996a649ff65830ed5e",
+      "size_bytes": 1195,
+      "role": "Actually executed local implementation or integration check"
+    },
+    {
+      "repository_path": "results/reference/test_records/mac_node_runner_guard_checks.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/mac_exact_guard_checks.json",
+      "sha256": "7f0d2ba4f6cc20189d8c90d6704a5fd733021f6fe36b7a5503040bfa249e0b19",
+      "size_bytes": 197,
+      "role": "Actually executed local implementation or integration check"
+    },
+    {
+      "repository_path": "results/reference/test_records/explorer_validation.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/explorer_validation.json",
+      "sha256": "8e1c1ccc4c7ec98649f2a9f0f7f8e9929ee56568f24c375cb3373e96a6050d2a",
+      "size_bytes": 1794,
+      "role": "Actually executed seven-series JavaScript data/control validation; no browser layout claim"
+    },
+    {
+      "repository_path": "results/reference/test_records/packaging_validation.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/package_test/packaging_validation.json",
+      "sha256": "b8738b77559d234b9a66eafd68bb0849cf5dc20df772254c9b6b1286276b7313",
+      "size_bytes": 1647,
+      "role": "Executed wheel installation, outside-source import, packaged-data and five unit-test checks; no GitHub Actions claim"
+    },
+    {
+      "repository_path": "results/reference/standalone_sequential_path.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/runs/sequential_agent_test/sequential_path.npz",
+      "sha256": "9e6411654f4a3205fde90af7d5db083c0c3447a4e90c06916f51d6353f355819",
+      "size_bytes": 34801503,
+      "role": "Complete selected localized trajectory, distinct from older display sampling"
+    }
+  ],
+  "copied_file_count": 273,
+  "copied_size_bytes": 70268478,
+  "source_paths_are_local_provenance_not_public_links": true,
+  "generated_records": [
+    "results/summary.json",
+    "results/reference/validation.json",
+    "results/reference/collective/portable_evidence_index.json"
+  ],
+  "manifest_excludes_itself": true
+}

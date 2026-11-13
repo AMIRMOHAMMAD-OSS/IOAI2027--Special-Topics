@@ -1,0 +1,44 @@
+{
+  "primary_reference": true,
+  "pattern": "II_IV",
+  "files": {
+    "trajectory.npz": {
+      "repository_path": "results/reference/collective/II_IV/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/trajectory.npz",
+      "sha256": "9bdd10c105ee893fc7fe342cf0314442a9db42dedd1ac7dd9c77babb5d71a6f5",
+      "size_bytes": 3540814,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "assembly_nodes.npz": {
+      "repository_path": "results/reference/collective/II_IV/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/assembly_nodes.npz",
+      "sha256": "3dcf73d28ca25cf191d853cbc86986fcad2db4f1b721a83bdf353541311baeff",
+      "size_bytes": 1309987,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "summary.json": {
+      "repository_path": "results/reference/collective/II_IV/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/II_IV_complete_path/summary.json",
+      "sha256": "8f77ea88e8559ffe6de1c51c2df494b66ba4f5feb2bec8bab7dab1dab968e4ac",
+      "size_bytes": 123146,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "independent_audit.json": {
+      "repository_path": "results/reference/collective/II_IV/independent_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/II_IV.json",
+      "sha256": "b668d2c102c6b3e9d371233bc7e9b84db718f9000c94ca3103631573a585fd15",
+      "size_bytes": 10476,
+      "role": "Independent all-frame and quarter-gap energies, fixed whole-block identities and endpoint classifications"
+    }
+  },
+  "source_blocks": {
+    "II_IV_forward_40": "results/reference/collective/node_studies/II_IV_forward_40",
+    "II_IV_outer_left_to046": "results/reference/collective/path_components/II_IV_outer_left_to046",
+    "II_IV_fixed046_bridge/connector_0": "results/reference/collective/path_components/II_IV_fixed046_bridge/connector_0",
+    "II_IV_middle_left": "results/reference/collective/path_components/II_IV_middle_left",
+    "II_IV_middle_right_to0525": "results/reference/collective/path_components/II_IV_middle_right_to0525",
+    "II_IV_fixed0525_bridge/verified_connector_v2": "results/reference/collective/path_components/II_IV_fixed0525_bridge/verified_connector_v2",
+    "II_IV_outer_right_to0525": "results/reference/collective/path_components/II_IV_outer_right_to0525"
+  },
+  "original_local_paths_are_provenance_not_public_links": true
+}

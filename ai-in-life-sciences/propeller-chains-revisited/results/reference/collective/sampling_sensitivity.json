@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "I_III",
+    "frames": 2641,
+    "maximum_node_constraint_rad": 1.9708817911023857e-12,
+    "maximum_chord_probe_constraint_rad": 2.8984236985496453e-07,
+    "maximum_atom_step_A": 0.004999765806085053,
+    "maximum_finite_checked_energy_kcal_mol": 220.07711852981737,
+    "finite_checked_height_above_A_kcal_mol": 15.56590442550737,
+    "sampled_maximum_change_kcal_mol": 0.0
+  },
+  {
+    "pattern": "II_IV",
+    "frames": 2715,
+    "maximum_node_constraint_rad": 1.852296094284611e-12,
+    "maximum_chord_probe_constraint_rad": 1.9358553959847313e-07,
+    "maximum_atom_step_A": 0.004997399170178232,
+    "maximum_finite_checked_energy_kcal_mol": 220.0254152505576,
+    "finite_checked_height_above_A_kcal_mol": 15.514201146247586,
+    "sampled_maximum_change_kcal_mol": 0.0
+  }
+]

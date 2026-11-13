@@ -1,0 +1,45 @@
+# The three historical paper authors below are reference authors, not asserted
+# software contributors. Repository URL, release DOI, version, and release date
+# are deliberately omitted until they exist.
+cff-version: 1.2.0
+message: >-
+  Cite this software for the numerical work and the referenced 1993 article
+  for the original scientific question. Use the release identifier when a
+  versioned repository release is available.
+title: "Propeller Chains Revisited: localized and collective molecular rotations"
+type: software
+authors:
+  - family-names: MohammadHosseini
+    given-names: AmirMohammad
+    website: https://github.com/AMIRMOHAMMAD-OSS
+abstract: >-
+  A reproducible MMFF94 study of localized transition networks and specified
+  synchronized torsion paths in compound 6 from Lindner, Grynszpan, and Biali
+  (1993), with stationary-point, connectivity, symmetry, and convergence checks.
+keywords:
+  - molecular propellers
+  - conformational transitions
+  - molecular mechanics
+  - transition states
+  - reproducible research
+references:
+  - type: article
+    authors:
+      - family-names: Lindner
+        given-names: Ariel B.
+      - family-names: Grynszpan
+        given-names: Flavio
+      - family-names: Biali
+        given-names: Silvio E.
+    title: >-
+      Transmission of Internal Rotations: Correlated, Uncorrelated, and
+      Localized Disrotatory Rotations in Propeller Chains
+    journal: The Journal of Organic Chemistry
+    year: 1993
+    month: 11
+    volume: "58"
+    issue: "24"
+    start: "6662"
+    end: "6670"
+    doi: 10.1021/jo00076a027
+    url: https://doi.org/10.1021/jo00076a027

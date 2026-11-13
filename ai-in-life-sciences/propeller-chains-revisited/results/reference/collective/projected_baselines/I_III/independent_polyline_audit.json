@@ -1,0 +1,33 @@
+{
+  "status": "FIXED_IDENTITY_CANDIDATE_PATH_CHECKS_PASSED",
+  "checks": {
+    "finite_inputs": true,
+    "complete_progress": true,
+    "nondecreasing_progress": true,
+    "frame_constraints": true,
+    "gap_probe_constraints": true,
+    "coordinate_gap": true,
+    "finite_energies": true
+  },
+  "frames": 6735,
+  "maximum_atom_gap_A": 0.014995078789385965,
+  "maximum_frame_constraint_rad": 1.9794166306041916e-12,
+  "maximum_gap_constraint_rad": 1.7296227061702751e-06,
+  "maximum_six_progress_spread": 2.0016423245006187e-06,
+  "maximum_sampled_energy_kcal_mol": 220.6433405582594,
+  "peak_location": {
+    "kind": "frame",
+    "index": 3196
+  },
+  "probe_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "tolerances": {
+    "stored_frame_constraint_rad": 3e-12,
+    "gap_probe_constraint_rad": 1e-05,
+    "maximum_atom_gap_A": 0.015
+  },
+  "scope": "Finite samples of one supplied fixed-identity piecewise-Cartesian path, not a continuous supremum certificate, global collective lower bound, or automatically minimized curve."
+}

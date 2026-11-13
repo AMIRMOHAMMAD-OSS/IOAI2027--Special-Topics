@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "status": "SELECTED_PATH_COMPARISON_VALIDATED",
+  "generated_at_utc": "2026-11-12T22:10:41.980461+00:00",
+  "title": "Propeller chains revisited: selected localized and synchronized MMFF94 candidate paths",
+  "human_summary": "The selected complete localized route reaches 7.403995 kcal/mol above A. The two complete synchronized candidates reach 15.565904 and 15.514201 kcal/mol. Both collective datasets have independent energy, gap, atom-identity and endpoint audits. The comparison is conditional on the tested model and paths.",
+  "model": {
+    "force_field": "RDKit MMFF94",
+    "molecular_formula": "C43H56",
+    "explicit_atoms": 99,
+    "heavy_atoms": 43,
+    "molecular_graph": "src/propeller_paths/data/molecule.json",
+    "nonBondedThresh": 100.0,
+    "nonBondedThresh_semantics": "Dimensionless multiplier of the minimum contact distance used for nonbonded interaction inclusion; it is not a cutoff in angstrom.",
+    "nonBondedThresh_documentation": "https://www.rdkit.org/docs/cppapi/namespaceRDKit_1_1MMFF.html"
+  },
+  "units": {
+    "energy_and_path_height": "kcal/mol",
+    "coordinates_and_rmsd": "angstrom",
+    "angles_and_constraint_residuals": "radians",
+    "gradient_atomic_norm": "kcal/mol/angstrom",
+    "cartesian_tangent_curvature": "kcal/mol/angstrom^2",
+    "lagrange_multiplier": "kcal/mol/radian",
+    "progress": "dimensionless"
+  },
+  "common_reference": {
+    "state": "A",
+    "energy_kcal_mol": 204.51121410431,
+    "endpoint_B": "Opposite enantiomer, checked with proper rotations and chemical graph permutations"
+  },
+  "three_compared_routes": [
+    {
+      "route": "localized_sequential",
+      "height_above_A_kcal_mol": 7.403994698690354,
+      "highest_saddle_above_A_kcal_mol": 7.403994698690383,
+      "states": [
+        "A",
+        "C",
+        "P",
+        "Q",
+        "D",
+        "M",
+        "B"
+      ],
+      "saddles": [
+        "TS_AC",
+        "TS_CP",
+        "TS_PQ",
+        "TS_QD",
+        "TS_DM",
+        "TS_MB"
+      ],
+      "aromatic_disrotatory_events": 5,
+      "methyl_conformational_events": 1,
+      "report": "results/reference/standalone_sequential_summary.json",
+      "trajectory": "results/reference/standalone_sequential_path.npz",
+      "trajectory_sha256": "9e6411654f4a3205fde90af7d5db083c0c3447a4e90c06916f51d6353f355819",
+      "display_sampling": "Older visual display datasets are separate assets and are not this complete freshly reproduced trajectory."
+    },
+    {
+      "route": "I_III",
+      "description": "Explicit synchronized candidate with constrained local-minimum nodes, fixed-progress saddle connectors and feasible geometric interpolation",
+      "height_above_A_kcal_mol": 15.56590442550737,
+      "maximum_sampled_energy_kcal_mol": 220.07711852981737,
+      "difference_above_selected_sequential_kcal_mol": 8.161909726817015,
+      "frames": 1525,
+      "fixed_source_blocks": 8,
+      "maximum_atom_gap_A": 0.00999122378764955,
+      "maximum_stored_node_constraint_rad": 1.9709581189353287e-12,
+      "maximum_quarter_probe_constraint_rad": 1.1390866577754013e-06,
+      "maximum_saved_energy_recheck_error_kcal_mol": 0.0,
+      "endpoints": {
+        "A": {
+          "proper_symmetry_rmsd_to_intended_endpoint_A": 1.112302430615012e-15,
+          "energy_kcal_mol": 204.51121410431,
+          "gradient_max_atomic_norm": 8.725361022002662e-13,
+          "internal_index": 0,
+          "lowest_internal_curvature": 0.08356982954391588
+        },
+        "B": {
+          "proper_symmetry_rmsd_to_intended_endpoint_A": 2.0369154167261462e-13,
+          "energy_kcal_mol": 204.51121410430977,
+          "gradient_max_atomic_norm": 1.849913320598207e-11,
+          "internal_index": 0,
+          "lowest_internal_curvature": 0.08356984423390261
+        }
+      },
+      "status": "INDEPENDENT_COMPLETE_CANDIDATE_PATH_CHECKS_PASSED",
+      "summary": "results/reference/collective/I_III/summary.json",
+      "trajectory": "results/reference/collective/I_III/trajectory.npz",
+      "independent_audit": "results/reference/collective/I_III/independent_audit.json"
+    },
+    {
+      "route": "II_IV",
+      "description": "Explicit synchronized candidate with constrained local-minimum nodes, fixed-progress saddle connectors and feasible geometric interpolation",
+      "height_above_A_kcal_mol": 15.514201146247586,
+      "maximum_sampled_energy_kcal_mol": 220.0254152505576,
+      "difference_above_selected_sequential_kcal_mol": 8.110206447557232,
+      "frames": 1575,
+      "fixed_source_blocks": 9,
+      "maximum_atom_gap_A": 0.009990573918796953,
+      "maximum_stored_node_constraint_rad": 1.852296094284611e-12,
+      "maximum_quarter_probe_constraint_rad": 7.699198244504047e-07,
+      "maximum_saved_energy_recheck_error_kcal_mol": 0.0,
+      "endpoints": {
+        "A": {
+          "proper_symmetry_rmsd_to_intended_endpoint_A": 1.112302430615012e-15,
+          "energy_kcal_mol": 204.51121410431,
+          "gradient_max_atomic_norm": 8.725361022002662e-13,
+          "internal_index": 0,
+          "lowest_internal_curvature": 0.08356982954391588
+        },
+        "B": {
+          "proper_symmetry_rmsd_to_intended_endpoint_A": 1.3632730399937913e-12,
+          "energy_kcal_mol": 204.51121410431006,
+          "gradient_max_atomic_norm": 1.7780723462263989e-10,
+          "internal_index": 0,
+          "lowest_internal_curvature": 0.08356983651290922
+        }
+      },
+      "status": "INDEPENDENT_COMPLETE_CANDIDATE_PATH_CHECKS_PASSED",
+      "summary": "results/reference/collective/II_IV/summary.json",
+      "trajectory": "results/reference/collective/II_IV/trajectory.npz",
+      "independent_audit": "results/reference/collective/II_IV/independent_audit.json"
+    }
+  ],
+  "collective_minus_selected_sequential_kcal_mol": {
+    "I_III": 8.161909726817015,
+    "II_IV": 8.110206447557232
+  },
+  "constraint_definition": {
+    "torsion_atom_indices_zero_based": [
+      [
+        2,
+        3,
+        24,
+        6
+      ],
+      [
+        3,
+        24,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        25,
+        12
+      ],
+      [
+        9,
+        25,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        26,
+        18
+      ],
+      [
+        15,
+        26,
+        18,
+        19
+      ]
+    ],
+    "equation": "wrapped(phi(x)-phi_A-t*Delta)=0 for all six torsions, with two declared atom-mapped windings I/III and II/IV",
+    "angles": "radians",
+    "coordinates": "angstrom",
+    "energy": "kcal/mol",
+    "lagrangian": "L=E+lambda*c",
+    "stationary_dimension_after_removing_rigid_motion": 291,
+    "constraint_rank": 6,
+    "constrained_tangent_dimension": 285,
+    "normal_constraint_forces": "Bare Cartesian forces can be nonzero at constrained minima. KKT/tangent forces, not bare force, determine convergence."
+  },
+  "node_study": {
+    "accepted_node_calculations": 164,
+    "patterns": [
+      "I_III",
+      "II_IV"
+    ],
+    "continuation_directions": [
+      "forward",
+      "reverse"
+    ],
+    "profiles": [
+      {
+        "pattern": "I_III",
+        "direction": "forward",
+        "node_count": 41,
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "maximum_node_height_above_A_kcal_mol": 15.44123316074527,
+        "maximum_constraint_residual_rad": 1.5987211554602254e-14,
+        "maximum_kkt_gradient_atomic_norm_kcal_mol_per_A": 2.7176451160631897e-10,
+        "minimum_tangent_curvature_kcal_mol_per_A2": 0.02881664807526002,
+        "report": "results/reference/collective/node_studies/I_III_forward_40/branch.json",
+        "coordinates": "results/reference/collective/node_studies/I_III_forward_40/nodes.npz"
+      },
+      {
+        "pattern": "I_III",
+        "direction": "reverse",
+        "node_count": 41,
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "maximum_node_height_above_A_kcal_mol": 15.56064495544257,
+        "maximum_constraint_residual_rad": 2.9976021664879227e-14,
+        "maximum_kkt_gradient_atomic_norm_kcal_mol_per_A": 6.573902000891999e-10,
+        "minimum_tangent_curvature_kcal_mol_per_A2": 0.028816971738559502,
+        "report": "results/reference/collective/node_studies/I_III_reverse_40/branch.json",
+        "coordinates": "results/reference/collective/node_studies/I_III_reverse_40/nodes.npz"
+      },
+      {
+        "pattern": "II_IV",
+        "direction": "forward",
+        "node_count": 41,
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "maximum_node_height_above_A_kcal_mol": 15.430110174477448,
+        "maximum_constraint_residual_rad": 1.2212453270876722e-14,
+        "maximum_kkt_gradient_atomic_norm_kcal_mol_per_A": 5.455815009012611e-10,
+        "minimum_tangent_curvature_kcal_mol_per_A2": 0.03370730412056461,
+        "report": "results/reference/collective/node_studies/II_IV_forward_40/branch.json",
+        "coordinates": "results/reference/collective/node_studies/II_IV_forward_40/nodes.npz"
+      },
+      {
+        "pattern": "II_IV",
+        "direction": "reverse",
+        "node_count": 41,
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "maximum_node_height_above_A_kcal_mol": 15.480449363123,
+        "maximum_constraint_residual_rad": 1.199040866595169e-14,
+        "maximum_kkt_gradient_atomic_norm_kcal_mol_per_A": 3.403959926932606e-10,
+        "minimum_tangent_curvature_kcal_mol_per_A2": 0.03370748952640524,
+        "report": "results/reference/collective/node_studies/II_IV_reverse_40/branch.json",
+        "coordinates": "results/reference/collective/node_studies/II_IV_reverse_40/nodes.npz"
+      }
+    ],
+    "maximum_constraint_residual_rad": 2.9976021664879227e-14,
+    "maximum_kkt_gradient_atomic_norm_kcal_mol_per_A": 6.573902000891999e-10,
+    "minimum_tangent_curvature_kcal_mol_per_A2": 0.02881664807526002
+  },
+  "bounded_multistart": {
+    "initialization_sources": [
+      "prior_dense_candidate",
+      "forward_continuation",
+      "reverse_continuation"
+    ],
+    "cases": 6,
+    "progress_values_per_pattern": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "three_starts_agreed_at_these_cases": true,
+    "exhaustive": false,
+    "report": "results/reference/collective/sensitivity_summary.json"
+  },
+  "tolerance_sensitivity": {
+    "maximum_same_seed_energy_change_kcal_mol": 3.609557097661309e-12,
+    "maximum_same_seed_coordinate_change_A": 1.5010720691417632e-06,
+    "interpretation": "Numerical repeatability at the tested starts, not physical/model uncertainty"
+  },
+  "independent_pilot_derivative_and_curvature_checks": {
+    "accepted_cases": 6,
+    "all_passed": true,
+    "largest_jacobian_finite_difference_error_rad_per_A": 4.14461992503945e-10,
+    "largest_solver_vs_independent_jacobian_error_rad_per_A": 6.661338147750939e-16,
+    "largest_lowest_curvature_step_change_kcal_mol_per_A2": 5.589964073432485e-07,
+    "both_hessian_difference_steps_A": [
+      0.0001,
+      5e-05
+    ],
+    "energy_only_feasible_second_differences": "Passed independently retracted tangent-direction checks; full records retained"
+  },
+  "sampling_sensitivity": [
+    {
+      "pattern": "I_III",
+      "frames": 2641,
+      "maximum_node_constraint_rad": 1.9708817911023857e-12,
+      "maximum_chord_probe_constraint_rad": 2.8984236985496453e-07,
+      "maximum_atom_step_A": 0.004999765806085053,
+      "maximum_finite_checked_energy_kcal_mol": 220.07711852981737,
+      "finite_checked_height_above_A_kcal_mol": 15.56590442550737,
+      "sampled_maximum_change_kcal_mol": 0.0
+    },
+    {
+      "pattern": "II_IV",
+      "frames": 2715,
+      "maximum_node_constraint_rad": 1.852296094284611e-12,
+      "maximum_chord_probe_constraint_rad": 1.9358553959847313e-07,
+      "maximum_atom_step_A": 0.004997399170178232,
+      "maximum_finite_checked_energy_kcal_mol": 220.0254152505576,
+      "finite_checked_height_above_A_kcal_mol": 15.514201146247586,
+      "sampled_maximum_change_kcal_mol": 0.0
+    }
+  ],
+  "fixed_progress_connectors": [
+    {
+      "pattern": "I_III",
+      "progress": 0.4675,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 219.8896771146513,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.06780769457609581,
+      "stationary_kkt_gradient": 1.2994947506941579e-12,
+      "stationary_angular_residual_rad": 2.220446049250313e-16,
+      "endpoint_energies_kcal_mol": [
+        219.870058296762,
+        219.8641766302763
+      ],
+      "endpoint_kkt_gradients": [
+        7.818002346609177e-11,
+        8.454350967880913e-08
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.6930794955267692e-07,
+      "finite_curve_audit": {
+        "frames": 249,
+        "maximum_node_energy_kcal_mol": 219.8896771146513,
+        "maximum_finite_checked_energy_kcal_mol": 219.8896771146513,
+        "maximum_chord_probe_constraint_rad": 7.604148821727108e-08,
+        "maximum_atom_step_A": 0.012000000000000129,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 220.07711852981745,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.0695648016464554,
+      "stationary_kkt_gradient": 4.569503038907352e-09,
+      "stationary_angular_residual_rad": 3.4861002973229915e-14,
+      "endpoint_energies_kcal_mol": [
+        220.0718590597536,
+        219.88613966824988
+      ],
+      "endpoint_kkt_gradients": [
+        7.642148178953078e-08,
+        6.99702318607164e-08
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.819515184825175e-07,
+      "finite_curve_audit": {
+        "frames": 261,
+        "maximum_node_energy_kcal_mol": 220.07711852981745,
+        "maximum_finite_checked_energy_kcal_mol": 220.07711852981745,
+        "maximum_chord_probe_constraint_rad": 1.0454436760731767e-07,
+        "maximum_atom_step_A": 0.012000000000000273,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.46,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 219.81853181316822,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.04133739345772001,
+      "stationary_kkt_gradient": 1.5902363570874344e-12,
+      "stationary_angular_residual_rad": 2.220446049250313e-16,
+      "endpoint_energies_kcal_mol": [
+        219.79001137242076,
+        219.8118913883044
+      ],
+      "endpoint_kkt_gradients": [
+        8.138665282939624e-11,
+        1.2127011798554496e-09
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 4.805832699559032e-09,
+      "finite_curve_audit": {
+        "frames": 272,
+        "maximum_node_energy_kcal_mol": 219.81853181316822,
+        "maximum_finite_checked_energy_kcal_mol": 219.81853181316822,
+        "maximum_chord_probe_constraint_rad": 8.091601055859597e-08,
+        "maximum_atom_step_A": 0.012000000000000054,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 220.02541525055747,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.06853208496007421,
+      "stationary_kkt_gradient": 5.6916129652762786e-11,
+      "stationary_angular_residual_rad": 6.432490598706546e-16,
+      "endpoint_energies_kcal_mol": [
+        219.99166346743317,
+        219.90031295512813
+      ],
+      "endpoint_kkt_gradients": [
+        6.8845520948302365e-12,
+        1.1907784682486288e-12
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.1631946543090216e-12,
+      "finite_curve_audit": {
+        "frames": 255,
+        "maximum_node_energy_kcal_mol": 220.02541525055747,
+        "maximum_finite_checked_energy_kcal_mol": 220.02541525055747,
+        "maximum_chord_probe_constraint_rad": 1.0082600843119849e-07,
+        "maximum_atom_step_A": 0.012000000000000186,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    }
+  ],
+  "standalone_collective_reproductions": {
+    "I_III": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1525,
+      "height_above_A_kcal_mol": 15.56590442550683,
+      "height_difference_from_primary_kcal_mol": -5.400124791776761e-13,
+      "primary_reference_frames": 1525,
+      "frame_count_difference": 0,
+      "separately_independently_audited_full_dataset": false,
+      "validation": "Fresh complete run with its own KKT, curvature, endpoint and interval gates; primary full dataset has a separate independent audit.",
+      "report": "results/reference/collective/standalone_reproductions/I_III/summary.json"
+    },
+    "II_IV": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1587,
+      "height_above_A_kcal_mol": 15.5142011462477,
+      "height_difference_from_primary_kcal_mol": 1.1368683772161603e-13,
+      "primary_reference_frames": 1575,
+      "frame_count_difference": 12,
+      "separately_independently_audited_full_dataset": false,
+      "validation": "Fresh complete run with its own KKT, curvature, endpoint and interval gates; primary full dataset has a separate independent audit.",
+      "report": "results/reference/collective/standalone_reproductions/II_IV/summary.json"
+    }
+  },
+  "supplementary_nonminimized_projected_baselines": {
+    "I_III": {
+      "status": "EXACT_FEASIBLE_BASELINE_CHECKS_PASSED",
+      "frames": 6735,
+      "height_above_A_kcal_mol": 16.13212645394941,
+      "maximum_stored_projection_correction_A": 0.004473579126385141,
+      "report": "results/reference/collective/projected_baselines/I_III/summary.json",
+      "full_trajectory_location": "Full research audit archive: collective_study_20261113/audit/exact_feasible_baseline/I_III_projected/trajectory.npz",
+      "full_trajectory_sha256": "265e53d7b4d5094317b244a4c5f51132f5aabb13c36b2110f1caccd0a3629346",
+      "minimized": false
+    },
+    "II_IV": {
+      "status": "EXACT_FEASIBLE_BASELINE_CHECKS_PASSED",
+      "frames": 6828,
+      "height_above_A_kcal_mol": 16.060584842967273,
+      "maximum_stored_projection_correction_A": 0.0044937272000838075,
+      "report": "results/reference/collective/projected_baselines/II_IV/summary.json",
+      "full_trajectory_location": "Full research audit archive: collective_study_20261113/audit/exact_feasible_baseline/II_IV_projected/trajectory.npz",
+      "full_trajectory_sha256": "7726f4eddb1f38613586d73368f844d1d2af258593e113dc05432e9c50891d06",
+      "minimized": false
+    }
+  },
+  "historical_network": {
+    "validated_minima": 36,
+    "edge_records": 53,
+    "reachable_minima": 32,
+    "reachable_coarse_forms": [
+      "a_minus",
+      "a_plus",
+      "b_minus",
+      "b_plus",
+      "c_minus",
+      "c_plus",
+      "d_minus",
+      "d_plus",
+      "e_minus",
+      "e_plus",
+      "f_minus",
+      "f_plus",
+      "g_minus",
+      "g_plus",
+      "h_minus",
+      "h_plus",
+      "i_minus",
+      "i_plus",
+      "j_minus",
+      "j_plus"
+    ],
+    "full_record": "results/reference/network_full.json",
+    "reproduction_scope": "Selected paths are reproduced publicly; the full historical bounded search is retained as evidence and is not rerun by those commands."
+  },
+  "limits": [
+    "The three compared routes are the selected localized sequential route and two explicit synchronized candidates; they do not exhaust possible paths.",
+    "A lower selected sequential height than these candidates does not prove that every collective route is higher or that the sequential route is globally optimal.",
+    "Six angular equalities hold numerically at recorded collective nodes. Cartesian interpolation has a separately measured small residual; exact feasibility at every real-valued interior point is not claimed.",
+    "Quarter/mid/three-quarter probes and sampling sensitivity are finite numerical evidence, not a rigorous continuous supremum certificate.",
+    "Constrained local-minimum nodes, fixed-progress constrained saddle connectors and other feasible interpolation segments have different roles; the entire continuous path is not claimed to be a curve of minimized configurations.",
+    "A fixed-progress tangent index-one connector is not an unconstrained elementary transition state.",
+    "Forward/reverse profiles can switch local basins. Their pointwise lowest-energy envelope was not substituted for a molecular path.",
+    "The 164 accepted node calculations across four profiles are not 164 distinct molecular conformers. Three starts at six progress values are bounded multistart evidence.",
+    "MMFF94 potential-energy heights are not thermal free energies, rate constants, or numerical reproductions of the original paper's MM2 barriers.",
+    "These new exact-constraint calculations and standalone reproductions ran in the working CPU environment; execution of the new exact-constraint experiment on the user's Mac is not asserted.",
+    "Public reproduction commands regenerate the selected paths. They do not rerun the full historical bounded network exploration."
+  ],
+  "provenance": {
+    "copied_source_manifest": "results/reference/source_manifest.json",
+    "validation_record": "results/reference/validation.json",
+    "local_paths_are_historical_provenance_not_public_links": true
+  }
+}

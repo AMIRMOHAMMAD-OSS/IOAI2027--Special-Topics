@@ -1,0 +1,181 @@
+{
+  "status": "ALL_REGRESSION_CHECKS_PASSED",
+  "checks": [
+    {
+      "name": "original_AST_and_empty_type_params_portability",
+      "passed": true,
+      "evidence": {
+        "canonical_ast_sha256": "d5bd08e99940e021411be6b4cf4557064a6da048cb498aca5c66808aa9ae0a0b",
+        "empty_type_params_removed": 21,
+        "scope": "Python 3.11-style AST field absence simulated; no separate 3.11 chemistry run"
+      },
+      "elapsed_seconds": 0.19926859000406694
+    },
+    {
+      "name": "cosmetic_comments_and_blank_lines_accepted",
+      "passed": true,
+      "evidence": {
+        "source_sha256": "2a7279d5994bbb93c7724187f958f8c3610da52dd54e1fea237b3acfbd3b5df9",
+        "fixed_sha256": "56b0d36130eb10df64858568969e2b9ae2d4718c3b94e0a3425a5885aaea78d6",
+        "fixed_canonical_AST_matches_maintained": true
+      },
+      "elapsed_seconds": 0.1656220829972881
+    },
+    {
+      "name": "substantive_exact_script_change_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "The exact-collective script is a different version or incomplete. Nothing was run: /workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113/changed_exact.py",
+        "no_destination_created": true
+      },
+      "elapsed_seconds": 0.0457285669981502
+    },
+    {
+      "name": "malformed_exact_script_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "SyntaxError",
+        "no_destination_created": true
+      },
+      "elapsed_seconds": 0.006808248996094335
+    },
+    {
+      "name": "unimportable_saved_runner_ignored",
+      "passed": true,
+      "evidence": {
+        "runner_sha256": "7b01b20bcc039bfe577cb893f11d080f3120fdde0bd294bb24adcb92351a5fe5",
+        "runner_is_deliberately_unparseable": true,
+        "baseline_force_checks": 9,
+        "directional_gradient_error": 3.9240696914077944e-08,
+        "both_saved_collective_inputs_checked": true
+      },
+      "elapsed_seconds": 3.106639483004983
+    },
+    {
+      "name": "missing_saved_runner_ignored",
+      "passed": true,
+      "evidence": {
+        "loader": "embedded_checked_central_loader",
+        "saved_runner_required": false
+      },
+      "elapsed_seconds": 0.0934940529987216
+    },
+    {
+      "name": "altered_original_central_source_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "The original revalidate.py is missing or changed."
+      },
+      "elapsed_seconds": 0.013674974004970863
+    },
+    {
+      "name": "changed_refs_hash_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "refs.json changed since validation."
+      },
+      "elapsed_seconds": 0.015177121000306215
+    },
+    {
+      "name": "mismatched_comparison_central_sha256_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved comparison input provenance changed: central_sha256"
+      },
+      "elapsed_seconds": 0.11368767199746799
+    },
+    {
+      "name": "mismatched_comparison_terminal_sha256_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "No passed terminal validation matching this comparison was found."
+      },
+      "elapsed_seconds": 0.054917330999160185
+    },
+    {
+      "name": "mismatched_comparison_reference_sha256_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved comparison input provenance changed: reference_sha256"
+      },
+      "elapsed_seconds": 0.11418729100114433
+    },
+    {
+      "name": "mismatched_comparison_source_sha256_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved comparison input provenance changed: source_sha256"
+      },
+      "elapsed_seconds": 0.19984763200045563
+    },
+    {
+      "name": "exact_terminal_provenance_selected_over_newer_report",
+      "passed": true,
+      "evidence": {
+        "matched_terminal_sha256": "ea84b9967de0e0fb59f0f7a8da07d72d824de50b08c9da60fce605b3ef354af8",
+        "newer_different_report_ignored": true
+      },
+      "elapsed_seconds": 0.10671118699974613
+    },
+    {
+      "name": "repair_end_to_end_ten_node_I_III_smoke",
+      "passed": true,
+      "evidence": {
+        "returncode": 0,
+        "elapsed_seconds": 46.3558038830015,
+        "status": "COMPLETE_EXACT_CONSTRAINED_NODE_SEQUENCES",
+        "verified_nodes": 10,
+        "max_constraint_rad": 9.325873406851315e-15,
+        "max_kkt_gradient": 2.6300991086960104e-10,
+        "min_tangent_curvature": 0.034044394199125576,
+        "max_endpoint_proper_rmsd_A": 3.2911622854252e-12,
+        "generated_script": "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113/smoke_fixture/lindner_exact_collective_fixed_1794524702297178132.py",
+        "generated_script_sha256": "56b0d36130eb10df64858568969e2b9ae2d4718c3b94e0a3425a5885aaea78d6",
+        "generated_AST_matches_maintained": true,
+        "input_source_and_results_preserved": true,
+        "scope": "Ten constrained nodes; this does not validate inter-node path connectors."
+      },
+      "elapsed_seconds": 46.356106560000626
+    },
+    {
+      "name": "original_sources_and_results_preserved",
+      "passed": true,
+      "evidence": {
+        "protected_original_files": 40,
+        "changed_files": [],
+        "smoke_copied_source_and_inputs_unchanged": true
+      },
+      "elapsed_seconds": 0.7930788189987652
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "output": "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113",
+  "source_hashes": {
+    "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/tools/lindner_exact_collective.py": "827a8c3f5231b6661e3236a65398b8d866951022fd0148dcf3ce6d5c3a5b8c4e",
+    "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/tools/lindner_repair_collective.py": "54b4508526d8c20e90b69162ea852bd4aa61e7a1c4635dafa4511b0bb37b3290",
+    "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/original_exact_collective.py": "06f47d85c012912f446889be77555420e072695c7890788b431b273c32369332"
+  },
+  "elapsed_seconds": 52.569492151000304,
+  "smoke_command": [
+    "/workspace/scratch/e33e03ff6c19/inline_jeanzay/venv/bin/python",
+    "-u",
+    "/workspace/scratch/e38f80eb67c5/propeller-chains-revisited/tools/lindner_repair_collective.py",
+    "--source",
+    "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113/smoke_fixture/lindner_exact_collective2.py",
+    "--comparison",
+    "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113/smoke_fixture/comparison_saved",
+    "--out",
+    "/workspace/scratch/e38f80eb67c5/mac_loader_fix_20261113/independent_regression_20261113/repair_smoke_results",
+    "--intervals",
+    "4",
+    "--pattern",
+    "I_III"
+  ]
+}

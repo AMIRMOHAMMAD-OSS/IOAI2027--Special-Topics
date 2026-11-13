@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "status": "RECORDED_VALIDATION_PASSED",
+  "generated_at_utc": "2026-11-12T22:10:41.980461+00:00",
+  "execution_location": "Local CPU working environment; no new Mac or Jean Zay execution claimed",
+  "model_and_reference": {
+    "status": "MODEL_AND_REFERENCE_CHECKS_PASSED",
+    "report": "results/reference/test_records/model_checks.json"
+  },
+  "standalone_sequential": {
+    "status": "SEQUENTIAL_ROUTE_REVALIDATED",
+    "integration_status": "SEQUENTIAL_INTEGRATION_CHECK_PASSED",
+    "stationary_landmarks_checked": 13,
+    "frames": 16343,
+    "largest_landmark_gradient_kcal_mol_per_A": 1.4199169888551086e-12,
+    "all_marker_and_input_hash_checks_passed": true,
+    "report": "results/reference/standalone_sequential_integration.json",
+    "trajectory": "results/reference/standalone_sequential_path.npz",
+    "trajectory_sha256": "9e6411654f4a3205fde90af7d5db083c0c3447a4e90c06916f51d6353f355819"
+  },
+  "primary_collective_datasets": {
+    "I_III": {
+      "status": "INDEPENDENT_COMPLETE_CANDIDATE_PATH_CHECKS_PASSED",
+      "frames": 1525,
+      "report": "results/reference/collective/I_III/independent_audit.json"
+    },
+    "II_IV": {
+      "status": "INDEPENDENT_COMPLETE_CANDIDATE_PATH_CHECKS_PASSED",
+      "frames": 1575,
+      "report": "results/reference/collective/II_IV/independent_audit.json"
+    }
+  },
+  "independent_constrained_pilots": {
+    "accepted_cases": 6,
+    "all_passed": true,
+    "largest_jacobian_finite_difference_error_rad_per_A": 4.14461992503945e-10,
+    "largest_solver_vs_independent_jacobian_error_rad_per_A": 6.661338147750939e-16,
+    "largest_lowest_curvature_step_change_kcal_mol_per_A2": 5.589964073432485e-07,
+    "both_hessian_difference_steps_A": [
+      0.0001,
+      5e-05
+    ],
+    "energy_only_feasible_second_differences": "Passed independently retracted tangent-direction checks; full records retained"
+  },
+  "quantized_connector_seeds": {
+    "count": 4,
+    "all_recovered_index_one": true,
+    "report": "results/reference/collective/quantized_connector_seed_tests.json"
+  },
+  "fresh_standalone_collective_runs": {
+    "I_III": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1525,
+      "height_above_A_kcal_mol": 15.56590442550683,
+      "height_difference_from_primary_kcal_mol": -5.400124791776761e-13,
+      "primary_reference_frames": 1525,
+      "frame_count_difference": 0,
+      "separately_independently_audited_full_dataset": false,
+      "validation": "Fresh complete run with its own KKT, curvature, endpoint and interval gates; primary full dataset has a separate independent audit.",
+      "report": "results/reference/collective/standalone_reproductions/I_III/summary.json"
+    },
+    "II_IV": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1587,
+      "height_above_A_kcal_mol": 15.5142011462477,
+      "height_difference_from_primary_kcal_mol": 1.1368683772161603e-13,
+      "primary_reference_frames": 1575,
+      "frame_count_difference": 12,
+      "separately_independently_audited_full_dataset": false,
+      "validation": "Fresh complete run with its own KKT, curvature, endpoint and interval gates; primary full dataset has a separate independent audit.",
+      "report": "results/reference/collective/standalone_reproductions/II_IV/summary.json"
+    }
+  },
+  "standalone_mac_node_runner_smoke": {
+    "status": "COMPLETE_EXACT_CONSTRAINED_NODE_SEQUENCES",
+    "nodes_executed": 20,
+    "intervals_per_sequence": 4,
+    "default_full_grid_not_run_in_this_smoke_test": true,
+    "report": "results/reference/test_records/mac_node_runner_smoke.json"
+  },
+  "mac_node_runner_guard_checks": {
+    "checks": {
+      "incomplete_file_rejected_before_calculation": true,
+      "changed_runner_rejected_before_import_or_output": true,
+      "embedded_solver_matches_maintained_module": true,
+      "standalone_lines": 312
+    },
+    "report": "results/reference/test_records/mac_node_runner_guard_checks.json",
+    "tested_source_sha256": "06f47d85c012912f446889be77555420e072695c7890788b431b273c32369332",
+    "scope": "Original delivered continuation before loader correction; retained as historical test evidence."
+  },
+  "limits": [
+    "Passing these recorded checks is not an exhaustive/global path proof.",
+    "Primary independent audits bind their exact trajectory hashes; separate portable reproductions are recorded separately, including different frame counts.",
+    "No unrecorded test-suite or remote execution result is asserted."
+  ],
+  "interactive_explorer": {
+    "status": "JAVASCRIPT_DATA_AND_CONTROL_CHECKS_PASSED",
+    "checked_path_series": 3,
+    "nodes_only_series": 4,
+    "scope": "JavaScript data/control-flow checks, including correct peak readouts and disabled playback for node-only sequences. Browser layout/rendering was not validated because browser launch was blocked by workspace socket policy.",
+    "report": "results/reference/test_records/explorer_validation.json"
+  },
+  "packaging_and_unit_tests": {
+    "status": "PACKAGE_AND_UNIT_CHECKS_PASSED",
+    "python": "3.12.14",
+    "installed_import_outside_source_tree": true,
+    "packaged_data_files_verified": 5,
+    "unit_tests_passed": 5,
+    "github_actions_run": false,
+    "report": "results/reference/test_records/packaging_validation.json"
+  },
+  "mac_input_loader_correction": {
+    "status": "ALL_REGRESSION_CHECKS_PASSED",
+    "checks_passed": 15,
+    "report": "results/reference/test_records/mac_loader_fix_regression.json",
+    "fixed_source_sha256": "827a8c3f5231b6661e3236a65398b8d866951022fd0148dcf3ce6d5c3a5b8c4e",
+    "repair_source_sha256": "54b4508526d8c20e90b69162ea852bd4aa61e7a1c4635dafa4511b0bb37b3290",
+    "saved_comparison_runner_imported": false,
+    "original_central_source_and_four_comparison_hashes_verified": true,
+    "smoke_nodes": 10,
+    "execution_location": "Local Python3.12.14 fixture, not the user Mac"
+  },
+  "last_updated_at_utc": "2026-11-12T23:34:13.610952+00:00",
+  "mac_complete_path_continuation": {
+    "status": "ALL_MAC_COMPLETE_PATH_CONTINUATION_CHECKS_PASSED",
+    "report": "results/reference/test_records/mac_complete_paths_regression.json",
+    "delivered_source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06",
+    "full_numerical_run_source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+    "numerical_functions_and_seeds_identical_between_versions": true,
+    "guard_checks_passed": 22,
+    "complete_patterns": 2,
+    "constrained_connectors": 4,
+    "downhill_releases": 8,
+    "independently_audited_stored_frames": 3115,
+    "independently_audited_chord_probes": 9339,
+    "execution_location": "Local Python 3.12.14 fixture reconstructed from reference nodes; no Mac execution claimed",
+    "full_records": "results/reference/collective/mac_complete_paths_validation"
+  },
+  "reported_mac_complete_path_reproduction": {
+    "status": "USER_REPORTED_MAC_COMPLETION_CONSISTENT_WITH_LOCAL_REFERENCE",
+    "reported_execution_status": "COMPLETE_COLLECTIVE_CANDIDATE_PATHS_VERIFIED",
+    "evidence_type": "User-pasted terminal stdout; not an independently accessed Mac result file.",
+    "stdout_record": "results/reported_mac/complete_path_summary.json",
+    "provenance": "results/reported_mac/provenance.json",
+    "comparison_with_local": "results/reported_mac/comparison_with_local.json",
+    "local_audit_reference": "results/reference/collective/mac_complete_paths_validation/saved_path_audit.json",
+    "reported_complete_patterns": 2,
+    "reported_constrained_connectors": 4,
+    "reported_all_path_checks_passed": true,
+    "reported_finite_checked_heights_above_A_kcal_mol": {
+      "I_III": 15.565904425506801,
+      "II_IV": 15.514201146247729
+    },
+    "reported_frames": {
+      "I_III": 1527,
+      "II_IV": 1586
+    },
+    "largest_absolute_height_difference_from_local_kcal_mol": 1.71e-13,
+    "raw_mac_files_accessed": false,
+    "raw_mac_trajectory_independently_audited": false,
+    "executed_mac_source_hash_observed": false,
+    "scope": "The reported Mac reproduction agrees numerically with the locally audited candidate constructions. Local reference data remain the audited evidence; no byte-identical trajectory, independent Mac-data audit, or global optimum is asserted."
+  }
+}

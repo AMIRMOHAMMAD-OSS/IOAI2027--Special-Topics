@@ -1,0 +1,4 @@
+# Versions used for the included calculations. Other versions must pass verify.
+numpy==2.2.6
+scipy==1.15.3
+rdkit==2025.9.6

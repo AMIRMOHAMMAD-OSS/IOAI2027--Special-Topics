@@ -1,0 +1,22 @@
+{
+  "status": "PACKAGE_AND_UNIT_CHECKS_PASSED",
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "rdkit": "2025.09.6",
+  "wheel": "propeller_paths-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "5b0266101e16f3a137d9fa80c3dedaa7c3510e24662dd43d72f0f7714db8e8fc",
+  "installed_import_location": "/workspace/scratch/e33e03ff6c19/inline_jeanzay/venv/lib/python3.12/site-packages/propeller_paths/__init__.py",
+  "installed_import_outside_source_tree": true,
+  "installed_data_files": [
+    "collective_connector_seeds.json",
+    "collective_endpoints.npz",
+    "collective_target_provenance.json",
+    "molecule.json",
+    "stationary_points.json"
+  ],
+  "context_constructed": true,
+  "unit_test_exit_code": 0,
+  "unit_test_output": "test_analytic_torsions_against_independent_differences (test_core.ModelChecks.test_analytic_torsions_against_independent_differences) ... ok\ntest_collective_endpoint_windings_keep_graph_and_energy (test_core.ModelChecks.test_collective_endpoint_windings_keep_graph_and_energy) ... ok\ntest_force_cache_and_proper_enantiomer_matching (test_core.ModelChecks.test_force_cache_and_proper_enantiomer_matching) ... ok\ntest_capped_minimizer_records_every_accepted_bounded_step (test_sequential.SequentialNumericalTests.test_capped_minimizer_records_every_accepted_bounded_step) ... ok\ntest_gap_audit_rejects_high_energy_connector_and_preserves_markers (test_sequential.SequentialNumericalTests.test_gap_audit_rejects_high_energy_connector_and_preserves_markers) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.380s\n\nOK\n",
+  "github_actions_run": false
+}

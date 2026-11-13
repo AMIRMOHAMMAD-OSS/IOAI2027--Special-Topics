@@ -1,0 +1,527 @@
+{
+  "status": "ALL_MAC_COMPLETE_PATH_CONTINUATION_CHECKS_PASSED",
+  "scope": "Local validation only. The filesystem fixture was assembled from 164 previously calculated local reference nodes, with unchanged numerical coordinates, energies, and convergence records, adapted into the standalone Mac output schema. It is not a copy of the user Mac output and is not a new 164-node optimization run. User evidence is limited to the 22 explicitly pasted energies.",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "actual_mac_execution": false,
+    "python311_scope": "Empty type_params field absence simulated; no separate Python 3.11 chemistry execution."
+  },
+  "final_source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06",
+  "full_numerical_run_source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+  "final_source_validation": "Input/provenance consistency and compact reporting were strengthened after the completed physics run. All 11 numerical/construction function ASTs and all 4 connector seeds are unchanged; the final input guards and formatter were separately executed.",
+  "numerical_source_equivalence": {
+    "unchanged_function_count": 11,
+    "functions": [
+      "follow_branch",
+      "retract",
+      "proper_same_identity_fit",
+      "probe_curve",
+      "feasible_descent",
+      "connect_from_constrained_saddle",
+      "dense_feasible_polyline",
+      "read_block",
+      "assemble_blocks",
+      "same_identity_rmsd",
+      "construct_path"
+    ],
+    "four_quantized_connector_seeds_unchanged": true,
+    "full_numerical_run_source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+    "final_source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06"
+  },
+  "guard_check_count": 22,
+  "guard_checks": [
+    {
+      "name": "baseline_cached_nodes_and_sequential_schema",
+      "passed": true,
+      "evidence": {
+        "checked_forward_nodes": 41,
+        "saved_sequential_height_kcal_mol": 7.40399469869044,
+        "invalid_saved_runner_ignored": true,
+        "fresh_curvature_nodes": [
+          18,
+          20,
+          22
+        ]
+      },
+      "elapsed_seconds": 2.749523290003708
+    },
+    {
+      "name": "python311_AST_shape_compatibility",
+      "passed": true,
+      "evidence": {
+        "empty_type_params_removed": 21,
+        "scope": "Simulated Python 3.11 AST field absence; executed runtime is recorded above."
+      },
+      "elapsed_seconds": 0.03944288499769755
+    },
+    {
+      "name": "cosmetic_source_with_matching_recorded_digest_accepted",
+      "passed": true,
+      "evidence": {
+        "known_semantic_version_accepted": true,
+        "source_sha256": "8e26ce7b49cc54ffbb1605d30bac2d0d9ecdf7f9d77648eabeedd89c0b208cab"
+      },
+      "elapsed_seconds": 0.30755803200008813
+    },
+    {
+      "name": "stale_recorded_source_digest_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "The node-run source differs from its recorded hash.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.048277509995386936
+    },
+    {
+      "name": "executable_change_even_with_refreshed_digest_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This node solver is a different executable version; no calculation was started.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.08858560299995588
+    },
+    {
+      "name": "incomplete_saved_study_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This continuation needs the completed 41-node study.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.05126864700287115
+    },
+    {
+      "name": "coarse_smoke_grid_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "This continuation needs the completed 41-node study.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.055943802995898295
+    },
+    {
+      "name": "mismatched_original_input_provenance_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Original input provenance changed: reference_sha256",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.17727208400174277
+    },
+    {
+      "name": "branch_vs_parent_summary_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node-branch report is incomplete or changed: I_III_forward",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.1797279510064982
+    },
+    {
+      "name": "coordinate_record_vs_NPZ_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node records disagree: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.4896820100038894
+    },
+    {
+      "name": "consistent_changed_coordinates_fail_current_force_checks",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Current node force or constraint check failed: I_III 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.6807692820002558
+    },
+    {
+      "name": "changed_target_input_hash_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Collective target inputs changed: I_III",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.7875458909984445
+    },
+    {
+      "name": "changed_target_winding_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved branch winding changed.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2084831809988827
+    },
+    {
+      "name": "negative_saved_node_curvature_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved constrained-minimum checks failed: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2040012959987507
+    },
+    {
+      "name": "consistent_parent_and_branch_row_vs_node_mismatch_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Branch row and node record disagree: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.3611712700003409
+    },
+    {
+      "name": "changed_reverse_branch_progress_grid_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved branch progress grid differs: I_III_reverse",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.28471994099527365
+    },
+    {
+      "name": "changed_node_target_torsions_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved node torsion target differs: 10",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 1.2953867120013456
+    },
+    {
+      "name": "final_numerical_core_matches_complete_run_source",
+      "passed": true,
+      "evidence": {
+        "unchanged_function_count": 11,
+        "functions": [
+          "follow_branch",
+          "retract",
+          "proper_same_identity_fit",
+          "probe_curve",
+          "feasible_descent",
+          "connect_from_constrained_saddle",
+          "dense_feasible_polyline",
+          "read_block",
+          "assemble_blocks",
+          "same_identity_rmsd",
+          "construct_path"
+        ],
+        "four_quantized_connector_seeds_unchanged": true,
+        "full_numerical_run_source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+        "final_source_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06"
+      },
+      "elapsed_seconds": 0.10770620800030883
+    },
+    {
+      "name": "final_compact_formatter_uses_actual_connectors_and_finite_baseline",
+      "passed": true,
+      "evidence": {
+        "connector_count": 4,
+        "path_counts": {
+          "I_III": 1527,
+          "II_IV": 1588
+        },
+        "finite_sequential_path_reference": 7.40399469869044,
+        "compact_output_saved": true
+      },
+      "elapsed_seconds": 0.30529033199854894
+    },
+    {
+      "name": "inconsistent_saved_sequential_finite_maximum_rejected",
+      "passed": true,
+      "evidence": {
+        "error_type": "RuntimeError",
+        "error": "Saved sequential finite-path maximum is inconsistent.",
+        "no_path_calculation_called": true
+      },
+      "elapsed_seconds": 0.2912789980036905
+    },
+    {
+      "name": "missing_final_paste_marker_rejected",
+      "passed": true,
+      "evidence": {
+        "returncode": 1,
+        "message": "Stopped: The file was not completely copied.\nExisting node results were preserved."
+      },
+      "elapsed_seconds": 0.5108514780004043
+    },
+    {
+      "name": "existing_output_directory_rejected_without_changes",
+      "passed": true,
+      "evidence": {
+        "returncode": 1,
+        "existing_output_preserved": true,
+        "new_files": 0
+      },
+      "elapsed_seconds": 3.2988883610014454
+    }
+  ],
+  "full_run": {
+    "returncode": 0,
+    "status": "COMPLETE_COLLECTIVE_CANDIDATE_PATHS_VERIFIED",
+    "construction_elapsed_seconds": 175.44213030600076,
+    "source_sha256": "37656e9e93ce78eabcb5953823e928e3e9eef6ed04cb6a95532bb411e1b37aae",
+    "cached_forward_nodes_checked": 82,
+    "saved_branch_node_statuses_checked": 164,
+    "connector_count": 4,
+    "release_count": 8
+  },
+  "independent_saved_path_audit": {
+    "status": "ALL_SAVED_PATH_AUDITS_PASSED",
+    "scope": "Independent reading and recomputation of every saved frame and three probes per adjacent-frame chord. Finite numerical evidence, not a rigorous continuous supremum or global optimality certificate.",
+    "paths": {
+      "I_III": {
+        "checks": {
+          "saved_path_accepted": true,
+          "all_saved_gates_true": true,
+          "finite": true,
+          "stored_energies_match_current_forcefield": true,
+          "all_node_constraints": true,
+          "all_chord_probe_constraints": true,
+          "small_atomic_gaps": true,
+          "complete_monotonic_progress": true,
+          "saved_finite_maximum_matches": true,
+          "proper_endpoint_matches": true
+        },
+        "frames": 1527,
+        "additional_chord_probes": 4578,
+        "maximum_energy_recomputation_error_kcal_mol": 0.0,
+        "maximum_node_constraint_rad": 1.970867913314578e-12,
+        "maximum_chord_probe_constraint_rad": 1.139086657664379e-06,
+        "maximum_atomic_gap_A": 0.00999122378764955,
+        "proper_endpoint_rmsd_A": {
+          "A": 1.112302430615012e-15,
+          "B": 2.036203444421852e-13
+        },
+        "independent_finite_checked_height_above_A_kcal_mol": 15.56590442550663,
+        "trajectory_sha256": "610b6c1352684af9610da1a5763f198578c84b9476c7b9030f67c6c320dd7b66"
+      },
+      "II_IV": {
+        "checks": {
+          "saved_path_accepted": true,
+          "all_saved_gates_true": true,
+          "finite": true,
+          "stored_energies_match_current_forcefield": true,
+          "all_node_constraints": true,
+          "all_chord_probe_constraints": true,
+          "small_atomic_gaps": true,
+          "complete_monotonic_progress": true,
+          "saved_finite_maximum_matches": true,
+          "proper_endpoint_matches": true
+        },
+        "frames": 1588,
+        "additional_chord_probes": 4761,
+        "maximum_energy_recomputation_error_kcal_mol": 0.0,
+        "maximum_node_constraint_rad": 1.8534063173092363e-12,
+        "maximum_chord_probe_constraint_rad": 7.699198243116269e-07,
+        "maximum_atomic_gap_A": 0.009960064426148774,
+        "proper_endpoint_rmsd_A": {
+          "A": 1.112302430615012e-15,
+          "B": 1.3632544036092214e-12
+        },
+        "independent_finite_checked_height_above_A_kcal_mol": 15.514201146247558,
+        "trajectory_sha256": "69a6797918560414b0fd9eaff9b25df57ea82af9e3bfcb271deeb479c552fae2"
+      }
+    },
+    "reference_A_energy_kcal_mol": 204.51121410431,
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "elapsed_seconds": 22.442016899003647
+  },
+  "constrained_connectors": [
+    {
+      "pattern": "I_III",
+      "side": "left",
+      "progress": 0.4675,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "constrained_saddle_index": 1,
+      "saddle_kkt_gradient": 1.1458645083278396e-12,
+      "saddle_constraint_residual_rad": 4.440892098500626e-16,
+      "releases": [
+        {
+          "sign": -1,
+          "status": "PROJECTED_DESCENT_WITH_LOCAL_KKT_POLISH",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 5.08979644875233e-11,
+          "maximum_constraint_rad": 7.979727989493313e-16,
+          "best_same_identity_endpoint_rmsd_A": 1.2273402524147603e-10
+        },
+        {
+          "sign": 1,
+          "status": "PROJECTED_GRADIENT_CONVERGED",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 9.062517412622819e-08,
+          "maximum_constraint_rad": 1.3263973253074823e-12,
+          "best_same_identity_endpoint_rmsd_A": 1.8140600306321665e-07
+        }
+      ]
+    },
+    {
+      "pattern": "I_III",
+      "side": "right",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "constrained_saddle_index": 1,
+      "saddle_kkt_gradient": 9.487854974724972e-13,
+      "saddle_constraint_residual_rad": 2.4492935982947064e-16,
+      "releases": [
+        {
+          "sign": -1,
+          "status": "PROJECTED_GRADIENT_CONVERGED",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 9.328995514113927e-08,
+          "maximum_constraint_rad": 2.227107387398064e-13,
+          "best_same_identity_endpoint_rmsd_A": 2.2283228526669803e-07
+        },
+        {
+          "sign": 1,
+          "status": "PROJECTED_GRADIENT_CONVERGED",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 6.997052679290718e-08,
+          "maximum_constraint_rad": 2.4868995751603507e-14,
+          "best_same_identity_endpoint_rmsd_A": 1.5056340289222673e-07
+        }
+      ]
+    },
+    {
+      "pattern": "II_IV",
+      "side": "left",
+      "progress": 0.46,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "constrained_saddle_index": 1,
+      "saddle_kkt_gradient": 1.6360099782038117e-12,
+      "saddle_constraint_residual_rad": 4.440892098500626e-16,
+      "releases": [
+        {
+          "sign": -1,
+          "status": "PROJECTED_DESCENT_WITH_LOCAL_KKT_POLISH",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 8.924773031039528e-11,
+          "maximum_constraint_rad": 4.440892098500626e-16,
+          "best_same_identity_endpoint_rmsd_A": 7.174766491628944e-10
+        },
+        {
+          "sign": 1,
+          "status": "PROJECTED_DESCENT_WITH_LOCAL_KKT_POLISH",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 3.139678963658372e-10,
+          "maximum_constraint_rad": 3.1086244689504383e-15,
+          "best_same_identity_endpoint_rmsd_A": 4.81648806884018e-09
+        }
+      ]
+    },
+    {
+      "pattern": "II_IV",
+      "side": "right",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "constrained_saddle_index": 1,
+      "saddle_kkt_gradient": 1.5404921603968938e-12,
+      "saddle_constraint_residual_rad": 2.4492935982947064e-16,
+      "releases": [
+        {
+          "sign": -1,
+          "status": "PROJECTED_DESCENT_WITH_LOCAL_KKT_POLISH",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 7.754875783019416e-12,
+          "maximum_constraint_rad": 6.432490598706546e-16,
+          "best_same_identity_endpoint_rmsd_A": 2.807058533508407e-13
+        },
+        {
+          "sign": 1,
+          "status": "PROJECTED_DESCENT_WITH_LOCAL_KKT_POLISH",
+          "negative_tangent_modes": 0,
+          "maximum_kkt_gradient": 1.487879565667463e-12,
+          "maximum_constraint_rad": 6.432490598706546e-16,
+          "best_same_identity_endpoint_rmsd_A": 7.18663067539064e-14
+        }
+      ]
+    }
+  ],
+  "saved_sequential_baseline": {
+    "current_checked_saddle_height_above_A_kcal_mol": 7.40399469869044,
+    "saved_finite_checked_path_height_above_A_kcal_mol": 7.40399469869044,
+    "scope": "Original accepted sequential path record reused; its six saddle energies and forces rechecked in this run."
+  },
+  "preservation": {
+    "original_inputs_and_reference_files": {
+      "protected_files": 210,
+      "changed_files": [],
+      "all_hashes_and_mtimes_preserved": true
+    },
+    "base_fixture_inputs": {
+      "protected_files": 178,
+      "changed_files": [],
+      "all_hashes_and_mtimes_preserved": true
+    }
+  },
+  "user_printed_energy_comparison": {
+    "scope": "Comparison of the 22 energies explicitly pasted by the user against local reference records. No Mac filesystem or unpasted values were accessed.",
+    "compared_nodes": 22,
+    "all_match_six_decimal_precision": true,
+    "maximum_absolute_difference_kcal_mol": 4.779583235858809e-07
+  },
+  "issues_fixed_before_full_run": [
+    "The initial preflight located saved saddle records under sequential.points. The actual schema stores them under sequential.edges[label].saddle. This was corrected before the full numerical run; the failed preflight created no result directory."
+  ],
+  "records": {
+    "fixture_manifest": "results/reference/collective/mac_complete_paths_validation/fixture_manifest.json",
+    "full_run_summary": "results/reference/collective/mac_complete_paths_validation/full_paths/summary.json",
+    "full_run_log": "results/reference/collective/mac_complete_paths_validation/full_paths.log",
+    "final_guard_report": "results/reference/collective/mac_complete_paths_validation/guard_regression_final.json",
+    "independent_audit": "results/reference/collective/mac_complete_paths_validation/saved_path_audit.json",
+    "formatter_test": "results/reference/collective/mac_complete_paths_validation/final_summary_formatter_test.json"
+  },
+  "claim_limits": [
+    "Finite frame and chord-probe checks are numerical evidence, not a rigorous continuous supremum bound.",
+    "The connector seeds are recorded reference structures revalidated here, not claimed to have been discovered anew.",
+    "Selected constrained candidates do not establish global collective or sequential optimality.",
+    "MMFF94 potential energies do not establish experimental activation free energies or rates."
+  ]
+}

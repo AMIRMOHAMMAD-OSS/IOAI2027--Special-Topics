@@ -1,0 +1,4223 @@
+{
+  "frames": 2715,
+  "maximum_node_energy_kcal_mol": 220.0254152505576,
+  "maximum_finite_checked_energy_kcal_mol": 220.0254152505576,
+  "maximum_node_constraint_rad": 1.852296094284611e-12,
+  "maximum_chord_probe_constraint_rad": 1.9358553959847313e-07,
+  "maximum_atom_step_A": 0.004997399170178232,
+  "intervals": [
+    {
+      "source_interval": 0,
+      "progress_start": 0.0,
+      "progress_end": 0.025,
+      "frames": 17,
+      "maximum_finite_checked_energy_kcal_mol": 204.63482672917416
+    },
+    {
+      "source_interval": 1,
+      "progress_start": 0.025,
+      "progress_end": 0.05,
+      "frames": 17,
+      "maximum_finite_checked_energy_kcal_mol": 204.99710797736145
+    },
+    {
+      "source_interval": 2,
+      "progress_start": 0.05,
+      "progress_end": 0.07500000000000001,
+      "frames": 18,
+      "maximum_finite_checked_energy_kcal_mol": 205.58073657688618
+    },
+    {
+      "source_interval": 3,
+      "progress_start": 0.07500000000000001,
+      "progress_end": 0.1,
+      "frames": 18,
+      "maximum_finite_checked_energy_kcal_mol": 206.36287274473858
+    },
+    {
+      "source_interval": 4,
+      "progress_start": 0.1,
+      "progress_end": 0.125,
+      "frames": 19,
+      "maximum_finite_checked_energy_kcal_mol": 207.31598939222252
+    },
+    {
+      "source_interval": 5,
+      "progress_start": 0.125,
+      "progress_end": 0.15000000000000002,
+      "frames": 20,
+      "maximum_finite_checked_energy_kcal_mol": 208.40920412737415
+    },
+    {
+      "source_interval": 6,
+      "progress_start": 0.15000000000000002,
+      "progress_end": 0.17500000000000002,
+      "frames": 22,
+      "maximum_finite_checked_energy_kcal_mol": 209.61069247359052
+    },
+    {
+      "source_interval": 7,
+      "progress_start": 0.17500000000000002,
+      "progress_end": 0.2,
+      "frames": 22,
+      "maximum_finite_checked_energy_kcal_mol": 210.8903232695414
+    },
+    {
+      "source_interval": 8,
+      "progress_start": 0.2,
+      "progress_end": 0.225,
+      "frames": 30,
+      "maximum_finite_checked_energy_kcal_mol": 212.21662962635168
+    },
+    {
+      "source_interval": 9,
+      "progress_start": 0.225,
+      "progress_end": 0.25,
+      "frames": 76,
+      "maximum_finite_checked_energy_kcal_mol": 213.53510843799876
+    },
+    {
+      "source_interval": 10,
+      "progress_start": 0.25,
+      "progress_end": 0.275,
+      "frames": 107,
+      "maximum_finite_checked_energy_kcal_mol": 214.69565613376648
+    },
+    {
+      "source_interval": 11,
+      "progress_start": 0.275,
+      "progress_end": 0.30000000000000004,
+      "frames": 183,
+      "maximum_finite_checked_energy_kcal_mol": 217.0516315298853
+    },
+    {
+      "source_interval": 12,
+      "progress_start": 0.30000000000000004,
+      "progress_end": 0.325,
+      "frames": 134,
+      "maximum_finite_checked_energy_kcal_mol": 217.468153457617
+    },
+    {
+      "source_interval": 13,
+      "progress_start": 0.325,
+      "progress_end": 0.35000000000000003,
+      "frames": 61,
+      "maximum_finite_checked_energy_kcal_mol": 216.99088022201266
+    },
+    {
+      "source_interval": 14,
+      "progress_start": 0.35000000000000003,
+      "progress_end": 0.375,
+      "frames": 25,
+      "maximum_finite_checked_energy_kcal_mol": 217.64435901569678
+    },
+    {
+      "source_interval": 15,
+      "progress_start": 0.375,
+      "progress_end": 0.4,
+      "frames": 24,
+      "maximum_finite_checked_energy_kcal_mol": 218.30538373281365
+    },
+    {
+      "source_interval": 16,
+      "progress_start": 0.4,
+      "progress_end": 0.42500000000000004,
+      "frames": 25,
+      "maximum_finite_checked_energy_kcal_mol": 218.96031407130693
+    },
+    {
+      "source_interval": 17,
+      "progress_start": 0.42500000000000004,
+      "progress_end": 0.45,
+      "frames": 31,
+      "maximum_finite_checked_energy_kcal_mol": 219.583820974511
+    },
+    {
+      "source_interval": 18,
+      "progress_start": 0.45,
+      "progress_end": 0.45,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.58382097451113
+    },
+    {
+      "source_interval": 19,
+      "progress_start": 0.45,
+      "progress_end": 0.4525,
+      "frames": 5,
+      "maximum_finite_checked_energy_kcal_mol": 219.64264140553124
+    },
+    {
+      "source_interval": 20,
+      "progress_start": 0.4525,
+      "progress_end": 0.455,
+      "frames": 6,
+      "maximum_finite_checked_energy_kcal_mol": 219.70043130998582
+    },
+    {
+      "source_interval": 21,
+      "progress_start": 0.455,
+      "progress_end": 0.4575,
+      "frames": 8,
+      "maximum_finite_checked_energy_kcal_mol": 219.75697434442196
+    },
+    {
+      "source_interval": 22,
+      "progress_start": 0.4575,
+      "progress_end": 0.4599343716064484,
+      "frames": 10,
+      "maximum_finite_checked_energy_kcal_mol": 219.81047610082146
+    },
+    {
+      "source_interval": 23,
+      "progress_start": 0.4599343716064484,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138830356
+    },
+    {
+      "source_interval": 24,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138830456
+    },
+    {
+      "source_interval": 25,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138830098
+    },
+    {
+      "source_interval": 26,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138829572
+    },
+    {
+      "source_interval": 27,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138829566
+    },
+    {
+      "source_interval": 28,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138829674
+    },
+    {
+      "source_interval": 29,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138829913
+    },
+    {
+      "source_interval": 30,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138830126
+    },
+    {
+      "source_interval": 31,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138830638
+    },
+    {
+      "source_interval": 32,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138831388
+    },
+    {
+      "source_interval": 33,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138832679
+    },
+    {
+      "source_interval": 34,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138834526
+    },
+    {
+      "source_interval": 35,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913883747
+    },
+    {
+      "source_interval": 36,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138842058
+    },
+    {
+      "source_interval": 37,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913884927
+    },
+    {
+      "source_interval": 38,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138860657
+    },
+    {
+      "source_interval": 39,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913887842
+    },
+    {
+      "source_interval": 40,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138906535
+    },
+    {
+      "source_interval": 41,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189138950623
+    },
+    {
+      "source_interval": 42,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913901983
+    },
+    {
+      "source_interval": 43,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913912849
+    },
+    {
+      "source_interval": 44,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118913929788
+    },
+    {
+      "source_interval": 45,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189139566283
+    },
+    {
+      "source_interval": 46,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189139986483
+    },
+    {
+      "source_interval": 47,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189140646507
+    },
+    {
+      "source_interval": 48,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118914168295
+    },
+    {
+      "source_interval": 49,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118914331054
+    },
+    {
+      "source_interval": 50,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189145866034
+    },
+    {
+      "source_interval": 51,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189149877093
+    },
+    {
+      "source_interval": 52,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189156171442
+    },
+    {
+      "source_interval": 53,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189166044996
+    },
+    {
+      "source_interval": 54,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118918152544
+    },
+    {
+      "source_interval": 55,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189205781632
+    },
+    {
+      "source_interval": 56,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189243757333
+    },
+    {
+      "source_interval": 57,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189303148773
+    },
+    {
+      "source_interval": 58,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189395900938
+    },
+    {
+      "source_interval": 59,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8118954048748
+    },
+    {
+      "source_interval": 60,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81189765428763
+    },
+    {
+      "source_interval": 61,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8119011563033
+    },
+    {
+      "source_interval": 62,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81190768243044
+    },
+    {
+      "source_interval": 63,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81190902160975
+    },
+    {
+      "source_interval": 64,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81191054954567
+    },
+    {
+      "source_interval": 65,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81191227396062
+    },
+    {
+      "source_interval": 66,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81191435105896
+    },
+    {
+      "source_interval": 67,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8119167670909
+    },
+    {
+      "source_interval": 68,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81191776426311
+    },
+    {
+      "source_interval": 69,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81191990542288
+    },
+    {
+      "source_interval": 70,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81192235281267
+    },
+    {
+      "source_interval": 71,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81192517114468
+    },
+    {
+      "source_interval": 72,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8119286705792
+    },
+    {
+      "source_interval": 73,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81193296966495
+    },
+    {
+      "source_interval": 74,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81193501217535
+    },
+    {
+      "source_interval": 75,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81193878099344
+    },
+    {
+      "source_interval": 76,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8119433812624
+    },
+    {
+      "source_interval": 77,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.811949155232
+    },
+    {
+      "source_interval": 78,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81195792009402
+    },
+    {
+      "source_interval": 79,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81195945643313
+    },
+    {
+      "source_interval": 80,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81196651823802
+    },
+    {
+      "source_interval": 81,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81197614640118
+    },
+    {
+      "source_interval": 82,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81198222732704
+    },
+    {
+      "source_interval": 83,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81199130231457
+    },
+    {
+      "source_interval": 84,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81200415889165
+    },
+    {
+      "source_interval": 85,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81202220521382
+    },
+    {
+      "source_interval": 86,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81204399377904
+    },
+    {
+      "source_interval": 87,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8120698584338
+    },
+    {
+      "source_interval": 88,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81210048276574
+    },
+    {
+      "source_interval": 89,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8121368505325
+    },
+    {
+      "source_interval": 90,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81218015985905
+    },
+    {
+      "source_interval": 91,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81223193870616
+    },
+    {
+      "source_interval": 92,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8122940944887
+    },
+    {
+      "source_interval": 93,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81236906323642
+    },
+    {
+      "source_interval": 94,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81245994960082
+    },
+    {
+      "source_interval": 95,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81257075620928
+    },
+    {
+      "source_interval": 96,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8127066226352
+    },
+    {
+      "source_interval": 97,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81287409967038
+    },
+    {
+      "source_interval": 98,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81308120137197
+    },
+    {
+      "source_interval": 99,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8133368217887
+    },
+    {
+      "source_interval": 100,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.81364835411338
+    },
+    {
+      "source_interval": 101,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8140125079193
+    },
+    {
+      "source_interval": 102,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8144648675294
+    },
+    {
+      "source_interval": 103,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81450838896396
+    },
+    {
+      "source_interval": 104,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81454298903824
+    },
+    {
+      "source_interval": 105,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8146409980211
+    },
+    {
+      "source_interval": 106,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81474856190056
+    },
+    {
+      "source_interval": 107,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81485980767846
+    },
+    {
+      "source_interval": 108,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81497452585222
+    },
+    {
+      "source_interval": 109,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81509268379187
+    },
+    {
+      "source_interval": 110,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81521425778703
+    },
+    {
+      "source_interval": 111,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81533919763388
+    },
+    {
+      "source_interval": 112,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8154674271367
+    },
+    {
+      "source_interval": 113,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81559883778763
+    },
+    {
+      "source_interval": 114,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81573328362825
+    },
+    {
+      "source_interval": 115,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8158705746676
+    },
+    {
+      "source_interval": 116,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8160104695071
+    },
+    {
+      "source_interval": 117,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8161526668772
+    },
+    {
+      "source_interval": 118,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81629679618348
+    },
+    {
+      "source_interval": 119,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81644240710094
+    },
+    {
+      "source_interval": 120,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81658895860988
+    },
+    {
+      "source_interval": 121,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81673580804838
+    },
+    {
+      "source_interval": 122,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81688220132
+    },
+    {
+      "source_interval": 123,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81702726602327
+    },
+    {
+      "source_interval": 124,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8171700101749
+    },
+    {
+      "source_interval": 125,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8173093300453
+    },
+    {
+      "source_interval": 126,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81744403145407
+    },
+    {
+      "source_interval": 127,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81757286871192
+    },
+    {
+      "source_interval": 128,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81769460385524
+    },
+    {
+      "source_interval": 129,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81780808493602
+    },
+    {
+      "source_interval": 130,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81791233604395
+    },
+    {
+      "source_interval": 131,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81800664513807
+    },
+    {
+      "source_interval": 132,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81809063154697
+    },
+    {
+      "source_interval": 133,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81816427668005
+    },
+    {
+      "source_interval": 134,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81822790974095
+    },
+    {
+      "source_interval": 135,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81828215238093
+    },
+    {
+      "source_interval": 136,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8183278365942
+    },
+    {
+      "source_interval": 137,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81836591452333
+    },
+    {
+      "source_interval": 138,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8183973765299
+    },
+    {
+      "source_interval": 139,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81842318952934
+    },
+    {
+      "source_interval": 140,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81844428040984
+    },
+    {
+      "source_interval": 141,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81846177893613
+    },
+    {
+      "source_interval": 142,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81848714810286
+    },
+    {
+      "source_interval": 143,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81851940597767
+    },
+    {
+      "source_interval": 144,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81853181316828
+    },
+    {
+      "source_interval": 145,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8185316196323
+    },
+    {
+      "source_interval": 146,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8185158507758
+    },
+    {
+      "source_interval": 147,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81847659676743
+    },
+    {
+      "source_interval": 148,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81845341329873
+    },
+    {
+      "source_interval": 149,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8184325934401
+    },
+    {
+      "source_interval": 150,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81840664191216
+    },
+    {
+      "source_interval": 151,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81837398435994
+    },
+    {
+      "source_interval": 152,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8183329792523
+    },
+    {
+      "source_interval": 153,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81828172983307
+    },
+    {
+      "source_interval": 154,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81821809279674
+    },
+    {
+      "source_interval": 155,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81815075038767
+    },
+    {
+      "source_interval": 156,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81805764524614
+    },
+    {
+      "source_interval": 157,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8179455019011
+    },
+    {
+      "source_interval": 158,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81781237259372
+    },
+    {
+      "source_interval": 159,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81765681357126
+    },
+    {
+      "source_interval": 160,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81747801721482
+    },
+    {
+      "source_interval": 161,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81727585376626
+    },
+    {
+      "source_interval": 162,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8170508205563
+    },
+    {
+      "source_interval": 163,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81680392386932
+    },
+    {
+      "source_interval": 164,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81653653128961
+    },
+    {
+      "source_interval": 165,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.816250228544
+    },
+    {
+      "source_interval": 166,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8159467014912
+    },
+    {
+      "source_interval": 167,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8156276501912
+    },
+    {
+      "source_interval": 168,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81529473278437
+    },
+    {
+      "source_interval": 169,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81494953288168
+    },
+    {
+      "source_interval": 170,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81459354351978
+    },
+    {
+      "source_interval": 171,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8142281618159
+    },
+    {
+      "source_interval": 172,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81385468985795
+    },
+    {
+      "source_interval": 173,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81347433918205
+    },
+    {
+      "source_interval": 174,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81308823587193
+    },
+    {
+      "source_interval": 175,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81269742897464
+    },
+    {
+      "source_interval": 176,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8123028871438
+    },
+    {
+      "source_interval": 177,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8119055439664
+    },
+    {
+      "source_interval": 178,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8115061419707
+    },
+    {
+      "source_interval": 179,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8111064534488
+    },
+    {
+      "source_interval": 180,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81100308537128
+    },
+    {
+      "source_interval": 181,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.8108476602783
+    },
+    {
+      "source_interval": 182,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81075082238343
+    },
+    {
+      "source_interval": 183,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8106582622701
+    },
+    {
+      "source_interval": 184,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.81059300865223
+    },
+    {
+      "source_interval": 185,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.81034514174593
+    },
+    {
+      "source_interval": 186,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.8102635084758
+    },
+    {
+      "source_interval": 187,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8100544082048
+    },
+    {
+      "source_interval": 188,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8089456671225
+    },
+    {
+      "source_interval": 189,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8079829280263
+    },
+    {
+      "source_interval": 190,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8070566595486
+    },
+    {
+      "source_interval": 191,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.80613835690576
+    },
+    {
+      "source_interval": 192,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.80521234629032
+    },
+    {
+      "source_interval": 193,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.80426126538183
+    },
+    {
+      "source_interval": 194,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.80327726057658
+    },
+    {
+      "source_interval": 195,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.80227229076988
+    },
+    {
+      "source_interval": 196,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8012582889437
+    },
+    {
+      "source_interval": 197,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.8002444516907
+    },
+    {
+      "source_interval": 198,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79928657168952
+    },
+    {
+      "source_interval": 199,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.7984764416717
+    },
+    {
+      "source_interval": 200,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79775679482688
+    },
+    {
+      "source_interval": 201,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.7971438993263
+    },
+    {
+      "source_interval": 202,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79673909203595
+    },
+    {
+      "source_interval": 203,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.7965486928557
+    },
+    {
+      "source_interval": 204,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.79653053318935
+    },
+    {
+      "source_interval": 205,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.7964000515302
+    },
+    {
+      "source_interval": 206,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79594548662294
+    },
+    {
+      "source_interval": 207,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79580412892398
+    },
+    {
+      "source_interval": 208,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79557458446854
+    },
+    {
+      "source_interval": 209,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79545590638406
+    },
+    {
+      "source_interval": 210,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79526146037452
+    },
+    {
+      "source_interval": 211,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.7952010834911
+    },
+    {
+      "source_interval": 212,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79496319952975
+    },
+    {
+      "source_interval": 213,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79485863273203
+    },
+    {
+      "source_interval": 214,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7947132804146
+    },
+    {
+      "source_interval": 215,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79462173206866
+    },
+    {
+      "source_interval": 216,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79456426930963
+    },
+    {
+      "source_interval": 217,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79449714326785
+    },
+    {
+      "source_interval": 218,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79425933268635
+    },
+    {
+      "source_interval": 219,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79419916704154
+    },
+    {
+      "source_interval": 220,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79406532674457
+    },
+    {
+      "source_interval": 221,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79398794712372
+    },
+    {
+      "source_interval": 222,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79394580246782
+    },
+    {
+      "source_interval": 223,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79388426315128
+    },
+    {
+      "source_interval": 224,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79371990433918
+    },
+    {
+      "source_interval": 225,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.7936745559408
+    },
+    {
+      "source_interval": 226,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79363310838855
+    },
+    {
+      "source_interval": 227,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.79355784939446
+    },
+    {
+      "source_interval": 228,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.79275258295314
+    },
+    {
+      "source_interval": 229,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.79211176046232
+    },
+    {
+      "source_interval": 230,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.79156927779474
+    },
+    {
+      "source_interval": 231,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79106738725355
+    },
+    {
+      "source_interval": 232,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79074496798648
+    },
+    {
+      "source_interval": 233,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.79053156201275
+    },
+    {
+      "source_interval": 234,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79037194532089
+    },
+    {
+      "source_interval": 235,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79027457726392
+    },
+    {
+      "source_interval": 236,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79020523483172
+    },
+    {
+      "source_interval": 237,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79015541854199
+    },
+    {
+      "source_interval": 238,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79011913826432
+    },
+    {
+      "source_interval": 239,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79009915434622
+    },
+    {
+      "source_interval": 240,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79008208542422
+    },
+    {
+      "source_interval": 241,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79006921126594
+    },
+    {
+      "source_interval": 242,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900581612992
+    },
+    {
+      "source_interval": 243,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900502332456
+    },
+    {
+      "source_interval": 244,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79004257860473
+    },
+    {
+      "source_interval": 245,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79003810143203
+    },
+    {
+      "source_interval": 246,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79003351842397
+    },
+    {
+      "source_interval": 247,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79002966553315
+    },
+    {
+      "source_interval": 248,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900265429878
+    },
+    {
+      "source_interval": 249,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900240349452
+    },
+    {
+      "source_interval": 250,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79002206471665
+    },
+    {
+      "source_interval": 251,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79002021264898
+    },
+    {
+      "source_interval": 252,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900186587774
+    },
+    {
+      "source_interval": 253,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001760618058
+    },
+    {
+      "source_interval": 254,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001661428066
+    },
+    {
+      "source_interval": 255,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001570854257
+    },
+    {
+      "source_interval": 256,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001508101018
+    },
+    {
+      "source_interval": 257,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001449480398
+    },
+    {
+      "source_interval": 258,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900139776522
+    },
+    {
+      "source_interval": 259,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001359784297
+    },
+    {
+      "source_interval": 260,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.790013247217
+    },
+    {
+      "source_interval": 261,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001298728178
+    },
+    {
+      "source_interval": 262,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001272414402
+    },
+    {
+      "source_interval": 263,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900125020857
+    },
+    {
+      "source_interval": 264,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900123946736
+    },
+    {
+      "source_interval": 265,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001220080528
+    },
+    {
+      "source_interval": 266,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900120585063
+    },
+    {
+      "source_interval": 267,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001186728516
+    },
+    {
+      "source_interval": 268,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001157553552
+    },
+    {
+      "source_interval": 269,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900114749145
+    },
+    {
+      "source_interval": 270,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001142415422
+    },
+    {
+      "source_interval": 271,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001139852838
+    },
+    {
+      "source_interval": 272,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001138559306
+    },
+    {
+      "source_interval": 273,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.790011379065
+    },
+    {
+      "source_interval": 274,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113757686
+    },
+    {
+      "source_interval": 275,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113741073
+    },
+    {
+      "source_interval": 276,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113732738
+    },
+    {
+      "source_interval": 277,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113728501
+    },
+    {
+      "source_interval": 278,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137263708
+    },
+    {
+      "source_interval": 279,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137252934
+    },
+    {
+      "source_interval": 280,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113724749
+    },
+    {
+      "source_interval": 281,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137244765
+    },
+    {
+      "source_interval": 282,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137243455
+    },
+    {
+      "source_interval": 283,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113724271
+    },
+    {
+      "source_interval": 284,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242292
+    },
+    {
+      "source_interval": 285,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242162
+    },
+    {
+      "source_interval": 286,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113724208
+    },
+    {
+      "source_interval": 287,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242082
+    },
+    {
+      "source_interval": 288,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242037
+    },
+    {
+      "source_interval": 289,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137241997
+    },
+    {
+      "source_interval": 290,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242003
+    },
+    {
+      "source_interval": 291,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113724195
+    },
+    {
+      "source_interval": 292,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137241931
+    },
+    {
+      "source_interval": 293,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137241931
+    },
+    {
+      "source_interval": 294,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137241914
+    },
+    {
+      "source_interval": 295,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.79001137242093
+    },
+    {
+      "source_interval": 296,
+      "progress_start": 0.46,
+      "progress_end": 0.46,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.7900113724214
+    },
+    {
+      "source_interval": 297,
+      "progress_start": 0.46,
+      "progress_end": 0.4625,
+      "frames": 9,
+      "maximum_finite_checked_energy_kcal_mol": 219.8094384685284
+    },
+    {
+      "source_interval": 298,
+      "progress_start": 0.4625,
+      "progress_end": 0.465,
+      "frames": 8,
+      "maximum_finite_checked_energy_kcal_mol": 219.82698884009045
+    },
+    {
+      "source_interval": 299,
+      "progress_start": 0.465,
+      "progress_end": 0.4675,
+      "frames": 7,
+      "maximum_finite_checked_energy_kcal_mol": 219.84291968388675
+    },
+    {
+      "source_interval": 300,
+      "progress_start": 0.4675,
+      "progress_end": 0.47000000000000003,
+      "frames": 6,
+      "maximum_finite_checked_energy_kcal_mol": 219.85739630614955
+    },
+    {
+      "source_interval": 301,
+      "progress_start": 0.47000000000000003,
+      "progress_end": 0.47250000000000003,
+      "frames": 5,
+      "maximum_finite_checked_energy_kcal_mol": 219.87053386402957
+    },
+    {
+      "source_interval": 302,
+      "progress_start": 0.47250000000000003,
+      "progress_end": 0.47500000000000003,
+      "frames": 5,
+      "maximum_finite_checked_energy_kcal_mol": 219.88241665789033
+    },
+    {
+      "source_interval": 303,
+      "progress_start": 0.47500000000000003,
+      "progress_end": 0.47500000000000003,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.88241665789036
+    },
+    {
+      "source_interval": 304,
+      "progress_start": 0.47500000000000003,
+      "progress_end": 0.5,
+      "frames": 34,
+      "maximum_finite_checked_energy_kcal_mol": 219.94132427878733
+    },
+    {
+      "source_interval": 305,
+      "progress_start": 0.5,
+      "progress_end": 0.5,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9413242787873
+    },
+    {
+      "source_interval": 306,
+      "progress_start": 0.5,
+      "progress_end": 0.5025,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.94168186776758
+    },
+    {
+      "source_interval": 307,
+      "progress_start": 0.5025,
+      "progress_end": 0.5049999999999999,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.94166133476915
+    },
+    {
+      "source_interval": 308,
+      "progress_start": 0.5049999999999999,
+      "progress_end": 0.5074999999999998,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.94097470639568
+    },
+    {
+      "source_interval": 309,
+      "progress_start": 0.5074999999999998,
+      "progress_end": 0.5099999999999998,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.93931485966547
+    },
+    {
+      "source_interval": 310,
+      "progress_start": 0.5099999999999998,
+      "progress_end": 0.5124999999999997,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.93667912731644
+    },
+    {
+      "source_interval": 311,
+      "progress_start": 0.5124999999999997,
+      "progress_end": 0.5149999999999997,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.93306174857145
+    },
+    {
+      "source_interval": 312,
+      "progress_start": 0.5149999999999997,
+      "progress_end": 0.5174999999999996,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.92845327712365
+    },
+    {
+      "source_interval": 313,
+      "progress_start": 0.5174999999999996,
+      "progress_end": 0.5199999999999996,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.9228397335495
+    },
+    {
+      "source_interval": 314,
+      "progress_start": 0.5199999999999996,
+      "progress_end": 0.5224999999999995,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.9162014019273
+    },
+    {
+      "source_interval": 315,
+      "progress_start": 0.5224999999999995,
+      "progress_end": 0.5249999999999995,
+      "frames": 5,
+      "maximum_finite_checked_energy_kcal_mol": 219.90861379804667
+    },
+    {
+      "source_interval": 316,
+      "progress_start": 0.5249999999999995,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295512827
+    },
+    {
+      "source_interval": 317,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513126
+    },
+    {
+      "source_interval": 318,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513128
+    },
+    {
+      "source_interval": 319,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513126
+    },
+    {
+      "source_interval": 320,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513134
+    },
+    {
+      "source_interval": 321,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513128
+    },
+    {
+      "source_interval": 322,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003129551312
+    },
+    {
+      "source_interval": 323,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513185
+    },
+    {
+      "source_interval": 324,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513202
+    },
+    {
+      "source_interval": 325,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.900312955132
+    },
+    {
+      "source_interval": 326,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513143
+    },
+    {
+      "source_interval": 327,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513216
+    },
+    {
+      "source_interval": 328,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513205
+    },
+    {
+      "source_interval": 329,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003129551327
+    },
+    {
+      "source_interval": 330,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513293
+    },
+    {
+      "source_interval": 331,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295513603
+    },
+    {
+      "source_interval": 332,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295514405
+    },
+    {
+      "source_interval": 333,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295517383
+    },
+    {
+      "source_interval": 334,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295527427
+    },
+    {
+      "source_interval": 335,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003129556205
+    },
+    {
+      "source_interval": 336,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031295681064
+    },
+    {
+      "source_interval": 337,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003129609057
+    },
+    {
+      "source_interval": 338,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031297499166
+    },
+    {
+      "source_interval": 339,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031302353367
+    },
+    {
+      "source_interval": 340,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003131914272
+    },
+    {
+      "source_interval": 341,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9003137761896
+    },
+    {
+      "source_interval": 342,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90031583989406
+    },
+    {
+      "source_interval": 343,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.900323306722
+    },
+    {
+      "source_interval": 344,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90035161335177
+    },
+    {
+      "source_interval": 345,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90047527128692
+    },
+    {
+      "source_interval": 346,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90087076119943
+    },
+    {
+      "source_interval": 347,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90089636419668
+    },
+    {
+      "source_interval": 348,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.900920221229
+    },
+    {
+      "source_interval": 349,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90094958699228
+    },
+    {
+      "source_interval": 350,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9009765032771
+    },
+    {
+      "source_interval": 351,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90100618791482
+    },
+    {
+      "source_interval": 352,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90103754956723
+    },
+    {
+      "source_interval": 353,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9010743842992
+    },
+    {
+      "source_interval": 354,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90114460688636
+    },
+    {
+      "source_interval": 355,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90120325666197
+    },
+    {
+      "source_interval": 356,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90120965560806
+    },
+    {
+      "source_interval": 357,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90125443553217
+    },
+    {
+      "source_interval": 358,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90133933131318
+    },
+    {
+      "source_interval": 359,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90138129492112
+    },
+    {
+      "source_interval": 360,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90148973148925
+    },
+    {
+      "source_interval": 361,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9015170315717
+    },
+    {
+      "source_interval": 362,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90184325408427
+    },
+    {
+      "source_interval": 363,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9018836749417
+    },
+    {
+      "source_interval": 364,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90191516999383
+    },
+    {
+      "source_interval": 365,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9021360220329
+    },
+    {
+      "source_interval": 366,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9021756013915
+    },
+    {
+      "source_interval": 367,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90232280625813
+    },
+    {
+      "source_interval": 368,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.90247475871539
+    },
+    {
+      "source_interval": 369,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9026626443728
+    },
+    {
+      "source_interval": 370,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.90284185347411
+    },
+    {
+      "source_interval": 371,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90321127822497
+    },
+    {
+      "source_interval": 372,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90402568021744
+    },
+    {
+      "source_interval": 373,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9049741976891
+    },
+    {
+      "source_interval": 374,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90533103070237
+    },
+    {
+      "source_interval": 375,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90619216955895
+    },
+    {
+      "source_interval": 376,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90778328517914
+    },
+    {
+      "source_interval": 377,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.90929887899577
+    },
+    {
+      "source_interval": 378,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.91123545583886
+    },
+    {
+      "source_interval": 379,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.91308808507418
+    },
+    {
+      "source_interval": 380,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.91470808786383
+    },
+    {
+      "source_interval": 381,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9163820635007
+    },
+    {
+      "source_interval": 382,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9182683557953
+    },
+    {
+      "source_interval": 383,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9204034594132
+    },
+    {
+      "source_interval": 384,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9227674883637
+    },
+    {
+      "source_interval": 385,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.92532438927378
+    },
+    {
+      "source_interval": 386,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.92804558763302
+    },
+    {
+      "source_interval": 387,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9282005697743
+    },
+    {
+      "source_interval": 388,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.92853547382833
+    },
+    {
+      "source_interval": 389,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9290653739769
+    },
+    {
+      "source_interval": 390,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9291941620265
+    },
+    {
+      "source_interval": 391,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9297056350273
+    },
+    {
+      "source_interval": 392,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93056927563688
+    },
+    {
+      "source_interval": 393,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93062588199365
+    },
+    {
+      "source_interval": 394,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93115842228204
+    },
+    {
+      "source_interval": 395,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9316412487698
+    },
+    {
+      "source_interval": 396,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93187132091455
+    },
+    {
+      "source_interval": 397,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.93236581216075
+    },
+    {
+      "source_interval": 398,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93339148541116
+    },
+    {
+      "source_interval": 399,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93349609958858
+    },
+    {
+      "source_interval": 400,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9341119205187
+    },
+    {
+      "source_interval": 401,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93541300300825
+    },
+    {
+      "source_interval": 402,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93721278762524
+    },
+    {
+      "source_interval": 403,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93733015715998
+    },
+    {
+      "source_interval": 404,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93854201944123
+    },
+    {
+      "source_interval": 405,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93891472594743
+    },
+    {
+      "source_interval": 406,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.93964496092585
+    },
+    {
+      "source_interval": 407,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9414455356433
+    },
+    {
+      "source_interval": 408,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9436784370563
+    },
+    {
+      "source_interval": 409,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9460083448963
+    },
+    {
+      "source_interval": 410,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9484808835241
+    },
+    {
+      "source_interval": 411,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.95110532028195
+    },
+    {
+      "source_interval": 412,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.95391585107842
+    },
+    {
+      "source_interval": 413,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.95681352220805
+    },
+    {
+      "source_interval": 414,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.95976613386188
+    },
+    {
+      "source_interval": 415,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.96277551184974
+    },
+    {
+      "source_interval": 416,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.96583320215598
+    },
+    {
+      "source_interval": 417,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.96894573572104
+    },
+    {
+      "source_interval": 418,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.97192601358825
+    },
+    {
+      "source_interval": 419,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.97465831562647
+    },
+    {
+      "source_interval": 420,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.97723907769108
+    },
+    {
+      "source_interval": 421,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.97980046979097
+    },
+    {
+      "source_interval": 422,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9824164525952
+    },
+    {
+      "source_interval": 423,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.98510640715992
+    },
+    {
+      "source_interval": 424,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.98786364515882
+    },
+    {
+      "source_interval": 425,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99068302008538
+    },
+    {
+      "source_interval": 426,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99358450657826
+    },
+    {
+      "source_interval": 427,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99418141074227
+    },
+    {
+      "source_interval": 428,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99473261153733
+    },
+    {
+      "source_interval": 429,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9950758899127
+    },
+    {
+      "source_interval": 430,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99539512224638
+    },
+    {
+      "source_interval": 431,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99595360222287
+    },
+    {
+      "source_interval": 432,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99655976390022
+    },
+    {
+      "source_interval": 433,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99690377645538
+    },
+    {
+      "source_interval": 434,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99720966936042
+    },
+    {
+      "source_interval": 435,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9977378045005
+    },
+    {
+      "source_interval": 436,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99839072573565
+    },
+    {
+      "source_interval": 437,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99874661667425
+    },
+    {
+      "source_interval": 438,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99896705096043
+    },
+    {
+      "source_interval": 439,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99941084586766
+    },
+    {
+      "source_interval": 440,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0002992762491
+    },
+    {
+      "source_interval": 441,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0004621732569
+    },
+    {
+      "source_interval": 442,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00082646663174
+    },
+    {
+      "source_interval": 443,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0022962856191
+    },
+    {
+      "source_interval": 444,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0039295599059
+    },
+    {
+      "source_interval": 445,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00393550807922
+    },
+    {
+      "source_interval": 446,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0050009759463
+    },
+    {
+      "source_interval": 447,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0051721896679
+    },
+    {
+      "source_interval": 448,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0056814317946
+    },
+    {
+      "source_interval": 449,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00734326087303
+    },
+    {
+      "source_interval": 450,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00902341801822
+    },
+    {
+      "source_interval": 451,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01076781789064
+    },
+    {
+      "source_interval": 452,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0124138633478
+    },
+    {
+      "source_interval": 453,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01399339810388
+    },
+    {
+      "source_interval": 454,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01549345460555
+    },
+    {
+      "source_interval": 455,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01691240877787
+    },
+    {
+      "source_interval": 456,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01824446959765
+    },
+    {
+      "source_interval": 457,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01948468689218
+    },
+    {
+      "source_interval": 458,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02062650229203
+    },
+    {
+      "source_interval": 459,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02166227030148
+    },
+    {
+      "source_interval": 460,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02258262492578
+    },
+    {
+      "source_interval": 461,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0233809452675
+    },
+    {
+      "source_interval": 462,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0240534611239
+    },
+    {
+      "source_interval": 463,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02458215993423
+    },
+    {
+      "source_interval": 464,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02491724174467
+    },
+    {
+      "source_interval": 465,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02512041640145
+    },
+    {
+      "source_interval": 466,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02526333023343
+    },
+    {
+      "source_interval": 467,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0253758243953
+    },
+    {
+      "source_interval": 468,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0254152505576
+    },
+    {
+      "source_interval": 469,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02541461597232
+    },
+    {
+      "source_interval": 470,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02536626273258
+    },
+    {
+      "source_interval": 471,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0252496329975
+    },
+    {
+      "source_interval": 472,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0251091036365
+    },
+    {
+      "source_interval": 473,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.02490840241612
+    },
+    {
+      "source_interval": 474,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02460954795936
+    },
+    {
+      "source_interval": 475,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02414878134763
+    },
+    {
+      "source_interval": 476,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0235489336181
+    },
+    {
+      "source_interval": 477,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.02284052010486
+    },
+    {
+      "source_interval": 478,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0220381580294
+    },
+    {
+      "source_interval": 479,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0211540070339
+    },
+    {
+      "source_interval": 480,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.020201489364
+    },
+    {
+      "source_interval": 481,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0191907552038
+    },
+    {
+      "source_interval": 482,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0181323336951
+    },
+    {
+      "source_interval": 483,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0170308798184
+    },
+    {
+      "source_interval": 484,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01591223140582
+    },
+    {
+      "source_interval": 485,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01481689183225
+    },
+    {
+      "source_interval": 486,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0139040232046
+    },
+    {
+      "source_interval": 487,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0135564481909
+    },
+    {
+      "source_interval": 488,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.013282637771
+    },
+    {
+      "source_interval": 489,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01291539962438
+    },
+    {
+      "source_interval": 490,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.01256488036438
+    },
+    {
+      "source_interval": 491,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01218680262076
+    },
+    {
+      "source_interval": 492,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.01182477264737
+    },
+    {
+      "source_interval": 493,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01144938950134
+    },
+    {
+      "source_interval": 494,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.01112649789013
+    },
+    {
+      "source_interval": 495,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.01073133875732
+    },
+    {
+      "source_interval": 496,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.01037010835998
+    },
+    {
+      "source_interval": 497,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00999191923776
+    },
+    {
+      "source_interval": 498,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00984612195904
+    },
+    {
+      "source_interval": 499,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00968989844557
+    },
+    {
+      "source_interval": 500,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0092344500013
+    },
+    {
+      "source_interval": 501,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.00898149216542
+    },
+    {
+      "source_interval": 502,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0087788828488
+    },
+    {
+      "source_interval": 503,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.00869615650166
+    },
+    {
+      "source_interval": 504,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00834583580064
+    },
+    {
+      "source_interval": 505,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00802711371247
+    },
+    {
+      "source_interval": 506,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.00763951351962
+    },
+    {
+      "source_interval": 507,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.00734520721716
+    },
+    {
+      "source_interval": 508,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.00718205302022
+    },
+    {
+      "source_interval": 509,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 220.0071042262732
+    },
+    {
+      "source_interval": 510,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 220.00684402108368
+    },
+    {
+      "source_interval": 511,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00664253662188
+    },
+    {
+      "source_interval": 512,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00517422154576
+    },
+    {
+      "source_interval": 513,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0037924045311
+    },
+    {
+      "source_interval": 514,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00250030463525
+    },
+    {
+      "source_interval": 515,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.00130017562617
+    },
+    {
+      "source_interval": 516,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 220.0001437437769
+    },
+    {
+      "source_interval": 517,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99888677432534
+    },
+    {
+      "source_interval": 518,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99748152917425
+    },
+    {
+      "source_interval": 519,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99634130971668
+    },
+    {
+      "source_interval": 520,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99524387026474
+    },
+    {
+      "source_interval": 521,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99473901992533
+    },
+    {
+      "source_interval": 522,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99451959478688
+    },
+    {
+      "source_interval": 523,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9942749680087
+    },
+    {
+      "source_interval": 524,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9940699779787
+    },
+    {
+      "source_interval": 525,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99393612571208
+    },
+    {
+      "source_interval": 526,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99369227388502
+    },
+    {
+      "source_interval": 527,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99354339800857
+    },
+    {
+      "source_interval": 528,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99332207013356
+    },
+    {
+      "source_interval": 529,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.9932472400382
+    },
+    {
+      "source_interval": 530,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.9929978968355
+    },
+    {
+      "source_interval": 531,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99287882609767
+    },
+    {
+      "source_interval": 532,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99272607914943
+    },
+    {
+      "source_interval": 533,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9926699420992
+    },
+    {
+      "source_interval": 534,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99259563231817
+    },
+    {
+      "source_interval": 535,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99252825011467
+    },
+    {
+      "source_interval": 536,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99250410297498
+    },
+    {
+      "source_interval": 537,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99249623154122
+    },
+    {
+      "source_interval": 538,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99245623196498
+    },
+    {
+      "source_interval": 539,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9923602287988
+    },
+    {
+      "source_interval": 540,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9923320218275
+    },
+    {
+      "source_interval": 541,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99229023350566
+    },
+    {
+      "source_interval": 542,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9922638787321
+    },
+    {
+      "source_interval": 543,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9922054175898
+    },
+    {
+      "source_interval": 544,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99218319719296
+    },
+    {
+      "source_interval": 545,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9921438136863
+    },
+    {
+      "source_interval": 546,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 2,
+      "maximum_finite_checked_energy_kcal_mol": 219.99208710909642
+    },
+    {
+      "source_interval": 547,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99204910379962
+    },
+    {
+      "source_interval": 548,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99200942362023
+    },
+    {
+      "source_interval": 549,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99199420278606
+    },
+    {
+      "source_interval": 550,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99197983661378
+    },
+    {
+      "source_interval": 551,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 3,
+      "maximum_finite_checked_energy_kcal_mol": 219.99194309163693
+    },
+    {
+      "source_interval": 552,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99170299396383
+    },
+    {
+      "source_interval": 553,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99167151949865
+    },
+    {
+      "source_interval": 554,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916652430411
+    },
+    {
+      "source_interval": 555,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166386825732
+    },
+    {
+      "source_interval": 556,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166355887502
+    },
+    {
+      "source_interval": 557,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166348840288
+    },
+    {
+      "source_interval": 558,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166347225366
+    },
+    {
+      "source_interval": 559,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634685415
+    },
+    {
+      "source_interval": 560,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166346768502
+    },
+    {
+      "source_interval": 561,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166346748683
+    },
+    {
+      "source_interval": 562,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674421
+    },
+    {
+      "source_interval": 563,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166346743144
+    },
+    {
+      "source_interval": 564,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674294
+    },
+    {
+      "source_interval": 565,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166346742868
+    },
+    {
+      "source_interval": 566,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674282
+    },
+    {
+      "source_interval": 567,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.99166346742857
+    },
+    {
+      "source_interval": 568,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674288
+    },
+    {
+      "source_interval": 569,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674284
+    },
+    {
+      "source_interval": 570,
+      "progress_start": 0.525,
+      "progress_end": 0.525,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674331
+    },
+    {
+      "source_interval": 571,
+      "progress_start": 0.525,
+      "progress_end": 0.5250000000000006,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.9916634674334
+    },
+    {
+      "source_interval": 572,
+      "progress_start": 0.5250000000000006,
+      "progress_end": 0.5275000000000005,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.98842896260675
+    },
+    {
+      "source_interval": 573,
+      "progress_start": 0.5275000000000005,
+      "progress_end": 0.5300000000000005,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.93611067443237
+    },
+    {
+      "source_interval": 574,
+      "progress_start": 0.5300000000000005,
+      "progress_end": 0.5325000000000004,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.8827878274225
+    },
+    {
+      "source_interval": 575,
+      "progress_start": 0.5325000000000004,
+      "progress_end": 0.5350000000000004,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.82854655123333
+    },
+    {
+      "source_interval": 576,
+      "progress_start": 0.5350000000000004,
+      "progress_end": 0.5375000000000003,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.77346136322322
+    },
+    {
+      "source_interval": 577,
+      "progress_start": 0.5375000000000003,
+      "progress_end": 0.5400000000000003,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.71759793102913
+    },
+    {
+      "source_interval": 578,
+      "progress_start": 0.5400000000000003,
+      "progress_end": 0.5425000000000002,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.6610149408437
+    },
+    {
+      "source_interval": 579,
+      "progress_start": 0.5425000000000002,
+      "progress_end": 0.5450000000000002,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.60376543097152
+    },
+    {
+      "source_interval": 580,
+      "progress_start": 0.5450000000000002,
+      "progress_end": 0.5475000000000001,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.5458977786828
+    },
+    {
+      "source_interval": 581,
+      "progress_start": 0.5475000000000001,
+      "progress_end": 0.55,
+      "frames": 4,
+      "maximum_finite_checked_energy_kcal_mol": 219.48745644972044
+    },
+    {
+      "source_interval": 582,
+      "progress_start": 0.55,
+      "progress_end": 0.55,
+      "frames": 1,
+      "maximum_finite_checked_energy_kcal_mol": 219.43218354379562
+    },
+    {
+      "source_interval": 583,
+      "progress_start": 0.55,
+      "progress_end": 0.5750000000000001,
+      "frames": 30,
+      "maximum_finite_checked_energy_kcal_mol": 219.42724943212482
+    },
+    {
+      "source_interval": 584,
+      "progress_start": 0.5750000000000001,
+      "progress_end": 0.6000000000000001,
+      "frames": 28,
+      "maximum_finite_checked_energy_kcal_mol": 218.81514832505934
+    },
+    {
+      "source_interval": 585,
+      "progress_start": 0.6000000000000001,
+      "progress_end": 0.625,
+      "frames": 26,
+      "maximum_finite_checked_energy_kcal_mol": 218.18085118606888
+    },
+    {
+      "source_interval": 586,
+      "progress_start": 0.625,
+      "progress_end": 0.65,
+      "frames": 25,
+      "maximum_finite_checked_energy_kcal_mol": 217.54265311173808
+    },
+    {
+      "source_interval": 587,
+      "progress_start": 0.65,
+      "progress_end": 0.675,
+      "frames": 145,
+      "maximum_finite_checked_energy_kcal_mol": 218.60333597102897
+    },
+    {
+      "source_interval": 588,
+      "progress_start": 0.675,
+      "progress_end": 0.7000000000000001,
+      "frames": 40,
+      "maximum_finite_checked_energy_kcal_mol": 216.26330787125906
+    },
+    {
+      "source_interval": 589,
+      "progress_start": 0.7000000000000001,
+      "progress_end": 0.7250000000000001,
+      "frames": 58,
+      "maximum_finite_checked_energy_kcal_mol": 215.4886945621666
+    },
+    {
+      "source_interval": 590,
+      "progress_start": 0.7250000000000001,
+      "progress_end": 0.75,
+      "frames": 135,
+      "maximum_finite_checked_energy_kcal_mol": 215.36864838870437
+    },
+    {
+      "source_interval": 591,
+      "progress_start": 0.75,
+      "progress_end": 0.775,
+      "frames": 51,
+      "maximum_finite_checked_energy_kcal_mol": 213.57749851851798
+    },
+    {
+      "source_interval": 592,
+      "progress_start": 0.775,
+      "progress_end": 0.8,
+      "frames": 25,
+      "maximum_finite_checked_energy_kcal_mol": 212.25301093311535
+    },
+    {
+      "source_interval": 593,
+      "progress_start": 0.8,
+      "progress_end": 0.8250000000000001,
+      "frames": 23,
+      "maximum_finite_checked_energy_kcal_mol": 210.92529461649394
+    },
+    {
+      "source_interval": 594,
+      "progress_start": 0.8250000000000001,
+      "progress_end": 0.8500000000000001,
+      "frames": 22,
+      "maximum_finite_checked_energy_kcal_mol": 209.64106241333025
+    },
+    {
+      "source_interval": 595,
+      "progress_start": 0.8500000000000001,
+      "progress_end": 0.875,
+      "frames": 20,
+      "maximum_finite_checked_energy_kcal_mol": 208.43216285015063
+    },
+    {
+      "source_interval": 596,
+      "progress_start": 0.875,
+      "progress_end": 0.9,
+      "frames": 20,
+      "maximum_finite_checked_energy_kcal_mol": 207.33274227580358
+    },
+    {
+      "source_interval": 597,
+      "progress_start": 0.9,
+      "progress_end": 0.925,
+      "frames": 20,
+      "maximum_finite_checked_energy_kcal_mol": 206.37370418553576
+    },
+    {
+      "source_interval": 598,
+      "progress_start": 0.925,
+      "progress_end": 0.9500000000000001,
+      "frames": 20,
+      "maximum_finite_checked_energy_kcal_mol": 205.5860660672045
+    },
+    {
+      "source_interval": 599,
+      "progress_start": 0.9500000000000001,
+      "progress_end": 0.9750000000000001,
+      "frames": 19,
+      "maximum_finite_checked_energy_kcal_mol": 204.9977275711095
+    },
+    {
+      "source_interval": 600,
+      "progress_start": 0.9750000000000001,
+      "progress_end": 1.0,
+      "frames": 19,
+      "maximum_finite_checked_energy_kcal_mol": 204.63345740736364
+    }
+  ],
+  "finite_checks_only": true,
+  "pattern": "II_IV",
+  "comparison": "Same assembled branch/connector geometry sampled at maximum nominal atom step0.005\u00c5 instead of0.01\u00c5; every new frame is equality retracted and every quarter chord probe is evaluated.",
+  "coarser_finite_checked_maximum_kcal_mol": 220.0254152505576,
+  "sampled_maximum_change_kcal_mol": 0.0,
+  "finite_checked_height_above_A_kcal_mol": 15.514201146247586
+}

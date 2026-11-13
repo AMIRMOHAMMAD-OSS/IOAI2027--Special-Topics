@@ -1,0 +1,675 @@
+{
+  "status": "CONVERGED_LOCAL_BRANCHES_AND_COMPLETE_CANDIDATE_PATHS_VERIFIED",
+  "model": "RDKit MMFF94, same C43H56 graph and enantiomeric endpoints as sequential reference",
+  "energy_reference_A_kcal_mol": 204.51121410431,
+  "constraint_definition": {
+    "torsion_atom_indices_zero_based": [
+      [
+        2,
+        3,
+        24,
+        6
+      ],
+      [
+        3,
+        24,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        25,
+        12
+      ],
+      [
+        9,
+        25,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        26,
+        18
+      ],
+      [
+        15,
+        26,
+        18,
+        19
+      ]
+    ],
+    "equation": "wrapped(phi(x)-phi_A-t*Delta)=0 for all six torsions, with two declared atom-mapped windings I/III and II/IV",
+    "angles": "radians",
+    "coordinates": "angstrom",
+    "energy": "kcal/mol",
+    "lagrangian": "L=E+lambda*c",
+    "stationary_dimension_after_removing_rigid_motion": 291,
+    "constraint_rank": 6,
+    "constrained_tangent_dimension": 285,
+    "normal_constraint_forces": "Bare Cartesian forces can be nonzero at constrained minima. KKT/tangent forces, not bare force, determine convergence."
+  },
+  "acceptance_tolerances": {
+    "final_constrained_node_angles_rad": 1e-10,
+    "final_constrained_node_kkt_gradient_kcal_mol_per_A": 1e-07,
+    "resolved_tangent_curvature": 0.0001,
+    "finite_path_nodes_rad": 1e-08,
+    "finite_chord_probes_rad": 0.0001,
+    "maximum_path_atom_gap_A": 0.02,
+    "actual_path_atom_gap_A": "less than0.01 in supplied primary candidates"
+  },
+  "converged_profiles": {
+    "I_III": {
+      "forward": {
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "nodes": 41,
+        "maximum_node_height_above_A_kcal_mol": 15.44123316074527,
+        "maximum_node_constraint_rad": 1.5987211554602254e-14,
+        "maximum_node_kkt_gradient": 2.7176451160631897e-10,
+        "minimum_node_tangent_curvature": 0.02881664807526002,
+        "scope": "Converged node profile only; unconstrained chord gaps fail around the central basin changes."
+      },
+      "reverse": {
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "nodes": 41,
+        "maximum_node_height_above_A_kcal_mol": 15.56064495544257,
+        "maximum_node_constraint_rad": 2.9976021664879227e-14,
+        "maximum_node_kkt_gradient": 6.573902000891999e-10,
+        "minimum_node_tangent_curvature": 0.028816971738559502,
+        "scope": "Converged node profile only; unconstrained chord gaps fail around the central basin changes."
+      }
+    },
+    "II_IV": {
+      "forward": {
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "nodes": 41,
+        "maximum_node_height_above_A_kcal_mol": 15.430110174477448,
+        "maximum_node_constraint_rad": 1.2212453270876722e-14,
+        "maximum_node_kkt_gradient": 5.455815009012611e-10,
+        "minimum_node_tangent_curvature": 0.03370730412056461,
+        "scope": "Converged node profile only; unconstrained chord gaps fail around the central basin changes."
+      },
+      "reverse": {
+        "status": "COMPLETE_CONSTRAINED_NODE_SEQUENCE",
+        "nodes": 41,
+        "maximum_node_height_above_A_kcal_mol": 15.480449363123,
+        "maximum_node_constraint_rad": 1.199040866595169e-14,
+        "maximum_node_kkt_gradient": 3.403959926932606e-10,
+        "minimum_node_tangent_curvature": 0.03370748952640524,
+        "scope": "Converged node profile only; unconstrained chord gaps fail around the central basin changes."
+      }
+    }
+  },
+  "complete_candidate_paths": {
+    "I_III": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1525,
+      "maximum_finite_checked_energy_kcal_mol": 220.07711852981737,
+      "finite_checked_height_above_A_kcal_mol": 15.56590442550737,
+      "maximum_node_constraint_rad": 1.9708817911023857e-12,
+      "maximum_chord_probe_constraint_rad": 1.139086657664379e-06,
+      "maximum_atom_step_A": 0.00999122378764955,
+      "checks": {
+        "all_source_joins_match": true,
+        "finite_coordinates_and_energies": true,
+        "monotonic_complete_progress": true,
+        "exact_node_constraints": true,
+        "probe_constraints": true,
+        "small_atom_gaps": true,
+        "stationary_intended_endpoints": true
+      },
+      "endpoints": {
+        "A": {
+          "energy_kcal_mol": 204.51121410431,
+          "rmsd_to_intended_endpoint_A": 1.112302430615012e-15,
+          "max_gradient_atomic_norm": 8.725361022002662e-13,
+          "negative_internal_modes": 0,
+          "lowest_internal_curvature": 0.08356982954391588
+        },
+        "B": {
+          "energy_kcal_mol": 204.51121410430977,
+          "rmsd_to_intended_endpoint_A": 2.0369154167261462e-13,
+          "max_gradient_atomic_norm": 1.849913320598207e-11,
+          "negative_internal_modes": 0,
+          "lowest_internal_curvature": 0.08356984423390261
+        }
+      },
+      "scope": "Converged constrained local-minimum branch nodes, explicit constrained saddle/downhill connectors at central switches, and retracted interpolation elsewhere. Every supplied frame and three chord probes are checked. This is an explicit candidate path with a finite checked maximum, not a global collective barrier or a claim that every interpolation point is a constrained minimum.",
+      "data_sha256": "fda0afa3113fce6dd1bc0bc5930d31940538eb2d10942ac308cd281de264758d",
+      "fresh_standalone_reproduction": {
+        "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+        "height_above_A_kcal_mol": 15.56590442550683,
+        "difference_from_exploratory_assembly_kcal_mol": -5.400124791776761e-13,
+        "frames": 1525,
+        "output": "../method/I_III_portable_reproduction/complete_path"
+      },
+      "independent_full_path_audit": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/I_III.json",
+      "independent_exploratory_path_audit_status": "INDEPENDENT_COMPLETE_PATH_CHECKS_PASSED"
+    },
+    "II_IV": {
+      "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+      "frames": 1575,
+      "maximum_finite_checked_energy_kcal_mol": 220.0254152505576,
+      "finite_checked_height_above_A_kcal_mol": 15.514201146247586,
+      "maximum_node_constraint_rad": 1.852296094284611e-12,
+      "maximum_chord_probe_constraint_rad": 7.699198243116269e-07,
+      "maximum_atom_step_A": 0.009990573918796953,
+      "checks": {
+        "all_source_joins_match": true,
+        "finite_coordinates_and_energies": true,
+        "monotonic_complete_progress": true,
+        "exact_node_constraints": true,
+        "probe_constraints": true,
+        "small_atom_gaps": true,
+        "stationary_intended_endpoints": true
+      },
+      "endpoints": {
+        "A": {
+          "energy_kcal_mol": 204.51121410431,
+          "rmsd_to_intended_endpoint_A": 1.112302430615012e-15,
+          "max_gradient_atomic_norm": 8.725361022002662e-13,
+          "negative_internal_modes": 0,
+          "lowest_internal_curvature": 0.08356982954391588
+        },
+        "B": {
+          "energy_kcal_mol": 204.51121410431006,
+          "rmsd_to_intended_endpoint_A": 1.3632730399937913e-12,
+          "max_gradient_atomic_norm": 1.7780723462263989e-10,
+          "negative_internal_modes": 0,
+          "lowest_internal_curvature": 0.08356983651290922
+        }
+      },
+      "scope": "Converged constrained local-minimum branch nodes, explicit constrained saddle/downhill connectors at central switches, and retracted interpolation elsewhere. Every supplied frame and three chord probes are checked. This is an explicit candidate path with a finite checked maximum, not a global collective barrier or a claim that every interpolation point is a constrained minimum.",
+      "data_sha256": "9bdd10c105ee893fc7fe342cf0314442a9db42dedd1ac7dd9c77babb5d71a6f5",
+      "fresh_standalone_reproduction": {
+        "status": "COMPLETE_EXACT_FEASIBLE_COLLECTIVE_PATH",
+        "height_above_A_kcal_mol": 15.5142011462477,
+        "difference_from_exploratory_assembly_kcal_mol": 1.1368683772161603e-13,
+        "frames": 1587,
+        "output": "../method/II_IV_portable_reproduction/complete_path"
+      },
+      "independent_full_path_audit": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/II_IV.json",
+      "independent_exploratory_path_audit_status": "INDEPENDENT_COMPLETE_PATH_CHECKS_PASSED"
+    }
+  },
+  "fixed_progress_physical_connectors": [
+    {
+      "pattern": "I_III",
+      "progress": 0.4675,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 219.8896771146513,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.06780769457609581,
+      "stationary_kkt_gradient": 1.2994947506941579e-12,
+      "stationary_angular_residual_rad": 2.220446049250313e-16,
+      "endpoint_energies_kcal_mol": [
+        219.870058296762,
+        219.8641766302763
+      ],
+      "endpoint_kkt_gradients": [
+        7.818002346609177e-11,
+        8.454350967880913e-08
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.6930794955267692e-07,
+      "finite_curve_audit": {
+        "frames": 249,
+        "maximum_node_energy_kcal_mol": 219.8896771146513,
+        "maximum_finite_checked_energy_kcal_mol": 219.8896771146513,
+        "maximum_chord_probe_constraint_rad": 7.604148821727108e-08,
+        "maximum_atom_step_A": 0.012000000000000129,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "I_III",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 220.07711852981745,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.0695648016464554,
+      "stationary_kkt_gradient": 4.569503038907352e-09,
+      "stationary_angular_residual_rad": 3.4861002973229915e-14,
+      "endpoint_energies_kcal_mol": [
+        220.0718590597536,
+        219.88613966824988
+      ],
+      "endpoint_kkt_gradients": [
+        7.642148178953078e-08,
+        6.99702318607164e-08
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.819515184825175e-07,
+      "finite_curve_audit": {
+        "frames": 261,
+        "maximum_node_energy_kcal_mol": 220.07711852981745,
+        "maximum_finite_checked_energy_kcal_mol": 220.07711852981745,
+        "maximum_chord_probe_constraint_rad": 1.0454436760731767e-07,
+        "maximum_atom_step_A": 0.012000000000000273,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.46,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 219.81853181316822,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.04133739345772001,
+      "stationary_kkt_gradient": 1.5902363570874344e-12,
+      "stationary_angular_residual_rad": 2.220446049250313e-16,
+      "endpoint_energies_kcal_mol": [
+        219.79001137242076,
+        219.8118913883044
+      ],
+      "endpoint_kkt_gradients": [
+        8.138665282939624e-11,
+        1.2127011798554496e-09
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 4.805832699559032e-09,
+      "finite_curve_audit": {
+        "frames": 272,
+        "maximum_node_energy_kcal_mol": 219.81853181316822,
+        "maximum_finite_checked_energy_kcal_mol": 219.81853181316822,
+        "maximum_chord_probe_constraint_rad": 8.091601055859597e-08,
+        "maximum_atom_step_A": 0.012000000000000054,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    },
+    {
+      "pattern": "II_IV",
+      "progress": 0.525,
+      "status": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "saddle_energy_kcal_mol": 220.02541525055747,
+      "fixed_progress_tangent_index": 1,
+      "minimum_absolute_tangent_curvature": 0.06853208496007421,
+      "stationary_kkt_gradient": 5.6916129652762786e-11,
+      "stationary_angular_residual_rad": 6.432490598706546e-16,
+      "endpoint_energies_kcal_mol": [
+        219.99166346743317,
+        219.90031295512813
+      ],
+      "endpoint_kkt_gradients": [
+        6.8845520948302365e-12,
+        1.1907784682486288e-12
+      ],
+      "maximum_endpoint_same_identity_rmsd_A": 1.1631946543090216e-12,
+      "finite_curve_audit": {
+        "frames": 255,
+        "maximum_node_energy_kcal_mol": 220.02541525055747,
+        "maximum_finite_checked_energy_kcal_mol": 220.02541525055747,
+        "maximum_chord_probe_constraint_rad": 1.0082600843119849e-07,
+        "maximum_atom_step_A": 0.012000000000000186,
+        "scope": "Finite nodes plus quarter, half, and three-quarter chord probes; not an analytic global curve bound."
+      },
+      "checks": {
+        "two_stationary_minima": true,
+        "two_distinct_requested_minima": true,
+        "release_energy_nonincreasing": true,
+        "finite_peak_within_saddle": true,
+        "finite_geometry": true,
+        "dense_gap_and_constraints": true
+      },
+      "scope": "Constrained index-one saddle and verified feasible downhill connector at fixed progress, not an unconstrained transition state."
+    }
+  ],
+  "tolerance_sensitivity": {
+    "status": "BOUNDED_CONVERGENCE_AND_MULTISTART_STUDY_COMPLETED",
+    "same_start_tightening": {
+      "initial_constraint_rad": 1e-09,
+      "initial_kkt_gradient": 1e-05,
+      "final_constraint_rad": 1e-10,
+      "final_kkt_gradient": 1e-07,
+      "cases": 6,
+      "maximum_absolute_energy_change_kcal_mol": 3.609557097661309e-12,
+      "maximum_atom_change_A": 1.5010720691417632e-06
+    },
+    "fixed_progress_three_start_comparison": [
+      {
+        "pattern": "I_III",
+        "progress": 0.25,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 213.5574884732523,
+          "forward": 213.55748847325208,
+          "reverse": 213.55748847325208
+        },
+        "maximum_same_identity_fit_rmsd_A": 4.059804458176732e-12,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      },
+      {
+        "pattern": "I_III",
+        "progress": 0.5,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 219.95244726505504,
+          "forward": 219.95244726505527,
+          "reverse": 219.95244726505535
+        },
+        "maximum_same_identity_fit_rmsd_A": 8.318001470021036e-12,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      },
+      {
+        "pattern": "I_III",
+        "progress": 0.75,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 213.52916266331164,
+          "forward": 213.52916266331158,
+          "reverse": 213.52916266331215
+        },
+        "maximum_same_identity_fit_rmsd_A": 6.843643605226184e-12,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      },
+      {
+        "pattern": "II_IV",
+        "progress": 0.25,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 213.53510843799882,
+          "forward": 213.53510843799876,
+          "reverse": 213.53510843799876
+        },
+        "maximum_same_identity_fit_rmsd_A": 1.3735150561947158e-11,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      },
+      {
+        "pattern": "II_IV",
+        "progress": 0.5,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 219.94132427878748,
+          "forward": 219.94132427878745,
+          "reverse": 219.94132427878736
+        },
+        "maximum_same_identity_fit_rmsd_A": 3.4694341076899714e-12,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      },
+      {
+        "pattern": "II_IV",
+        "progress": 0.75,
+        "energies_kcal_mol": {
+          "old_v2_seed_minimum": 213.58373813694686,
+          "forward": 213.5837381369466,
+          "reverse": 213.58373813694652
+        },
+        "maximum_same_identity_fit_rmsd_A": 1.3922120742408429e-11,
+        "all_starts_same_physical_minimum_at_this_progress": true
+      }
+    ],
+    "detail_file": "sensitivity_summary.json",
+    "scope": "Three starts at each of six fixed-progress cases are a bounded multistart test, not an exhaustive global minimization. Coexisting minima and branch jumps require physical connectors; pointwise lowest energies do not define a path."
+  },
+  "finite_sampling_sensitivity": [
+    {
+      "pattern": "I_III",
+      "frames": 2641,
+      "maximum_node_constraint_rad": 1.9708817911023857e-12,
+      "maximum_chord_probe_constraint_rad": 2.8984236985496453e-07,
+      "maximum_atom_step_A": 0.004999765806085053,
+      "maximum_finite_checked_energy_kcal_mol": 220.07711852981737,
+      "finite_checked_height_above_A_kcal_mol": 15.56590442550737,
+      "sampled_maximum_change_kcal_mol": 0.0
+    },
+    {
+      "pattern": "II_IV",
+      "frames": 2715,
+      "maximum_node_constraint_rad": 1.852296094284611e-12,
+      "maximum_chord_probe_constraint_rad": 1.9358553959847313e-07,
+      "maximum_atom_step_A": 0.004997399170178232,
+      "maximum_finite_checked_energy_kcal_mol": 220.0254152505576,
+      "finite_checked_height_above_A_kcal_mol": 15.514201146247586,
+      "sampled_maximum_change_kcal_mol": 0.0
+    }
+  ],
+  "independent_jacobian_and_lagrangian_curvature_sensitivity": [
+    {
+      "case": "pilot_II_IV_025",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.04334959618583444,
+        0.0433500341499832
+      ],
+      "lowest_tangent_curvature_change": 4.3796414875979517e-07,
+      "independent_versus_solver_J_max_error": 3.3306690738754696e-16,
+      "independent_J_FD_max_error": 1.8196577578066808e-10
+    },
+    {
+      "case": "pilot_II_IV_050",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.07328439057974853,
+        0.07328456083105253
+      ],
+      "lowest_tangent_curvature_change": 1.7025130399916932e-07,
+      "independent_versus_solver_J_max_error": 6.661338147750939e-16,
+      "independent_J_FD_max_error": 3.412208848807552e-10
+    },
+    {
+      "case": "pilot_II_IV_075",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.0337073522615202,
+        0.03370787557864384
+      ],
+      "lowest_tangent_curvature_change": 5.233171236421197e-07,
+      "independent_versus_solver_J_max_error": 3.3306690738754696e-16,
+      "independent_J_FD_max_error": 2.830482515037147e-10
+    },
+    {
+      "case": "pilot_I_III_025",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.03404475633003838,
+        0.034045315326445724
+      ],
+      "lowest_tangent_curvature_change": 5.589964073432485e-07,
+      "independent_versus_solver_J_max_error": 6.661338147750939e-16,
+      "independent_J_FD_max_error": 2.326854819933999e-10
+    },
+    {
+      "case": "pilot_I_III_050",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.0769616982719524,
+        0.07696189692123075
+      ],
+      "lowest_tangent_curvature_change": 1.9864927834623014e-07,
+      "independent_versus_solver_J_max_error": 6.661338147750939e-16,
+      "independent_J_FD_max_error": 4.14461992503945e-10
+    },
+    {
+      "case": "pilot_I_III_075",
+      "status": "INDEPENDENT_CONSTRAINED_MINIMUM_CHECKS_PASSED",
+      "hessian_steps_A": [
+        0.0001,
+        5e-05
+      ],
+      "tangent_indices": [
+        0,
+        0
+      ],
+      "lowest_tangent_curvatures": [
+        0.03777744199186384,
+        0.03777776659950626
+      ],
+      "lowest_tangent_curvature_change": 3.2460764241848405e-07,
+      "independent_versus_solver_J_max_error": 4.440892098500626e-16,
+      "independent_J_FD_max_error": 3.0042546228514766e-10
+    }
+  ],
+  "observed_continuation_obstructions": [
+    {
+      "branch": "I_III_outer_left",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.47228772707472033,
+      "last_positive_tangent_curvature": 0.0026572709310544334,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    },
+    {
+      "branch": "I_III_middle_left",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.4627331349929848,
+      "last_positive_tangent_curvature": 0.001825304755323827,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    },
+    {
+      "branch": "I_III_outer_right",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.5218822572527911,
+      "last_positive_tangent_curvature": 0.003514938269666924,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    },
+    {
+      "branch": "I_III_middle_right",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.5463706039006795,
+      "last_positive_tangent_curvature": 0.004396374472027849,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    },
+    {
+      "branch": "II_IV_outer_left_to04675",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.4622603393671276,
+      "last_positive_tangent_curvature": 0.002422448597031901,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    },
+    {
+      "branch": "II_IV_middle_left",
+      "status": "CONTINUATION_OBSTRUCTION",
+      "last_accepted_progress": 0.45503229776183307,
+      "last_positive_tangent_curvature": 0.0029906822687162716,
+      "scope": "An actual tolerance-checked local branch approaches soft curvature; failed smaller steps are retained. This is a continuation obstruction, not an analytic proof of a saddle-node bifurcation."
+    }
+  ],
+  "portable_reproduction": {
+    "function": "propeller_paths.collective_paths.complete_collective_path(ctx,pattern,out,seed_file,atom_step=.01)",
+    "inputs": "Standalone molecular model, enantiomeric endpoint definitions, four readable quantized constrained-saddle seeds",
+    "search": "Recomputes41 forward local minima; follows four central KKT branches; revalidates both seed saddles; regenerates feasible descents and exact-feasible dense complete geometry. No prior result directory is read.",
+    "seed_rounding_scale_per_A": 100000,
+    "seed_tests": [
+      {
+        "pattern": "I_III",
+        "side": "left",
+        "status": "KKT_CONVERGED",
+        "energy_kcal_mol": 219.8896771146512,
+        "kkt_gradient": 1.375023461676796e-12,
+        "constraint_rad": 2.220446049250313e-16,
+        "tangent_index": 1,
+        "minimum_absolute_tangent_eigenvalue": 0.06780769457507893,
+        "maximum_atom_correction_A": 7.754364157398784e-06
+      },
+      {
+        "pattern": "I_III",
+        "side": "right",
+        "status": "KKT_CONVERGED",
+        "energy_kcal_mol": 220.0771185298168,
+        "kkt_gradient": 1.380581202955604e-12,
+        "constraint_rad": 2.4492935982947064e-16,
+        "tangent_index": 1,
+        "minimum_absolute_tangent_eigenvalue": 0.06956480261258496,
+        "maximum_atom_correction_A": 7.431119632372461e-06
+      },
+      {
+        "pattern": "II_IV",
+        "side": "left",
+        "status": "KKT_CONVERGED",
+        "energy_kcal_mol": 219.81853181316836,
+        "kkt_gradient": 1.484333334281376e-12,
+        "constraint_rad": 2.220446049250313e-16,
+        "tangent_index": 1,
+        "minimum_absolute_tangent_eigenvalue": 0.04133739345992781,
+        "maximum_atom_correction_A": 7.692195720028214e-06
+      },
+      {
+        "pattern": "II_IV",
+        "side": "right",
+        "status": "KKT_CONVERGED",
+        "energy_kcal_mol": 220.02541525055767,
+        "kkt_gradient": 1.4097260811202747e-12,
+        "constraint_rad": 6.432490598706546e-16,
+        "tangent_index": 1,
+        "minimum_absolute_tangent_eigenvalue": 0.06853208495737051,
+        "maximum_atom_correction_A": 8.805046695755016e-06
+      }
+    ]
+  },
+  "limits": [
+    "These finite checked complete curves are explicit candidates within two precisely defined synchronized torsion families. Their maxima are not proven global minimum barriers over collective paths.",
+    "Every converged local-minimum node and every constrained connector saddle is classified by the Lagrangian tangent Hessian. Interpolated geometric segments are feasible and energy-checked, and are not claimed to be local minima.",
+    "Three starts at each of six progress values and forward/reverse branch tracking are bounded multistart evidence, not exhaustive search.",
+    "A list of separately minimized nodes can jump branches; its lower envelope was never substituted for the physical candidate path.",
+    "The four fixed-progress connector saddles are not unconstrained elementary transition states.",
+    "Potential energies use MMFF94 and cannot numerically reproduce the paper MM2 barriers or experimental thermal free energies.",
+    "These new computations and standalone tests ran in this working environment; they have not yet been run on the user Mac."
+  ],
+  "source_sha256": {
+    "assembly.py": "01f335d18dc10730a01d23032cb5ad757ba66ff0ffc275d499ead7a3a96f403e",
+    "bridges.py": "0d7ca22cda5abae1909f2cc3a0238f79596157c0dd8b3ad55c1fc86f6addc41f",
+    "collective_paths.py": "d961f34f530e1fa53ebfa38bc0785de1c043657dfaa09248c17c1b024b5abf54",
+    "continuation.py": "4aa06e7ab3b856fd94ca3f39c9539cd53a3e8c182e8047d8c50621c82fdd7d89"
+  },
+  "detail_file": "study_details.json"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE_COLLECTIVE_CANDIDATE_PATHS_VERIFIED",
+  "sequential_baseline": {
+    "current_checked_saddle_height_above_A_kcal_mol": 7.4039946986904965,
+    "saved_finite_checked_path_height_above_A_kcal_mol": 7.403994698690468,
+    "scope": "Original accepted sequential path record reused; its six saddle energies and forces rechecked in this run."
+  },
+  "synchronized_finite_checked_heights_above_A_kcal_mol": {
+    "I_III": 15.565904425506801,
+    "II_IV": 15.514201146247729
+  },
+  "candidate_height_differences_from_saved_sequential_path_kcal_mol": {
+    "I_III": 8.161909726816333,
+    "II_IV": 8.11020644755726
+  },
+  "verified_constrained_connector_count": 4,
+  "constrained_connectors": {
+    "I_III": {
+      "left": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "right": "CONSTRAINED_CONNECTOR_VERIFIED"
+    },
+    "II_IV": {
+      "left": "CONSTRAINED_CONNECTOR_VERIFIED",
+      "right": "CONSTRAINED_CONNECTOR_VERIFIED"
+    }
+  },
+  "path_checks": {
+    "I_III": {
+      "all_path_checks_passed": true,
+      "frames": 1527,
+      "maximum_endpoint_proper_rmsd_A": 2.0703458940082593e-13,
+      "maximum_node_constraint_rad": 1.971145469070734e-12,
+      "maximum_chord_probe_constraint_rad": 1.1390866581362238e-06,
+      "maximum_atom_step_A": 0.009991223787650291
+    },
+    "II_IV": {
+      "all_path_checks_passed": true,
+      "frames": 1586,
+      "maximum_endpoint_proper_rmsd_A": 1.3612512670432946e-12,
+      "maximum_node_constraint_rad": 1.8534063173092363e-12,
+      "maximum_chord_probe_constraint_rad": 7.699198242006046e-07,
+      "maximum_atom_step_A": 0.009960064426153992
+    }
+  },
+  "output": "/Volumes/LaCie/riemannian_propellers/lindner_readable.72dGzI2Z/comparison_results_1794512270493666000/exact_collective_1794525495802870000/complete_paths_1794527035818515000",
+  "elapsed_seconds": 43.917976166820154,
+  "scope": "Revalidation of selected seeded MMFF94 candidates with finite path checks. No global optimum or experimental rate claim."
+}

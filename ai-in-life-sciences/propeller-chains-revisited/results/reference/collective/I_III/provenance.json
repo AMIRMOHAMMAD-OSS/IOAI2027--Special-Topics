@@ -1,0 +1,44 @@
+{
+  "primary_reference": true,
+  "pattern": "I_III",
+  "files": {
+    "trajectory.npz": {
+      "repository_path": "results/reference/collective/I_III/trajectory.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/trajectory.npz",
+      "sha256": "fda0afa3113fce6dd1bc0bc5930d31940538eb2d10942ac308cd281de264758d",
+      "size_bytes": 3444570,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "assembly_nodes.npz": {
+      "repository_path": "results/reference/collective/I_III/assembly_nodes.npz",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/assembly_nodes.npz",
+      "sha256": "08ede9712f5ec3da2941579231474b16ac5ddb4281fe6a051a002c3e13ba3bba",
+      "size_bytes": 1304686,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "summary.json": {
+      "repository_path": "results/reference/collective/I_III/summary.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/method/I_III_complete_path/summary.json",
+      "sha256": "999a4c1793b29e9676016a464f54baefda2f4d4deccc7e1ccc6f6aa2d9b35239",
+      "size_bytes": 121257,
+      "role": "Original independently audited full collective candidate; not display decimation"
+    },
+    "independent_audit.json": {
+      "repository_path": "results/reference/collective/I_III/independent_audit.json",
+      "original_local_path": "/workspace/scratch/e38f80eb67c5/collective_study_20261113/audit/complete_paths/I_III.json",
+      "sha256": "f2257306ec359be368fec1dd15a1cdf96526418947fd659e0a585e36bf0b49f3",
+      "size_bytes": 9880,
+      "role": "Independent all-frame and quarter-gap energies, fixed whole-block identities and endpoint classifications"
+    }
+  },
+  "source_blocks": {
+    "I_III_forward_40": "results/reference/collective/node_studies/I_III_forward_40",
+    "I_III_outer_left": "results/reference/collective/path_components/I_III_outer_left",
+    "I_III_fixed04675_bridge/verified_connector_v2": "results/reference/collective/path_components/I_III_fixed04675_bridge/verified_connector_v2",
+    "I_III_middle_left": "results/reference/collective/path_components/I_III_middle_left",
+    "I_III_middle_right": "results/reference/collective/path_components/I_III_middle_right",
+    "I_III_fixed0525_bridge/verified_connector_v2": "results/reference/collective/path_components/I_III_fixed0525_bridge/verified_connector_v2",
+    "I_III_outer_right": "results/reference/collective/path_components/I_III_outer_right"
+  },
+  "original_local_paths_are_provenance_not_public_links": true
+}

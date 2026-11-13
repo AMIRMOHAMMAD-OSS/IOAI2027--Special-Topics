@@ -1,0 +1,1527 @@
+{
+  "branch": "I_III_reverse_40",
+  "complete": true,
+  "diagnostic_only": true,
+  "intervals": [
+    {
+      "from_node": 0,
+      "from_t": 1.0,
+      "to_t": 0.9750000000000001,
+      "atom_gap_A": 0.08059618356440455,
+      "heavy_gap_A": 0.055797060061127245,
+      "hydrogen_gap_A": 0.08059618356440455,
+      "max_atom": 48,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.191607533358965,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        204.51121410430997,
+        204.63635342239738
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 204.51917677542255,
+          "max_angle_error_rad": 1.867640263042425e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 204.5428318692309,
+          "max_angle_error_rad": 2.419885608628825e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 204.5819297095802,
+          "max_angle_error_rad": 1.762054739873342e-05
+        }
+      ]
+    },
+    {
+      "from_node": 1,
+      "from_t": 0.9750000000000001,
+      "to_t": 0.9500000000000001,
+      "atom_gap_A": 0.08019198247380072,
+      "heavy_gap_A": 0.055517849926702535,
+      "hydrogen_gap_A": 0.08019198247380072,
+      "max_atom": 48,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.4120898065040435,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        204.63635342239738,
+        205.00204557509724
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 204.70582412544337,
+          "max_angle_error_rad": 2.3006512740453292e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 204.79013221894758,
+          "max_angle_error_rad": 2.973974847586547e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 204.88893570771597,
+          "max_angle_error_rad": 2.1697380901408714e-05
+        }
+      ]
+    },
+    {
+      "from_node": 2,
+      "from_t": 0.9500000000000001,
+      "to_t": 0.925,
+      "atom_gap_A": 0.07972672566950532,
+      "heavy_gap_A": 0.0549812973784395,
+      "hydrogen_gap_A": 0.07972672566950532,
+      "max_atom": 48,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.7668983051875198,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        205.00204557509724,
+        205.5894788020517
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 205.12878161766406,
+          "max_angle_error_rad": 3.0750060780015964e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 205.26919083097172,
+          "max_angle_error_rad": 4.011079782362259e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 205.4228375298846,
+          "max_angle_error_rad": 2.9412328734768067e-05
+        }
+      ]
+    },
+    {
+      "from_node": 3,
+      "from_t": 0.925,
+      "to_t": 0.9,
+      "atom_gap_A": 0.07925440123099171,
+      "heavy_gap_A": 0.05427845834634789,
+      "hydrogen_gap_A": 0.07925440123099171,
+      "max_atom": 48,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.2359796851968925,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        205.5894788020517,
+        206.37482594714032
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 205.76792826623523,
+          "max_angle_error_rad": 3.776143377876018e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 205.95861715442962,
+          "max_angle_error_rad": 4.950304560302765e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 206.16100492164176,
+          "max_angle_error_rad": 3.6488961769109984e-05
+        }
+      ]
+    },
+    {
+      "from_node": 4,
+      "from_t": 0.9,
+      "to_t": 0.875,
+      "atom_gap_A": 0.07947167522298808,
+      "heavy_gap_A": 0.054656110682472836,
+      "hydrogen_gap_A": 0.07947167522298808,
+      "max_atom": 47,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.845017689244887,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        206.37482594714032,
+        207.33015072631898
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 206.59835650247283,
+          "max_angle_error_rad": 4.381659694896456e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 206.8324670198324,
+          "max_angle_error_rad": 5.7613431684311316e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 207.07647319564347,
+          "max_angle_error_rad": 4.259905740622294e-05
+        }
+      ]
+    },
+    {
+      "from_node": 5,
+      "from_t": 0.875,
+      "to_t": 0.8500000000000001,
+      "atom_gap_A": 0.08502401082514577,
+      "heavy_gap_A": 0.05855278629010397,
+      "hydrogen_gap_A": 0.08502401082514577,
+      "max_atom": 59,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.547060776883958,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        207.33015072631898,
+        208.4245584689579
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 207.59132276238955,
+          "max_angle_error_rad": 4.858921976824693e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 207.8612449265996,
+          "max_angle_error_rad": 6.400120959149103e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 208.13900843897233,
+          "max_angle_error_rad": 4.7407799963483654e-05
+        }
+      ]
+    },
+    {
+      "from_node": 6,
+      "from_t": 0.8500000000000001,
+      "to_t": 0.8250000000000001,
+      "atom_gap_A": 0.10075332713958898,
+      "heavy_gap_A": 0.06447810669208641,
+      "hydrogen_gap_A": 0.10075332713958898,
+      "max_atom": 59,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.052944197812629,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        208.4245584689579,
+        209.62606134101705
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 208.71542470595892,
+          "max_angle_error_rad": 5.150491042660299e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 209.0131692725998,
+          "max_angle_error_rad": 6.789246677674222e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 209.31664552897445,
+          "max_angle_error_rad": 5.0328717642655896e-05
+        }
+      ]
+    },
+    {
+      "from_node": 7,
+      "from_t": 0.8250000000000001,
+      "to_t": 0.8,
+      "atom_gap_A": 0.1103506118961849,
+      "heavy_gap_A": 0.0691840523167674,
+      "hydrogen_gap_A": 0.1103506118961849,
+      "max_atom": 81,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.9473117833328324,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        209.62606134101705,
+        210.90377497680421
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 209.93866559389397,
+          "max_angle_error_rad": 5.282377610482669e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 210.25640127257344,
+          "max_angle_error_rad": 6.954596227104481e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 210.5780136891595,
+          "max_angle_error_rad": 5.149009088589729e-05
+        }
+      ]
+    },
+    {
+      "from_node": 8,
+      "from_t": 0.8,
+      "to_t": 0.775,
+      "atom_gap_A": 0.14615720459188675,
+      "heavy_gap_A": 0.07422536907531102,
+      "hydrogen_gap_A": 0.14615720459188675,
+      "max_atom": 83,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.298185126615794,
+      "max_methyl_atom": 37,
+      "endpoint_energies": [
+        210.90377497680421,
+        212.2249609395941
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 211.2308399942407,
+          "max_angle_error_rad": 6.380990622267824e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 211.56102657833958,
+          "max_angle_error_rad": 8.421677225634026e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 211.89222315796766,
+          "max_angle_error_rad": 6.250924756190378e-05
+        }
+      ]
+    },
+    {
+      "from_node": 9,
+      "from_t": 0.775,
+      "to_t": 0.75,
+      "atom_gap_A": 0.42814114615807214,
+      "heavy_gap_A": 0.16133399152938874,
+      "hydrogen_gap_A": 0.42814114615807214,
+      "max_atom": 83,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 12.156634712317503,
+      "max_methyl_atom": 37,
+      "endpoint_energies": [
+        212.2249609395941,
+        213.52916266331215
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 212.59947678455114,
+          "max_angle_error_rad": 0.00015034251380963148
+        },
+        {
+          "fraction": 0.5,
+          "energy": 212.96467670031075,
+          "max_angle_error_rad": 0.00019935598254172682
+        },
+        {
+          "fraction": 0.75,
+          "energy": 213.256036493014,
+          "max_angle_error_rad": 0.0001486779590069709
+        }
+      ]
+    },
+    {
+      "from_node": 10,
+      "from_t": 0.75,
+      "to_t": 0.7250000000000001,
+      "atom_gap_A": 0.4487699736056425,
+      "heavy_gap_A": 0.17801276538142854,
+      "hydrogen_gap_A": 0.4487699736056425,
+      "max_atom": 83,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 13.121279183496439,
+      "max_methyl_atom": 37,
+      "endpoint_energies": [
+        213.52916266331215,
+        214.65683676702082
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 213.9318179836244,
+          "max_angle_error_rad": 0.00015214324936030366
+        },
+        {
+          "fraction": 0.5,
+          "energy": 214.3007849020436,
+          "max_angle_error_rad": 0.00020064663285834783
+        },
+        {
+          "fraction": 0.75,
+          "energy": 214.49483674356264,
+          "max_angle_error_rad": 0.00014879072237983237
+        }
+      ]
+    },
+    {
+      "from_node": 11,
+      "from_t": 0.7250000000000001,
+      "to_t": 0.7000000000000001,
+      "atom_gap_A": 0.7931992771827774,
+      "heavy_gap_A": 0.3245738916712202,
+      "hydrogen_gap_A": 0.7931992771827774,
+      "max_atom": 77,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 23.688419846497144,
+      "max_methyl_atom": 35,
+      "endpoint_energies": [
+        214.65683676702082,
+        215.4846268150848
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.50125178409976,
+          "max_angle_error_rad": 0.00023588881738301207
+        },
+        {
+          "fraction": 0.5,
+          "energy": 216.1982076656255,
+          "max_angle_error_rad": 0.0003128117041655276
+        },
+        {
+          "fraction": 0.75,
+          "energy": 215.89794700302986,
+          "max_angle_error_rad": 0.00023328942189526638
+        }
+      ]
+    },
+    {
+      "from_node": 12,
+      "from_t": 0.7000000000000001,
+      "to_t": 0.675,
+      "atom_gap_A": 0.5344079898722809,
+      "heavy_gap_A": 0.13815748272680867,
+      "hydrogen_gap_A": 0.5344079898722809,
+      "max_atom": 54,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 26.81610966009491,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        215.4846268150848,
+        216.27170523035977
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.9875214442409,
+          "max_angle_error_rad": 9.4122560589327e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 216.43433668207192,
+          "max_angle_error_rad": 0.00012467132789095725
+        },
+        {
+          "fraction": 0.75,
+          "energy": 216.38942733163705,
+          "max_angle_error_rad": 9.287168188165662e-05
+        }
+      ]
+    },
+    {
+      "from_node": 13,
+      "from_t": 0.675,
+      "to_t": 0.65,
+      "atom_gap_A": 0.4071384437920004,
+      "heavy_gap_A": 0.12358403653051771,
+      "hydrogen_gap_A": 0.4071384437920004,
+      "max_atom": 54,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 19.300856998001162,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        216.27170523035977,
+        216.9159735293689
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 216.51695616254483,
+          "max_angle_error_rad": 5.9830288304085766e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 216.73922971520054,
+          "max_angle_error_rad": 7.895944664298993e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 216.83533293550167,
+          "max_angle_error_rad": 5.860179528910381e-05
+        }
+      ]
+    },
+    {
+      "from_node": 14,
+      "from_t": 0.65,
+      "to_t": 0.625,
+      "atom_gap_A": 0.11869189637816994,
+      "heavy_gap_A": 0.06842022766468171,
+      "hydrogen_gap_A": 0.11869189637816994,
+      "max_atom": 54,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.224120685263225,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        216.9159735293689,
+        217.5579817891018
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 217.0750896819092,
+          "max_angle_error_rad": 3.826238093718182e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 217.23523882185236,
+          "max_angle_error_rad": 5.018130980705138e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 217.39608419142078,
+          "max_angle_error_rad": 3.7004348569125156e-05
+        }
+      ]
+    },
+    {
+      "from_node": 15,
+      "from_t": 0.625,
+      "to_t": 0.6000000000000001,
+      "atom_gap_A": 0.09934531613808592,
+      "heavy_gap_A": 0.07052261430252861,
+      "hydrogen_gap_A": 0.09934531613808592,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.7392596077782905,
+      "max_methyl_atom": 39,
+      "endpoint_energies": [
+        217.5579817891018,
+        218.20979174263965
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 217.71993750862123,
+          "max_angle_error_rad": 3.45226618811978e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 217.8827617722209,
+          "max_angle_error_rad": 4.520531399521133e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 218.04602590839352,
+          "max_angle_error_rad": 3.328066276497843e-05
+        }
+      ]
+    },
+    {
+      "from_node": 16,
+      "from_t": 0.6000000000000001,
+      "to_t": 0.5750000000000001,
+      "atom_gap_A": 0.11037708025781705,
+      "heavy_gap_A": 0.07299171439872798,
+      "hydrogen_gap_A": 0.11037708025781705,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.127201978959842,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        218.20979174263965,
+        218.8611891008877
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 218.37300139731093,
+          "max_angle_error_rad": 3.310858413510531e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 218.5362806422363,
+          "max_angle_error_rad": 4.325874722768686e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 218.69900035245283,
+          "max_angle_error_rad": 3.1775755199636706e-05
+        }
+      ]
+    },
+    {
+      "from_node": 17,
+      "from_t": 0.5750000000000001,
+      "to_t": 0.55,
+      "atom_gap_A": 0.13021467514671348,
+      "heavy_gap_A": 0.08175254550676159,
+      "hydrogen_gap_A": 0.13021467514671348,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.3787278169356196,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        218.8611891008877,
+        219.49377485428062
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 219.02209577771245,
+          "max_angle_error_rad": 3.3895955000501354e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 219.18173493587813,
+          "max_angle_error_rad": 4.4268888901299874e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 219.33891725659475,
+          "max_angle_error_rad": 3.250309982430478e-05
+        }
+      ]
+    },
+    {
+      "from_node": 18,
+      "from_t": 0.55,
+      "to_t": 0.525,
+      "atom_gap_A": 0.17322941803676054,
+      "heavy_gap_A": 0.10157728533967061,
+      "hydrogen_gap_A": 0.17322941803676054,
+      "max_atom": 73,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 5.442697154935348,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        219.49377485428062,
+        220.07185905975257
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 219.64806185862665,
+          "max_angle_error_rad": 4.9516408725747134e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 219.79815412534404,
+          "max_angle_error_rad": 6.474251993826564e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 219.93870258794968,
+          "max_angle_error_rad": 4.758882758104654e-05
+        }
+      ]
+    },
+    {
+      "from_node": 19,
+      "from_t": 0.525,
+      "to_t": 0.5,
+      "atom_gap_A": 1.3083737195163654,
+      "heavy_gap_A": 0.4819153766752762,
+      "hydrogen_gap_A": 1.3083737195163654,
+      "max_atom": 73,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 35.19108086787354,
+      "max_methyl_atom": 34,
+      "endpoint_energies": [
+        220.07185905975257,
+        219.95244726505535
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 225.11380760750475,
+          "max_angle_error_rad": 0.00014528037393926122
+        },
+        {
+          "fraction": 0.5,
+          "energy": 229.46904024962356,
+          "max_angle_error_rad": 0.0001871037989718223
+        },
+        {
+          "fraction": 0.75,
+          "energy": 224.96554602331508,
+          "max_angle_error_rad": 0.00013532390211092938
+        }
+      ]
+    },
+    {
+      "from_node": 20,
+      "from_t": 0.5,
+      "to_t": 0.47500000000000003,
+      "atom_gap_A": 0.2563743598104574,
+      "heavy_gap_A": 0.14286747645710948,
+      "hydrogen_gap_A": 0.2563743598104574,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 8.755086497691389,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        219.95244726505535,
+        219.90581149872162
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 219.9580824538768,
+          "max_angle_error_rad": 2.363877609323772e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 219.95503935165405,
+          "max_angle_error_rad": 3.243999857560631e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 219.93534497175864,
+          "max_angle_error_rad": 2.5021350874565588e-05
+        }
+      ]
+    },
+    {
+      "from_node": 21,
+      "from_t": 0.47500000000000003,
+      "to_t": 0.45,
+      "atom_gap_A": 1.2013906705837245,
+      "heavy_gap_A": 0.6269201250125954,
+      "hydrogen_gap_A": 1.2013906705837245,
+      "max_atom": 65,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 31.408943792281235,
+      "max_methyl_atom": 32,
+      "endpoint_energies": [
+        219.90581149872162,
+        219.4702635392456
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 222.73676668590252,
+          "max_angle_error_rad": 0.00015578274069460996
+        },
+        {
+          "fraction": 0.5,
+          "energy": 225.08768387901554,
+          "max_angle_error_rad": 0.0001859158646300152
+        },
+        {
+          "fraction": 0.75,
+          "energy": 222.50186538537514,
+          "max_angle_error_rad": 0.00012292007243286385
+        }
+      ]
+    },
+    {
+      "from_node": 22,
+      "from_t": 0.45,
+      "to_t": 0.42500000000000004,
+      "atom_gap_A": 0.15088886867374937,
+      "heavy_gap_A": 0.0914891552700482,
+      "hydrogen_gap_A": 0.15088886867374937,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.8858115437628196,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        219.4702635392456,
+        218.84938186896315
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 219.31925962047268,
+          "max_angle_error_rad": 3.0532852399331456e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 219.16538181330162,
+          "max_angle_error_rad": 4.138391283885212e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 219.00820784864726,
+          "max_angle_error_rad": 3.1539944724615077e-05
+        }
+      ]
+    },
+    {
+      "from_node": 23,
+      "from_t": 0.42500000000000004,
+      "to_t": 0.4,
+      "atom_gap_A": 0.12474091563028843,
+      "heavy_gap_A": 0.07967472561701636,
+      "hydrogen_gap_A": 0.12474091563028843,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.422868446201944,
+      "max_methyl_atom": 39,
+      "endpoint_energies": [
+        218.84938186896315,
+        218.20559132703886
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 218.68951553758535,
+          "max_angle_error_rad": 3.3907792815396354e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 218.52886440421742,
+          "max_angle_error_rad": 4.5944077955051295e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 218.3672986567348,
+          "max_angle_error_rad": 3.5004906193875085e-05
+        }
+      ]
+    },
+    {
+      "from_node": 24,
+      "from_t": 0.4,
+      "to_t": 0.375,
+      "atom_gap_A": 0.11115311891955444,
+      "heavy_gap_A": 0.07391615469632623,
+      "hydrogen_gap_A": 0.11115311891955444,
+      "max_atom": 93,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.1771825265177944,
+      "max_methyl_atom": 39,
+      "endpoint_energies": [
+        218.20559132703886,
+        217.55886112181122
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 218.04337783783177,
+          "max_angle_error_rad": 3.6826778045312425e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 217.88149668372319,
+          "max_angle_error_rad": 4.98653440719754e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 217.7198225568064,
+          "max_angle_error_rad": 3.7967527095866815e-05
+        }
+      ]
+    },
+    {
+      "from_node": 25,
+      "from_t": 0.375,
+      "to_t": 0.35000000000000003,
+      "atom_gap_A": 0.13597813544714976,
+      "heavy_gap_A": 0.07219561566956514,
+      "hydrogen_gap_A": 0.13597813544714976,
+      "max_atom": 57,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.92114687383782,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        217.55886112181122,
+        216.91957769923332
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 217.39808567968885,
+          "max_angle_error_rad": 3.9975559027433105e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 217.2381806937504,
+          "max_angle_error_rad": 5.408019252106655e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 217.0785216593055,
+          "max_angle_error_rad": 4.114064460228328e-05
+        }
+      ]
+    },
+    {
+      "from_node": 26,
+      "from_t": 0.35000000000000003,
+      "to_t": 0.325,
+      "atom_gap_A": 0.7365812269137442,
+      "heavy_gap_A": 0.28933726982014496,
+      "hydrogen_gap_A": 0.7365812269137442,
+      "max_atom": 57,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 32.69719916992342,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        216.91957769923332,
+        216.2226973336517
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 217.8427799257446,
+          "max_angle_error_rad": 8.048398555060565e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 218.57131133088944,
+          "max_angle_error_rad": 0.00010848501186466741
+        },
+        {
+          "fraction": 0.75,
+          "energy": 217.4932245187524,
+          "max_angle_error_rad": 8.223102932847226e-05
+        }
+      ]
+    },
+    {
+      "from_node": 27,
+      "from_t": 0.325,
+      "to_t": 0.30000000000000004,
+      "atom_gap_A": 0.14169359218351704,
+      "heavy_gap_A": 0.06953064688494819,
+      "hydrogen_gap_A": 0.14169359218351704,
+      "max_atom": 57,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.80857354965881,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        216.2226973336517,
+        215.44541994279248
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 216.02944761592167,
+          "max_angle_error_rad": 5.2368573911221183e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 215.83594031144662,
+          "max_angle_error_rad": 7.069721534497253e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 215.64071131247243,
+          "max_angle_error_rad": 5.367127200395228e-05
+        }
+      ]
+    },
+    {
+      "from_node": 28,
+      "from_t": 0.30000000000000004,
+      "to_t": 0.275,
+      "atom_gap_A": 0.25910912886622367,
+      "heavy_gap_A": 0.10483635529459207,
+      "hydrogen_gap_A": 0.25910912886622367,
+      "max_atom": 78,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 8.374562881276448,
+      "max_methyl_atom": 35,
+      "endpoint_energies": [
+        215.44541994279248,
+        214.64427373526078
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.26130373574588,
+          "max_angle_error_rad": 9.993224339899241e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 215.07365665644332,
+          "max_angle_error_rad": 0.00013455726129207868
+        },
+        {
+          "fraction": 0.75,
+          "energy": 214.8633759170854,
+          "max_angle_error_rad": 0.00010188935374166873
+        }
+      ]
+    },
+    {
+      "from_node": 29,
+      "from_t": 0.275,
+      "to_t": 0.25,
+      "atom_gap_A": 0.6949603246615887,
+      "heavy_gap_A": 0.2593230899263063,
+      "hydrogen_gap_A": 0.6949603246615887,
+      "max_atom": 78,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 27.315662286490404,
+      "max_methyl_atom": 36,
+      "endpoint_energies": [
+        214.64427373526078,
+        213.55748847325208
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.06104671723125,
+          "max_angle_error_rad": 0.0004385072712642657
+        },
+        {
+          "fraction": 0.5,
+          "energy": 215.31766033948492,
+          "max_angle_error_rad": 0.0005897986914042974
+        },
+        {
+          "fraction": 0.75,
+          "energy": 214.51023532080163,
+          "max_angle_error_rad": 0.0004460394529017808
+        }
+      ]
+    },
+    {
+      "from_node": 30,
+      "from_t": 0.25,
+      "to_t": 0.225,
+      "atom_gap_A": 0.2744856090129285,
+      "heavy_gap_A": 0.11323726740498134,
+      "hydrogen_gap_A": 0.2744856090129285,
+      "max_atom": 86,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 9.197441088742993,
+      "max_methyl_atom": 38,
+      "endpoint_energies": [
+        213.55748847325208,
+        212.25102059351894
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 213.24783287021168,
+          "max_angle_error_rad": 8.036750157547345e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 212.93001493604652,
+          "max_angle_error_rad": 0.00010794987453732752
+        },
+        {
+          "fraction": 0.75,
+          "energy": 212.59179591182794,
+          "max_angle_error_rad": 8.154876681820689e-05
+        }
+      ]
+    },
+    {
+      "from_node": 31,
+      "from_t": 0.225,
+      "to_t": 0.2,
+      "atom_gap_A": 0.12625272325735548,
+      "heavy_gap_A": 0.08298954936338783,
+      "hydrogen_gap_A": 0.12625272325735548,
+      "max_atom": 80,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.04303299239444,
+      "max_methyl_atom": 38,
+      "endpoint_energies": [
+        212.25102059351894,
+        210.93103994366922
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 211.91879185312794,
+          "max_angle_error_rad": 6.37131271180591e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 211.58796549029415,
+          "max_angle_error_rad": 8.598436202089665e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 211.25804772461993,
+          "max_angle_error_rad": 6.525548177183094e-05
+        }
+      ]
+    },
+    {
+      "from_node": 32,
+      "from_t": 0.2,
+      "to_t": 0.17500000000000002,
+      "atom_gap_A": 0.1111086247770218,
+      "heavy_gap_A": 0.07735689156486047,
+      "hydrogen_gap_A": 0.1111086247770218,
+      "max_atom": 56,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.433765872873341,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        210.93103994366922,
+        209.65125529201063
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 210.60508429056165,
+          "max_angle_error_rad": 6.008339796037543e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 210.28307034173494,
+          "max_angle_error_rad": 8.104160343935796e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 209.96467097251855,
+          "max_angle_error_rad": 6.147220834407108e-05
+        }
+      ]
+    },
+    {
+      "from_node": 33,
+      "from_t": 0.17500000000000002,
+      "to_t": 0.15000000000000002,
+      "atom_gap_A": 0.09991095222749852,
+      "heavy_gap_A": 0.07304751770345759,
+      "hydrogen_gap_A": 0.09991095222749852,
+      "max_atom": 56,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 4.104621060003583,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        209.65125529201063,
+        208.44573509850045
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 209.340827447827,
+          "max_angle_error_rad": 5.720068690806546e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 209.03629763018236,
+          "max_angle_error_rad": 7.702304401768778e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 208.73756907862642,
+          "max_angle_error_rad": 5.832825103890827e-05
+        }
+      ]
+    },
+    {
+      "from_node": 34,
+      "from_t": 0.15000000000000002,
+      "to_t": 0.125,
+      "atom_gap_A": 0.0814326388614105,
+      "heavy_gap_A": 0.06807780639788812,
+      "hydrogen_gap_A": 0.0814326388614105,
+      "max_atom": 80,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 3.3373829560646358,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        208.44573509850045,
+        207.34694830312395
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 208.15897308625398,
+          "max_angle_error_rad": 5.464817057521109e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 207.88004671648926,
+          "max_angle_error_rad": 7.364221770211898e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 207.6090965987129,
+          "max_angle_error_rad": 5.5809677597329355e-05
+        }
+      ]
+    },
+    {
+      "from_node": 35,
+      "from_t": 0.125,
+      "to_t": 0.1,
+      "atom_gap_A": 0.07507995208587687,
+      "heavy_gap_A": 0.0624644216650812,
+      "hydrogen_gap_A": 0.07507995208587687,
+      "max_atom": 45,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.5957343510027755,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        207.34694830312395,
+        206.3871837806269
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 207.09208171948956,
+          "max_angle_error_rad": 5.007258150613314e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 206.84693260197957,
+          "max_angle_error_rad": 6.757426869852257e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 206.61174807273827,
+          "max_angle_error_rad": 5.1283602805152206e-05
+        }
+      ]
+    },
+    {
+      "from_node": 36,
+      "from_t": 0.1,
+      "to_t": 0.07500000000000001,
+      "atom_gap_A": 0.07433448362746785,
+      "heavy_gap_A": 0.05663446824916518,
+      "hydrogen_gap_A": 0.07433448362746785,
+      "max_atom": 47,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 2.006535599113112,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        206.3871837806269,
+        205.59739387871247
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 206.17217691241825,
+          "max_angle_error_rad": 4.4471300198800634e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 205.96865195471872,
+          "max_angle_error_rad": 6.0093997074961436e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 205.7768768188159,
+          "max_angle_error_rad": 4.56653373732685e-05
+        }
+      ]
+    },
+    {
+      "from_node": 37,
+      "from_t": 0.07500000000000001,
+      "to_t": 0.05,
+      "atom_gap_A": 0.07400621279978292,
+      "heavy_gap_A": 0.051059159020027084,
+      "hydrogen_gap_A": 0.07400621279978292,
+      "max_atom": 47,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.5597096706767712,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        205.59739387871247,
+        205.00595979880487
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 205.4296384771654,
+          "max_angle_error_rad": 3.9410874866585566e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 205.2749528449804,
+          "max_angle_error_rad": 5.333829548803681e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 205.1335778683486,
+          "max_angle_error_rad": 4.05927962254804e-05
+        }
+      ]
+    },
+    {
+      "from_node": 38,
+      "from_t": 0.05,
+      "to_t": 0.025,
+      "atom_gap_A": 0.0737799891530887,
+      "heavy_gap_A": 0.04616235919648806,
+      "hydrogen_gap_A": 0.0737799891530887,
+      "max_atom": 47,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.225297782271651,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        205.00595979880487,
+        204.6374097807348
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 204.89197231056949,
+          "max_angle_error_rad": 3.3950410111560636e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 204.7924009371403,
+          "max_angle_error_rad": 4.6054164539621745e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 204.70742952608003,
+          "max_angle_error_rad": 3.5127682765145885e-05
+        }
+      ]
+    },
+    {
+      "from_node": 39,
+      "from_t": 0.025,
+      "to_t": 0.0,
+      "atom_gap_A": 0.07360702911485202,
+      "heavy_gap_A": 0.050346448467201085,
+      "hydrogen_gap_A": 0.07360702911485202,
+      "max_atom": 47,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 1.2160481390324744,
+      "max_methyl_atom": 42,
+      "endpoint_energies": [
+        204.6374097807348,
+        204.51121410430991
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 204.58252577230124,
+          "max_angle_error_rad": 2.8088408418280864e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 204.54310299051366,
+          "max_angle_error_rad": 3.823878139808112e-05
+        },
+        {
+          "fraction": 0.75,
+          "energy": 204.51924744815895,
+          "max_angle_error_rad": 2.926727087071423e-05
+        }
+      ]
+    }
+  ],
+  "largest_intervals": [
+    {
+      "from_node": 19,
+      "from_t": 0.525,
+      "to_t": 0.5,
+      "atom_gap_A": 1.3083737195163654,
+      "heavy_gap_A": 0.4819153766752762,
+      "hydrogen_gap_A": 1.3083737195163654,
+      "max_atom": 73,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 35.19108086787354,
+      "max_methyl_atom": 34,
+      "endpoint_energies": [
+        220.07185905975257,
+        219.95244726505535
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 225.11380760750475,
+          "max_angle_error_rad": 0.00014528037393926122
+        },
+        {
+          "fraction": 0.5,
+          "energy": 229.46904024962356,
+          "max_angle_error_rad": 0.0001871037989718223
+        },
+        {
+          "fraction": 0.75,
+          "energy": 224.96554602331508,
+          "max_angle_error_rad": 0.00013532390211092938
+        }
+      ]
+    },
+    {
+      "from_node": 21,
+      "from_t": 0.47500000000000003,
+      "to_t": 0.45,
+      "atom_gap_A": 1.2013906705837245,
+      "heavy_gap_A": 0.6269201250125954,
+      "hydrogen_gap_A": 1.2013906705837245,
+      "max_atom": 65,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 31.408943792281235,
+      "max_methyl_atom": 32,
+      "endpoint_energies": [
+        219.90581149872162,
+        219.4702635392456
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 222.73676668590252,
+          "max_angle_error_rad": 0.00015578274069460996
+        },
+        {
+          "fraction": 0.5,
+          "energy": 225.08768387901554,
+          "max_angle_error_rad": 0.0001859158646300152
+        },
+        {
+          "fraction": 0.75,
+          "energy": 222.50186538537514,
+          "max_angle_error_rad": 0.00012292007243286385
+        }
+      ]
+    },
+    {
+      "from_node": 11,
+      "from_t": 0.7250000000000001,
+      "to_t": 0.7000000000000001,
+      "atom_gap_A": 0.7931992771827774,
+      "heavy_gap_A": 0.3245738916712202,
+      "hydrogen_gap_A": 0.7931992771827774,
+      "max_atom": 77,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 23.688419846497144,
+      "max_methyl_atom": 35,
+      "endpoint_energies": [
+        214.65683676702082,
+        215.4846268150848
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.50125178409976,
+          "max_angle_error_rad": 0.00023588881738301207
+        },
+        {
+          "fraction": 0.5,
+          "energy": 216.1982076656255,
+          "max_angle_error_rad": 0.0003128117041655276
+        },
+        {
+          "fraction": 0.75,
+          "energy": 215.89794700302986,
+          "max_angle_error_rad": 0.00023328942189526638
+        }
+      ]
+    },
+    {
+      "from_node": 26,
+      "from_t": 0.35000000000000003,
+      "to_t": 0.325,
+      "atom_gap_A": 0.7365812269137442,
+      "heavy_gap_A": 0.28933726982014496,
+      "hydrogen_gap_A": 0.7365812269137442,
+      "max_atom": 57,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 32.69719916992342,
+      "max_methyl_atom": 29,
+      "endpoint_energies": [
+        216.91957769923332,
+        216.2226973336517
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 217.8427799257446,
+          "max_angle_error_rad": 8.048398555060565e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 218.57131133088944,
+          "max_angle_error_rad": 0.00010848501186466741
+        },
+        {
+          "fraction": 0.75,
+          "energy": 217.4932245187524,
+          "max_angle_error_rad": 8.223102932847226e-05
+        }
+      ]
+    },
+    {
+      "from_node": 29,
+      "from_t": 0.275,
+      "to_t": 0.25,
+      "atom_gap_A": 0.6949603246615887,
+      "heavy_gap_A": 0.2593230899263063,
+      "hydrogen_gap_A": 0.6949603246615887,
+      "max_atom": 78,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 27.315662286490404,
+      "max_methyl_atom": 36,
+      "endpoint_energies": [
+        214.64427373526078,
+        213.55748847325208
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.06104671723125,
+          "max_angle_error_rad": 0.0004385072712642657
+        },
+        {
+          "fraction": 0.5,
+          "energy": 215.31766033948492,
+          "max_angle_error_rad": 0.0005897986914042974
+        },
+        {
+          "fraction": 0.75,
+          "energy": 214.51023532080163,
+          "max_angle_error_rad": 0.0004460394529017808
+        }
+      ]
+    },
+    {
+      "from_node": 12,
+      "from_t": 0.7000000000000001,
+      "to_t": 0.675,
+      "atom_gap_A": 0.5344079898722809,
+      "heavy_gap_A": 0.13815748272680867,
+      "hydrogen_gap_A": 0.5344079898722809,
+      "max_atom": 54,
+      "max_atom_atomic_number": 1,
+      "max_methyl_change_deg": 26.81610966009491,
+      "max_methyl_atom": 28,
+      "endpoint_energies": [
+        215.4846268150848,
+        216.27170523035977
+      ],
+      "gap_probes": [
+        {
+          "fraction": 0.25,
+          "energy": 215.9875214442409,
+          "max_angle_error_rad": 9.4122560589327e-05
+        },
+        {
+          "fraction": 0.5,
+          "energy": 216.43433668207192,
+          "max_angle_error_rad": 0.00012467132789095725
+        },
+        {
+          "fraction": 0.75,
+          "energy": 216.38942733163705,
+          "max_angle_error_rad": 9.287168188165662e-05
+        }
+      ]
+    }
+  ]
+}

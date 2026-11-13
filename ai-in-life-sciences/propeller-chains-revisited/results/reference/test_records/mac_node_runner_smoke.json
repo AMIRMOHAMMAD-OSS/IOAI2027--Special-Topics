@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_EXACT_CONSTRAINED_NODE_SEQUENCES",
+  "node_count": 20,
+  "patterns": [
+    "II_IV",
+    "I_III"
+  ],
+  "directions": [
+    "forward",
+    "reverse"
+  ],
+  "intervals_tested": 4,
+  "all_nodes_accepted": true,
+  "maximum_constraint_residual_rad": 2.2648549702353193e-14,
+  "maximum_kkt_gradient": 8.912386286382696e-10,
+  "minimum_tangent_curvature": 0.03370730559142313,
+  "maximum_endpoint_proper_rmsd_A": 3.2911622854252e-12,
+  "node_peaks_above_A_kcal_mol": {
+    "I_III_forward": 15.441233160745298,
+    "I_III_reverse": 15.695993635786579,
+    "II_IV_forward": 15.430110174477363,
+    "II_IV_reverse": 15.430110174476795
+  },
+  "elapsed_seconds": 98.68949295600032,
+  "source_sha256": "06f47d85c012912f446889be77555420e072695c7890788b431b273c32369332",
+  "source_hash_matches_executed_copy": true,
+  "source_lines": 312,
+  "source_bytes": 20888,
+  "default_intervals": 40,
+  "default_directions": [
+    "forward",
+    "reverse"
+  ],
+  "default_patterns": [
+    "I_III",
+    "II_IV"
+  ],
+  "default_41_node_sequences_not_run_in_this_smoke_test": true,
+  "scope": "20 constrained minima on a coarse smoke grid; not a continuous path or minimized collective barrier."
+}

@@ -1,0 +1,1561 @@
+{
+  "scope": "Finite searched network plus checked reflected partners. Coarse-form coverage is not proof that every physical minimum or transition has been found.",
+  "coverage": {
+    "validated_minima_count": 36,
+    "reachable_minima_count": 32,
+    "reachable_node_ids": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "M",
+      "N001",
+      "N002",
+      "N003",
+      "N004",
+      "N005",
+      "N006",
+      "N007",
+      "N008",
+      "N009",
+      "N010",
+      "N011",
+      "N012",
+      "N013",
+      "N014",
+      "N015",
+      "N018",
+      "R_C",
+      "R_N001",
+      "R_N002",
+      "R_N004",
+      "R_N007",
+      "R_N008",
+      "R_N009",
+      "R_N010",
+      "R_N013",
+      "R_N014",
+      "R_N018"
+    ],
+    "all_coarse_forms": [
+      "a_minus",
+      "a_plus",
+      "b_minus",
+      "b_plus",
+      "c_minus",
+      "c_plus",
+      "d_minus",
+      "d_plus",
+      "e_minus",
+      "e_plus",
+      "f_minus",
+      "f_plus",
+      "g_minus",
+      "g_plus",
+      "h_minus",
+      "h_plus",
+      "i_minus",
+      "i_plus",
+      "j_minus",
+      "j_plus"
+    ],
+    "reachable_coarse_forms": [
+      "a_minus",
+      "a_plus",
+      "b_minus",
+      "b_plus",
+      "c_minus",
+      "c_plus",
+      "d_minus",
+      "d_plus",
+      "e_minus",
+      "e_plus",
+      "f_minus",
+      "f_plus",
+      "g_minus",
+      "g_plus",
+      "h_minus",
+      "h_plus",
+      "i_minus",
+      "i_plus",
+      "j_minus",
+      "j_plus"
+    ],
+    "possible_paper_propeller_form_count": 20,
+    "scope": "Finite searched network plus checked reflected partners. Coarse-form coverage is not proof that every physical minimum or transition has been found."
+  },
+  "nodes": {
+    "A": {
+      "energy_kcal_mol": 204.51121410431,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Au",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "c_minus"
+        ],
+        "reduced_torsions_deg": [
+          -48.092286403092146,
+          -49.73386730887631,
+          48.702864724959,
+          49.78800522548099,
+          -48.73399615447266,
+          -50.536661530365045
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 39.463338469634955
+      }
+    },
+    "C": {
+      "energy_kcal_mol": 205.6844764279674,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Su",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "e_minus"
+        ],
+        "reduced_torsions_deg": [
+          47.32748357281116,
+          52.639810456326245,
+          48.40654150672515,
+          46.67034134172823,
+          -48.752054963130774,
+          -50.55900380041438
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.360189543673755
+      }
+    },
+    "M": {
+      "energy_kcal_mol": 206.79716101392327,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Au",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "b_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.58793675840124,
+          49.769927643527495,
+          -44.310644415960724,
+          -50.9850137630722,
+          -51.71341500255099,
+          -45.85733425457691
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 38.28658499744901
+      }
+    },
+    "B": {
+      "energy_kcal_mol": 204.51121410431006,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Au",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "c_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.53666153036505,
+          49.73386730887631,
+          -48.702864724959,
+          -48.70286472495903,
+          49.73386730887631,
+          50.53666153036505
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 39.46333846963495
+      }
+    },
+    "D": {
+      "energy_kcal_mol": 204.69241822530353,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Au",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "b_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.536301982873795,
+          49.76034387587251,
+          -48.750615163871544,
+          -48.84770100986117,
+          -48.868428802468316,
+          -50.59654264158709
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 39.40345735841291
+      }
+    },
+    "N001": {
+      "energy_kcal_mol": 206.92990555245885,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "g_minus"
+        ],
+        "reduced_torsions_deg": [
+          -44.7531452879424,
+          -51.2583159260391,
+          49.94657521495813,
+          51.0710819319269,
+          -48.77951487537288,
+          -50.52997467250533
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 38.7416840739609
+      }
+    },
+    "N002": {
+      "energy_kcal_mol": 208.2787837661609,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "i_minus"
+        ],
+        "reduced_torsions_deg": [
+          51.767402498550524,
+          52.70855421953641,
+          -51.30384358664785,
+          -47.13192592097309,
+          -49.42377116687871,
+          -47.02300291826481
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.29144578046359
+      }
+    },
+    "N003": {
+      "energy_kcal_mol": 208.19949618665925,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Su",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "d_plus"
+        ],
+        "reduced_torsions_deg": [
+          46.92444186414076,
+          52.87258219598215,
+          43.89565176202851,
+          51.32972458003829,
+          55.08987265939771,
+          45.68694872861937
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 34.91012734060229
+      }
+    },
+    "N004": {
+      "energy_kcal_mol": 207.0264652640795,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Su",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "h_plus"
+        ],
+        "reduced_torsions_deg": [
+          47.15230208973637,
+          52.71425847031665,
+          45.29334910626278,
+          49.03176387588593,
+          49.07050100209554,
+          44.7434005292952
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.28574152968335
+      }
+    },
+    "N005": {
+      "energy_kcal_mol": 206.79716101392316,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "b_minus"
+        ],
+        "reduced_torsions_deg": [
+          43.57642457668857,
+          51.713415002550846,
+          50.98501376307223,
+          45.27173716311344,
+          -48.74070213594004,
+          -50.58793675840122
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 38.286584997449154
+      }
+    },
+    "N006": {
+      "energy_kcal_mol": 208.1994961866592,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Su",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "d_minus"
+        ],
+        "reduced_torsions_deg": [
+          -44.52134781071166,
+          -52.87258219598241,
+          -43.895651762028365,
+          -47.94558426127139,
+          -52.105117385618996,
+          -45.68694872861948
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.12741780401759
+      }
+    },
+    "N007": {
+      "energy_kcal_mol": 208.34676806064965,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "j_plus"
+        ],
+        "reduced_torsions_deg": [
+          48.26104832756221,
+          52.444029223451054,
+          -56.942488939111776,
+          -56.942488939111826,
+          52.444029223451,
+          48.261048327562236
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 33.057511060888174
+      }
+    },
+    "N008": {
+      "energy_kcal_mol": 209.14607026311415,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "j_plus"
+        ],
+        "reduced_torsions_deg": [
+          51.5336319048165,
+          51.677223949854096,
+          -57.14972723311751,
+          -46.532297400120456,
+          54.45424879638617,
+          45.06212321472523
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 32.85027276688249
+      }
+    },
+    "N009": {
+      "energy_kcal_mol": 206.97696749179408,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "g_plus"
+        ],
+        "reduced_torsions_deg": [
+          51.800936014968414,
+          52.84410889538776,
+          -54.45724026688064,
+          -44.45631375854818,
+          48.77054570860048,
+          48.121908082623946
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 35.54275973311936
+      }
+    },
+    "N010": {
+      "energy_kcal_mol": 209.47204051538486,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Su",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "i_minus"
+        ],
+        "reduced_torsions_deg": [
+          -48.841350799104205,
+          -52.76436797701899,
+          -58.48230798844911,
+          -59.658826458789385,
+          49.60727490957882,
+          47.394251311451455
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 30.341173541210615
+      }
+    },
+    "N011": {
+      "energy_kcal_mol": 205.83418672450156,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "d_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.584920249118596,
+          49.82608259512142,
+          46.75398343601154,
+          48.49303156183802,
+          52.60536921013721,
+          47.30695234090439
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.39463078986279
+      }
+    },
+    "N012": {
+      "energy_kcal_mol": 204.692418225304,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "b_minus"
+        ],
+        "reduced_torsions_deg": [
+          50.59654264158718,
+          49.88293831498274,
+          49.94443500233916,
+          48.750615163871515,
+          -49.76034387587253,
+          -48.09011406208995
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 39.40345735841282
+      }
+    },
+    "N013": {
+      "energy_kcal_mol": 207.06760080812745,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "f_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.635884040992494,
+          49.84986689409044,
+          51.28183831567401,
+          50.16943031634088,
+          -51.163869346187454,
+          -44.74912367338531
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 38.71816168432599
+      }
+    },
+    "N014": {
+      "energy_kcal_mol": 209.11954025206717,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "f_minus"
+        ],
+        "reduced_torsions_deg": [
+          42.5460885960772,
+          51.2421559513823,
+          -45.061569231071616,
+          -52.272316229273486,
+          -51.432121631559255,
+          -46.01737572418749
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.727683770726514
+      }
+    },
+    "N015": {
+      "energy_kcal_mol": 205.8341867245017,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "d_minus"
+        ],
+        "reduced_torsions_deg": [
+          -48.13611822239915,
+          -49.82608259512138,
+          -46.753983436011524,
+          -52.262116196348565,
+          -48.88049049171474,
+          -47.30695234090445
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.737883803651435
+      }
+    },
+    "N016": {
+      "energy_kcal_mol": 208.01150371260704,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Sl",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "i_minus"
+        ],
+        "reduced_torsions_deg": [
+          44.92552386039404,
+          55.25845451962067,
+          -49.42314961024809,
+          -53.488284037163616,
+          -48.850072174808616,
+          -47.44159198659609
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 34.74154548037933
+      }
+    },
+    "N017": {
+      "energy_kcal_mol": 207.12196363986936,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "f_plus"
+        ],
+        "reduced_torsions_deg": [
+          50.600708713222645,
+          49.83306956393841,
+          44.50910541574291,
+          50.54089033053722,
+          -49.67341860402064,
+          -51.74568553205416
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 38.25431446794584
+      }
+    },
+    "N018": {
+      "energy_kcal_mol": 209.39639862557073,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "assigned",
+        "chain": [
+          "Al",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "a_minus"
+        ],
+        "reduced_torsions_deg": [
+          -45.61520573061625,
+          -52.368709289423236,
+          -46.401091250932524,
+          -46.401091250932154,
+          -52.368709289423265,
+          -45.61520573061624
+        ],
+        "sign_convention_note": "plus/minus refer to computational torsion convention, not calibrated to Figure1 bold bonds",
+        "minimum_boundary_distance_deg": 37.631290710576735
+      }
+    },
+    "R_C": {
+      "energy_kcal_mol": 205.68447642796752,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Su",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "e_plus"
+        ],
+        "margin_deg": 37.36018954367379,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N001": {
+      "energy_kcal_mol": 206.92990555245882,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "g_plus"
+        ],
+        "margin_deg": 38.741684073960926,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N002": {
+      "energy_kcal_mol": 208.27878376616087,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "i_plus"
+        ],
+        "margin_deg": 37.291445780463626,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N004": {
+      "energy_kcal_mol": 207.02646526407946,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Su",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          -1
+        ],
+        "table_II_class": [
+          "h_minus"
+        ],
+        "margin_deg": 37.28574152968335,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N007": {
+      "energy_kcal_mol": 208.34676806064954,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "j_minus"
+        ],
+        "margin_deg": 33.057511060888174,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N008": {
+      "energy_kcal_mol": 209.14607026311424,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "j_minus"
+        ],
+        "margin_deg": 32.85027276688254,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N009": {
+      "energy_kcal_mol": 206.97696749179397,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Au"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "g_minus"
+        ],
+        "margin_deg": 35.54275973311934,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N010": {
+      "energy_kcal_mol": 209.47204051538483,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Su",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          -1
+        ],
+        "table_II_class": [
+          "i_plus"
+        ],
+        "margin_deg": 30.341173541210622,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N013": {
+      "energy_kcal_mol": 207.06760080812745,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Al",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "f_minus"
+        ],
+        "margin_deg": 38.718161684326,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N014": {
+      "energy_kcal_mol": 209.11954025206714,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "f_plus"
+        ],
+        "margin_deg": 37.72768377072646,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N016": {
+      "energy_kcal_mol": 208.01150371260715,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Sl",
+          "Su"
+        ],
+        "helicity_our_convention": [
+          -1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "i_plus"
+        ],
+        "margin_deg": 34.74154548037928,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N017": {
+      "energy_kcal_mol": 207.12196363986936,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Al",
+          "Sl"
+        ],
+        "helicity_our_convention": [
+          -1,
+          -1,
+          1
+        ],
+        "table_II_class": [
+          "f_minus"
+        ],
+        "margin_deg": 38.254314467945846,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    },
+    "R_N018": {
+      "energy_kcal_mol": 209.39639862557078,
+      "negative_internal_modes": 0,
+      "coarse_form": {
+        "status": "ASSIGNED",
+        "chain": [
+          "Al",
+          "Al"
+        ],
+        "helicity_our_convention": [
+          1,
+          1,
+          1
+        ],
+        "table_II_class": [
+          "a_plus"
+        ],
+        "margin_deg": 37.631290710576764,
+        "convention": "The plus/minus suffix uses our dihedrals; printed paper overbars are not assigned. Coarse forms do not merge methyl rotamers."
+      }
+    }
+  },
+  "edges": [
+    {
+      "id": "TS_AC",
+      "endpoints": [
+        "A",
+        "C"
+      ],
+      "energy_kcal_mol": 210.76606582841958,
+      "origin": "previously validated",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "TS1",
+      "endpoints": [
+        "C",
+        "M"
+      ],
+      "energy_kcal_mol": 212.5523658279701,
+      "origin": "previously validated",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "TS2",
+      "endpoints": [
+        "M",
+        "D"
+      ],
+      "energy_kcal_mol": 207.04591550141782,
+      "origin": "previously validated",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "TS_MB",
+      "endpoints": [
+        "M",
+        "B"
+      ],
+      "energy_kcal_mol": 210.9213238440146,
+      "origin": "previously validated",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "C_pair1_minus_image10",
+      "endpoints": [
+        "C",
+        "N001"
+      ],
+      "energy_kcal_mol": 208.3669030926678,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "C_pair1_plus_image10",
+      "endpoints": [
+        "C",
+        "A"
+      ],
+      "energy_kcal_mol": 211.0087436249487,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "C_pair2_minus_image11",
+      "endpoints": [
+        "M",
+        "C"
+      ],
+      "energy_kcal_mol": 212.89439622218705,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "C_pair2_plus_image10",
+      "endpoints": [
+        "C",
+        "N002"
+      ],
+      "energy_kcal_mol": 210.3473934584971,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "C_pair3_minus_image8",
+      "endpoints": [
+        "C",
+        "N003"
+      ],
+      "energy_kcal_mol": 212.17919870571856,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "C_pair3_plus_image12",
+      "endpoints": [
+        "C",
+        "N004"
+      ],
+      "energy_kcal_mol": 211.94669722606608,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "A_pair1_plus_image10",
+      "endpoints": [
+        "A",
+        "N005"
+      ],
+      "energy_kcal_mol": 210.89199428354033,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N002_pair2_minus_image10",
+      "endpoints": [
+        "C",
+        "N002"
+      ],
+      "energy_kcal_mol": 210.3806554343239,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N002_pair3_minus_image17",
+      "endpoints": [
+        "N007",
+        "N008"
+      ],
+      "energy_kcal_mol": 209.288427280395,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N002_pair3_minus_image8",
+      "endpoints": [
+        "N002",
+        "N008"
+      ],
+      "energy_kcal_mol": 210.78502707122556,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N002_pair3_plus_image13",
+      "endpoints": [
+        "N009",
+        "N002"
+      ],
+      "energy_kcal_mol": 213.79594551889988,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N007_pair1_minus_image11",
+      "endpoints": [
+        "N007",
+        "N010"
+      ],
+      "energy_kcal_mol": 211.1213555331453,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N007_pair2_plus_image9",
+      "endpoints": [
+        "N011",
+        "N007"
+      ],
+      "energy_kcal_mol": 212.76502477254772,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N011_pair2_minus_image12",
+      "endpoints": [
+        "N008",
+        "N011"
+      ],
+      "energy_kcal_mol": 210.21457578196308,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N011_pair2_plus_image9",
+      "endpoints": [
+        "B",
+        "N011"
+      ],
+      "energy_kcal_mol": 213.48415005055574,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N011_pair3_minus_image14",
+      "endpoints": [
+        "N011",
+        "N012"
+      ],
+      "energy_kcal_mol": 211.16421825143868,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N011_pair3_plus_image8",
+      "endpoints": [
+        "N011",
+        "N013"
+      ],
+      "energy_kcal_mol": 208.51853502985205,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N006_pair1_minus_image10",
+      "endpoints": [
+        "N006",
+        "M"
+      ],
+      "energy_kcal_mol": 213.6561337996486,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "N006_pair1_plus_image9",
+      "endpoints": [
+        "N006",
+        "N014"
+      ],
+      "energy_kcal_mol": 210.63894942748828,
+      "origin": "new torsion scan and validation",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "rescue_N002_pair1_plus_image6",
+      "endpoints": [
+        "N015",
+        "N002"
+      ],
+      "energy_kcal_mol": 211.91520880300033,
+      "origin": "continued bounded refinement of stalled network proposal",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "rescue_N002_pair2_plus_image8",
+      "endpoints": [
+        "N016",
+        "N017"
+      ],
+      "energy_kcal_mol": 210.13029255852217,
+      "origin": "continued bounded refinement of stalled network proposal",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "rescue_N007_pair2_minus_image6",
+      "endpoints": [
+        "N008",
+        "N011"
+      ],
+      "energy_kcal_mol": 210.21457578196322,
+      "origin": "continued bounded refinement of stalled network proposal",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "target_M_pair1_minus_image10",
+      "endpoints": [
+        "M",
+        "N018"
+      ],
+      "energy_kcal_mol": 213.35858218240236,
+      "origin": "targeted missing-family torsion proposal",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_TS_AC",
+      "endpoints": [
+        "B",
+        "R_C"
+      ],
+      "energy_kcal_mol": 210.76606582841964,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "R_TS1",
+      "endpoints": [
+        "R_C",
+        "N005"
+      ],
+      "energy_kcal_mol": 212.55236582797005,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "R_TS2",
+      "endpoints": [
+        "N005",
+        "N012"
+      ],
+      "energy_kcal_mol": 207.04591550141785,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "R_TS_MB",
+      "endpoints": [
+        "N005",
+        "A"
+      ],
+      "energy_kcal_mol": 210.92132384401455,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "PRIOR_DENSE_PATH_VERIFIED"
+    },
+    {
+      "id": "R_C_pair1_minus_image10",
+      "endpoints": [
+        "R_C",
+        "R_N001"
+      ],
+      "energy_kcal_mol": 208.36690309266743,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_C_pair1_plus_image10",
+      "endpoints": [
+        "R_C",
+        "B"
+      ],
+      "energy_kcal_mol": 211.00874362494878,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_C_pair2_minus_image11",
+      "endpoints": [
+        "N005",
+        "R_C"
+      ],
+      "energy_kcal_mol": 212.89439622218723,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_C_pair2_plus_image10",
+      "endpoints": [
+        "R_C",
+        "R_N002"
+      ],
+      "energy_kcal_mol": 210.34739345849732,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_C_pair3_minus_image8",
+      "endpoints": [
+        "R_C",
+        "N006"
+      ],
+      "energy_kcal_mol": 212.1791987057183,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_C_pair3_plus_image12",
+      "endpoints": [
+        "R_C",
+        "R_N004"
+      ],
+      "energy_kcal_mol": 211.94669722606596,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_A_pair1_plus_image10",
+      "endpoints": [
+        "B",
+        "M"
+      ],
+      "energy_kcal_mol": 210.8919942835401,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N002_pair2_minus_image10",
+      "endpoints": [
+        "R_C",
+        "R_N002"
+      ],
+      "energy_kcal_mol": 210.38065543432378,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N002_pair3_minus_image17",
+      "endpoints": [
+        "R_N007",
+        "R_N008"
+      ],
+      "energy_kcal_mol": 209.28842728039496,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N002_pair3_minus_image8",
+      "endpoints": [
+        "R_N002",
+        "R_N008"
+      ],
+      "energy_kcal_mol": 210.78502707122556,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N002_pair3_plus_image13",
+      "endpoints": [
+        "R_N009",
+        "R_N002"
+      ],
+      "energy_kcal_mol": 213.7959455188997,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N007_pair1_minus_image11",
+      "endpoints": [
+        "R_N007",
+        "R_N010"
+      ],
+      "energy_kcal_mol": 211.12135553314494,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N007_pair2_plus_image9",
+      "endpoints": [
+        "N015",
+        "R_N007"
+      ],
+      "energy_kcal_mol": 212.76502477254877,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N011_pair2_minus_image12",
+      "endpoints": [
+        "R_N008",
+        "N015"
+      ],
+      "energy_kcal_mol": 210.21457578196313,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N011_pair2_plus_image9",
+      "endpoints": [
+        "A",
+        "N015"
+      ],
+      "energy_kcal_mol": 213.4841500505554,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N011_pair3_minus_image14",
+      "endpoints": [
+        "N015",
+        "D"
+      ],
+      "energy_kcal_mol": 211.16421825143857,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N011_pair3_plus_image8",
+      "endpoints": [
+        "N015",
+        "R_N013"
+      ],
+      "energy_kcal_mol": 208.51853502985222,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N006_pair1_minus_image10",
+      "endpoints": [
+        "N003",
+        "N005"
+      ],
+      "energy_kcal_mol": 213.65613379964884,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_N006_pair1_plus_image9",
+      "endpoints": [
+        "N003",
+        "R_N014"
+      ],
+      "energy_kcal_mol": 210.63894942748828,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_rescue_N002_pair1_plus_image6",
+      "endpoints": [
+        "N011",
+        "R_N002"
+      ],
+      "energy_kcal_mol": 211.91520880300024,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_rescue_N002_pair2_plus_image8",
+      "endpoints": [
+        "R_N016",
+        "R_N017"
+      ],
+      "energy_kcal_mol": 210.13029255852223,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    },
+    {
+      "id": "R_target_M_pair1_minus_image10",
+      "endpoints": [
+        "N005",
+        "R_N018"
+      ],
+      "energy_kcal_mol": 213.35858218240242,
+      "origin": "reflection of one complete verified physical path",
+      "continuity_status": "VERIFIED_DISCRETE_PATH"
+    }
+  ]
+}

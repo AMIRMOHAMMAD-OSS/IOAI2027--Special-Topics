@@ -1,0 +1,71 @@
+{
+  "status": "JAVASCRIPT_DATA_AND_CONTROL_CHECKS_PASSED",
+  "series": 7,
+  "checked_paths": [
+    {
+      "key": "sequential",
+      "kind": "path",
+      "axis": "arc",
+      "frames": 612,
+      "peak": 7.4039947,
+      "peakIndex": 302
+    },
+    {
+      "key": "I_III_complete",
+      "kind": "path",
+      "axis": "collective",
+      "frames": 501,
+      "peak": 15.5659044,
+      "peakIndex": 329
+    },
+    {
+      "key": "II_IV_complete",
+      "kind": "path",
+      "axis": "collective",
+      "frames": 501,
+      "peak": 15.5142011,
+      "peakIndex": 332
+    }
+  ],
+  "converged_node_sequences": [
+    {
+      "key": "I_III_forward",
+      "kind": "nodes",
+      "axis": "collective",
+      "frames": 41,
+      "peak": 15.4412332,
+      "peakIndex": 20
+    },
+    {
+      "key": "I_III_reverse",
+      "kind": "nodes",
+      "axis": "collective",
+      "frames": 41,
+      "peak": 15.560645,
+      "peakIndex": 21
+    },
+    {
+      "key": "II_IV_forward",
+      "kind": "nodes",
+      "axis": "collective",
+      "frames": 41,
+      "peak": 15.4301102,
+      "peakIndex": 20
+    },
+    {
+      "key": "II_IV_reverse",
+      "kind": "nodes",
+      "axis": "collective",
+      "frames": 41,
+      "peak": 15.4804494,
+      "peakIndex": 21
+    }
+  ],
+  "energy_readout_at_each_series_peak_verified": true,
+  "slider_and_step_controls_verified": true,
+  "checked_path_playback_enabled": true,
+  "unvalidated_node_playback_disabled": true,
+  "rotation_and_resize_control_paths_exercised": true,
+  "canvas_calls_with_finite_numeric_arguments": 36163,
+  "browser_visual_rendering": "Unavailable: browser launch blocked by workspace socket policy. This VM test checks JavaScript data/control flow, not browser layout. Scientific PNG figures and movie poster were separately inspected."
+}

@@ -1,0 +1,16 @@
+{
+  "record_type": "USER_REPORTED_MAC_STDOUT",
+  "evidence": "The user pasted the final JSON summary and preceding complete-path console output after running the supplied continuation in the neural_opt environment on their Mac Studio.",
+  "transcription": "complete_path_summary.json contains the JSON object transcribed from that message. It is not an independently downloaded or opened Mac result file.",
+  "reported_machine": "Mac Studio",
+  "reported_conda_environment": "neural_opt",
+  "raw_mac_files_accessed": false,
+  "raw_mac_trajectory_independently_audited": false,
+  "remote_mac_execution_by_assistant": false,
+  "provided_continuation": "tools/lindner_complete_paths.py",
+  "provided_continuation_sha256": "141e8c70c7f3011ad4d4c8f006e91dc3f341038e87a4b831e2bbd881ec80cb06",
+  "provided_source_hash_scope": "Hash of the file supplied to the user; the latest pasted stdout does not include the hash of the user's executed copy.",
+  "local_audit_reference": "results/reference/test_records/mac_complete_paths_regression.json",
+  "timing_scope": "Reported time for complete-path continuation, not the earlier node study, network search, or whole project.",
+  "interpretation": "The reported numerical checks and energies agree with the independently audited local constructions. This is a reported reproduction, not an independent scientific study or a proof of global optimality."
+}

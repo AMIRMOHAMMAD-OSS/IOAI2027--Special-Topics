@@ -18,8 +18,8 @@ FIG = ROOT / "figures"
 FIG.mkdir(exist_ok=True)
 FONT = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
 BOLD = FONT.with_name("DejaVuSans-Bold.ttf")
-COLORS = ["#168c9c", "#cf6b3a", "#7560b3", "#b44972"]
-INK, MUTED, PAPER, PURPLE = "#172f41", "#5c7180", "#fafaf6", "#6943ae"
+COLORS = ["#6baed6", "#4292c6", "#2171b5", "#084594"]
+INK, MUTED, PAPER, BLUE = "#183247", "#536e83", "#ffffff", "#08519c"
 z = np.load(REF / "sequential_display.npz")
 XYZ = z["coordinates_angstrom"].copy()
 ENERGY, PROGRESS = z["energy_above_A_kcal_mol"], z["progress"]
@@ -36,11 +36,8 @@ def font(size, bold=False):
 
 
 def frame(index):
-    image = Image.new("RGB", (1280,720), PAPER)
+    image = Image.new("RGB", (1280,640), PAPER)
     d = ImageDraw.Draw(image)
-    d.text((54,32), "PROPELLER CHAINS REVISITED", fill=MUTED, font=font(17,True))
-    d.text((51,65), "Changing handedness, one pair at a time", fill=INK, font=font(37,True))
-    d.text((54,119), "Five adjacent-ring disrotations + one methyl/conformational adjustment", fill=MUTED, font=font(20))
     p = XYZ[index]
     yaw, pitch = .13, .53
     cy,sy,cp,sp = math.cos(yaw),math.sin(yaw),math.cos(pitch),math.sin(pitch)
@@ -48,34 +45,33 @@ def frame(index):
         p[:,1]*cp-(-p[:,0]*sy+p[:,2]*cy)*sp,
         p[:,1]*sp+(-p[:,0]*sy+p[:,2]*cy)*cp))
     scale = 47
-    screen = np.column_stack((640+scale*rotated[:,0], 327-scale*rotated[:,1],rotated[:,2]))
+    screen = np.column_stack((640+scale*rotated[:,0], 210-scale*rotated[:,1],rotated[:,2]))
     for a,b in sorted(BONDS,key=lambda ab:(screen[ab[0],2]+screen[ab[1],2])/2):
         xy=tuple(screen[a,:2])+tuple(screen[b,:2])
-        color=COLORS[a//6] if a<24 and b<24 and a//6==b//6 else "#a4b3bc"
+        color=COLORS[a//6] if a<24 and b<24 and a//6==b//6 else "#a7bfd1"
         d.line(xy,fill=color,width=8)
     for i in np.argsort(screen[:,2]):
         x,y,_=screen[i];radius=9 if i<24 else 6.5
-        color=COLORS[i//6] if i<24 else "#8fa1ab"
+        color=COLORS[i//6] if i<24 else "#9ebad0"
         d.ellipse((x-radius,y-radius,x+radius,y+radius),fill=color,outline="#ffffff",width=1)
         d.ellipse((x-4,y-4,x-1,y-1),fill="#e7eef0")
     for j,label in enumerate(("I","II","III","IV")):
-        d.ellipse((54+87*j,447,65+87*j,458),fill=COLORS[j])
-        d.text((73+87*j,439),"Ring "+label,fill=MUTED,font=font(16))
-    d.text((935,415),f"{ENERGY[index]:.3f}",fill=PURPLE,font=font(43,True))
-    d.text((940,464),"kcal/mol above A",fill=MUTED,font=font(17))
-    left,right,top,bottom=62,1208,503,620
+        d.ellipse((54+87*j,381,65+87*j,392),fill=COLORS[j])
+        d.text((73+87*j,373),"Ring "+label,fill=MUTED,font=font(16))
+    d.text((935,342),f"{ENERGY[index]:.3f}",fill=BLUE,font=font(36))
+    d.text((940,391),"kcal/mol above A",fill=MUTED,font=font(17))
+    left,right,top,bottom=62,1208,441,558
     def point(t,e):return(left+t*(right-left),bottom-e/8.2*(bottom-top))
     for tick in (0,4,8):
         yy=point(0,tick)[1];d.line((left,yy,right,yy),fill="#dce3e7",width=1)
         d.text((30,yy-10),str(tick),fill=MUTED,font=font(14))
     coords=[point(t,e) for t,e in zip(PROGRESS,ENERGY)]
-    d.line(coords,fill=PURPLE,width=3)
-    x,y=point(PROGRESS[index],ENERGY[index]);d.line((x,top,x,bottom),fill="#b1a3c6",width=2)
-    d.ellipse((x-6,y-6,x+6,y+6),fill=PURPLE,outline=PAPER,width=1)
+    d.line(coords,fill=BLUE,width=3)
+    x,y=point(PROGRESS[index],ENERGY[index]);d.line((x,top,x,bottom),fill="#9ecae1",width=2)
+    d.ellipse((x-6,y-6,x+6,y+6),fill=BLUE,outline=PAPER,width=1)
     for key,row in markers.items():
-        xx,_=point(row["progress"],0);d.text((xx-7,626),ALIASES.get(key,key),fill=INK,font=font(16,True))
-    d.text((54,664),"Independent MMFF94 model · fixed atom identities · playback is not physical time",fill=MUTED,font=font(16))
-    d.text((54,689),"Lindner, Grynszpan & Biali · J. Org. Chem. 1993 · doi:10.1021/jo00076a027",fill=MUTED,font=font(14))
+        xx,_=point(row["progress"],0);d.text((xx-7,566),ALIASES.get(key,key),fill=INK,font=font(16))
+    d.text((500,605), "Recorded path from A to B", fill=MUTED, font=font(17))
     return image
 
 
@@ -84,13 +80,13 @@ def main():
     poster=frame(peak);poster.save(FIG/"localized_motion_poster.png")
     indices=np.linspace(0,len(XYZ)-1,400).astype(int)
     gif=[]
-    command=["ffmpeg","-y","-loglevel","error","-f","rawvideo","-pix_fmt","rgb24","-s","1280x720","-r","24","-i","-","-an","-c:v","libx264","-crf","20","-pix_fmt","yuv420p","-movflags","+faststart",str(FIG/"localized_motion.mp4")]
+    command=["ffmpeg","-y","-loglevel","error","-f","rawvideo","-pix_fmt","rgb24","-s","1280x640","-r","24","-i","-","-an","-c:v","libx264","-crf","20","-pix_fmt","yuv420p","-movflags","+faststart",str(FIG/"localized_motion.mp4")]
     process=subprocess.Popen(command,stdin=subprocess.PIPE)
     try:
         for count,index in enumerate(indices):
             image=frame(index);process.stdin.write(image.tobytes())
             if count%2==0:
-                gif.append(image.resize((768,432),Image.Resampling.LANCZOS).convert("P",palette=Image.Palette.ADAPTIVE,colors=128))
+                gif.append(image.resize((768,384),Image.Resampling.LANCZOS).convert("P",palette=Image.Palette.ADAPTIVE,colors=128))
     finally:
         process.stdin.close()
     if process.wait()!=0:raise RuntimeError("ffmpeg failed")

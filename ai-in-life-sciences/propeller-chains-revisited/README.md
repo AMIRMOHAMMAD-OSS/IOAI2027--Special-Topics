@@ -1,6 +1,5 @@
-These are the files from a small molecular geometry example for the AI in Life Sciences course (IOAI 2027).
+Files from a molecular geometry example for the AI in Life Sciences course (IOAI 2027).
 
-I started from the [paper by Lindner, Grynszpan and Biali](https://doi.org/10.1021/jo00076a027). The scripts, results and figures are here so students can look through the example and run the calculations.
 
 ![Molecular motion](figures/localized_motion.gif)
 

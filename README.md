@@ -7,8 +7,6 @@ This repository provides the theoretical background and practical implementation
 
 [Propeller Chains Revisited](ai-in-life-sciences/propeller-chains-revisited/README.md)
 
-An AI in Life Sciences teaching case for students preparing for IOAI 2027, with code, visualizations, and Mac result files.
 
-[Teaching case and exercises](ai-in-life-sciences/propeller-chains-revisited/docs/course_case_study.md)
 
-Run its reproduction commands from the `ai-in-life-sciences/propeller-chains-revisited` directory. The current case supplies classical MMFF94 reference paths; generative-model evaluation is future work.
+

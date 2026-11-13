@@ -12,7 +12,7 @@ The example also has a personal connection: revisiting my supervisor Ariel B. Li
 
 ![Recorded localized enantiomerization](figures/localized_motion.gif)
 
-*The animation follows recorded heavy-atom configurations with fixed identities. Its speed is chosen for visibility; it is not a molecular dynamics trajectory or a physical time scale. [MP4](figures/localized_motion.mp4) · [Offline interactive explorer](docs/explorer.html)*
+
 
 ## The result
 

@@ -1,6 +1,6 @@
 # Propeller Chains Revisited
 
-**A teaching case in chemical geometry for generative models, with a reproducible molecular-path reference.**
+**A teaching case in chemical geometry for generative models**
 
 This is one small example in an **AI in Life Sciences** course being designed for the **National Olympiad on Artificial Intelligence committee**. Its intended audience is students preparing for **IOAI 2027**. The teaching question is: **what must a generative model respect when it proposes a molecular structure or motion?**
 
@@ -52,24 +52,7 @@ These fixed-progress saddles are not ordinary unrestricted molecular transition 
 
 ![Convergence diagnostics](figures/convergence.png)
 
-## What is in the repository
 
-| Location | Purpose |
-|---|---|
-| `src/propeller_paths/` | Standalone model, derivatives, symmetry matching, sequential and constrained calculations |
-| `src/propeller_paths/data/` | Explicit 99-atom graph, 13 stationary seeds, collective endpoints, compact connector seeds |
-| `results/reference/` | Machine-readable accepted results and compact display data |
-| `results/reported_mac/` | User-pasted Mac terminal summary and comparison with the local reference; no raw Mac trajectories |
-| `docs/course_case_study.md` | Learning objectives, three exercises, and a proposed evaluation of future generative models |
-| `docs/methods.md` | Constraint definitions, numerical gates, path construction, limitations |
-| `docs/reproduction.md` | Clean-checkout and existing-Mac instructions |
-| `docs/claims.md` | Supported claims and the evidence required for stronger claims |
-| `docs/explorer.html` | Self-contained offline geometry/energy explorer |
-| `figures/` | Original plots, molecular animation, and exportable SVGs |
-| `tools/` | Figure generators and readable single-file Mac continuations |
-| `tests/` | Derivative, chirality, endpoint, step-cap, and path-gap checks |
-
-No earlier conversation, cluster account, or external personal result directory is needed for the packaged calculations. A separate Mac continuation is provided for an already validated local run.
 
 ## Reproduce from a checkout
 

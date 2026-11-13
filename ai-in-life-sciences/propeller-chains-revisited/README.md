@@ -8,19 +8,17 @@ The current project supplies classical MMFF94 calculations, recorded paths, and 
 
 This project revisits compound 6 in Ariel B. Lindner, Flavio Grynszpan, and Silvio E. Biali's 1993 paper, [*Transmission of Internal Rotations: Correlated, Uncorrelated, and Localized Disrotatory Rotations in Propeller Chains*](https://doi.org/10.1021/jo00076a027). It asks how a succession of local ring motions compares with two explicitly defined synchronized motions.
 
-The example also has a personal connection: revisiting my supervisor Ariel B. Lindner's first paper through an inspectable computational experiment. Credit for the original mechanism belongs to all three paper authors. This project supplies a separate **MMFF94** model, numerical checks, new figures, and code. The paper used **MM2**.
 
 ![Recorded localized enantiomerization](figures/localized_motion.gif)
 
 
 
-## The result
 
 The localized route connects the enantiomeric endpoint minima through
 
 A → C → P → Q → D → M → B
 
-It contains **five neighboring-ring disrotations and one methyl/conformational adjustment**. Six independently checked index-one saddles connect the required minima. The highest energy is **7.403995 kcal/mol above A**.
+It contains five neighboring-ring disrotations and one methyl/conformational adjustment. Six independently checked index-one saddles connect the required minima. The highest energy is 7.403995 kcal/mol above A.
 
 The new synchronized comparison uses converged constrained-minimum branches and explicit physical connectors where those branches change conformation. Both complete candidates connect the same physical A/B enantiomers with the same force field and energy reference.
 
@@ -30,24 +28,16 @@ The new synchronized comparison uses converged constrained-minimum branches and 
 | Synchronized I/III | **15.565904 kcal/mol** | Fixed-progress branches, constrained connectors, endpoints, and recorded gaps |
 | Synchronized II/IV | **15.514201 kcal/mol** | Fixed-progress branches, constrained connectors, endpoints, and recorded gaps |
 
-These are **potential-energy heights of explicit candidate paths**. The localized route is lower than the two synchronized candidates tested here. This does not establish that every collective route is higher or that the localized route is globally optimal.
+These are potential-energy heights of explicit candidate paths. The localized route is lower than the two synchronized candidates tested here. This does not establish that every collective route is higher or that the localized route is globally optimal.
 
 The [machine-readable comparison](results/summary.json) records the full values and provenance. Both synchronized datasets passed separate numerical audits: [I/III](results/reference/collective/I_III/independent_audit.json) and [II/IV](results/reference/collective/II_IV/independent_audit.json).
 
 
 ![Energy comparison](figures/energy_profiles.png)
 
-The x coordinates have different meanings: normalized recorded path length for the localized route, and prescribed six-torsion progress for the synchronized candidates. The energy reference is identical: **E(A) = 204.51121410431 kcal/mol**.
 
-## The useful surprise: converged points do not automatically make a path
 
-The earlier stiff-penalty calculations produced continuous candidates around 16 kcal/mol, but their inner optimizers stopped before convergence. Replacing penalties with six exact angular equalities solved that numerical conditioning problem.
 
-That exposed a second problem. Forward and reverse optimization can reach different constrained conformations at the same progress. Joining their energies into a smooth-looking plot can hide a geometric jump and an additional barrier. In the first coarse I/III sequence, direct Cartesian connectors overshot the optimized-node energies substantially.
-
-We retained those branches, followed the central minima with a local KKT predictor/corrector, and located **index-one saddles on the fixed-progress constraint surface**. Feasible, energy-decreasing trajectories on both sides checked which constrained minima each saddle connects. Those connectors are included in the complete candidates and in their reported maximum energies.
-
-These fixed-progress saddles are not ordinary unrestricted molecular transition states. They supply the connections used in the selected constrained construction. The peripheral connecting segments are explicitly projected and checked; they are not all constrained energy minima.
 
 ![Convergence diagnostics](figures/convergence.png)
 

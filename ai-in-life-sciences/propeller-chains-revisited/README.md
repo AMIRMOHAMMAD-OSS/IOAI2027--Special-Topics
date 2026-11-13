@@ -34,7 +34,6 @@ These are **potential-energy heights of explicit candidate paths**. The localize
 
 The [machine-readable comparison](results/summary.json) records the full values and provenance. Both synchronized datasets passed separate numerical audits: [I/III](results/reference/collective/I_III/independent_audit.json) and [II/IV](results/reference/collective/II_IV/independent_audit.json).
 
-**Reported Mac Studio reproduction:** the complete-path continuation subsequently finished with all four constrained connectors verified. Its terminal summary reported heights of **15.565904 kcal/mol** for I/III and **15.514201 kcal/mol** for II/IV, using the previously validated **7.403995 kcal/mol** localized baseline. The two paths contained **1,527** and **1,586** stored frames, respectively; the reported continuation time was **43.918 s**. The [pasted terminal summary](results/reported_mac/complete_path_summary.json) and [comparison with the local reference](results/reported_mac/comparison_with_local.json) preserve this additional evidence. The raw Mac result files have not been accessed or uploaded; the independently audited local reference records remain the primary datasets.
 
 ![Energy comparison](figures/energy_profiles.png)
 
